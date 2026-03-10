@@ -1,6 +1,6 @@
 # Brian Santiago -- Cybersecurity GRC
 
-**ISO 27001 Certified Lead Auditor | CompTIA Security+ | HIPAA · FERPA · NIST CSF · ISO 27001**
+**ISO 27001 Certified Lead Auditor | CompTIA Security+ | HIPAA · FERPA · NIST CSF · ISO 27001 | AI Governance**
 
 Ocala, FL · [LinkedIn](https://linkedin.com/in/briansantiago) · Open to GRC Analyst and IT Compliance Analyst roles
 
@@ -8,9 +8,11 @@ Ocala, FL · [LinkedIn](https://linkedin.com/in/briansantiago) · Open to GRC An
 
 ## What I Do
 
-I work at the intersection of IT operations and compliance -- building the controls, documentation, and audit evidence that organizations need to meet regulatory requirements and reduce security risk.
+I work at the intersection of IT operations, compliance, and emerging technology. My background is hands-on IT in HIPAA and FERPA-regulated environments, which means I understand what I'm auditing — not just the frameworks, but the systems and processes behind them.
 
-My background covers hands-on IT work in HIPAA and FERPA-regulated environments, which means I understand what I'm auditing. I've maintained full audit evidence cycles, authored SOPs under compliance pressure, done incident response documentation in live environments, and built risk programs from scratch.
+I've maintained full audit evidence cycles, authored SOPs under compliance pressure, done incident response documentation in live environments, and built risk programs from scratch.
+
+On the AI side: I actively build AI-powered automation workflows and study AI governance frameworks including ISO 42001. As organizations adopt AI, the compliance and risk questions around it are becoming a core part of GRC work — and I'm building toward being ready for that.
 
 ---
 
@@ -45,7 +47,7 @@ My background covers hands-on IT work in HIPAA and FERPA-regulated environments,
 
 ## Core Competencies
 
-**Frameworks:** HIPAA · FERPA · NIST CSF · ISO 27001 · SOC 1/2 · NIST 800-171 · ISO 27701 · ISO 42001
+**Frameworks:** HIPAA · FERPA · NIST CSF · ISO 27001 · SOC 1/2 · NIST 800-171 · ISO 27701 · ISO 42001 (AI Management Systems)
 
 **Audit and Compliance:** Gap analysis · Control testing · Evidence collection · Internal/external audit coordination · IMS documentation
 
@@ -53,14 +55,15 @@ My background covers hands-on IT work in HIPAA and FERPA-regulated environments,
 
 **IAM and Controls:** Provisioning/deprovisioning · MFA enforcement · Access governance · Patch management · RCA
 
-**Tools:** Splunk · Wireshark · NinjaOne · Qualys · Confluence · Microsoft 365 / Azure AD · Active Directory
+**Tools:** Splunk · Wireshark · NinjaOne · Qualys · Confluence · Microsoft 365 / Azure AD · Active Directory · n8n
 
 ---
 
 ## Currently Working On
 
 - CISA exam preparation
-- Hands-on practice with ServiceNow GRC
+- ISO 42001 AI governance framework study
+- Hands-on AI automation and workflow building with n8n
 - Building portfolio artifacts for SOC 2 and NIST 800-171
 
 ---
