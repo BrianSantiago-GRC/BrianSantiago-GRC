@@ -1,60 +1,68 @@
-# Hello, I'm Brian Santiago
-Connect with me! 
+# Brian Santiago — Cybersecurity GRC
 
-<a href="https://www.linkedin.com/in/briansantiago"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+**ISO 27001 Certified Lead Auditor | CompTIA Security+ | HIPAA · FERPA · NIST CSF · ISO 27001**
 
+Ocala, FL · [LinkedIn](https://linkedin.com/in/briansantiago) · Open to GRC Analyst and IT Compliance Analyst roles
 
+---
 
-I am an IT Support Specialist with a clear career objective of transitioning into a Security Operations Center as a Tier 1 Analyst. I am highly motivated, detail oriented, and continuously expanding on my knowledge.
+## What I Do
 
-## Career Objective
+I work at the intersection of IT operations and compliance — building the controls, documentation, and audit evidence that organizations need to meet regulatory requirements and reduce security risk.
 
-To secure a SOC Tier 1 Analyst role where I can apply my experience in monitoring alerts, analyzing logs, responding to incidents, and strengthening security posture while continuing to grow within a fast paced security operations environment.
-## Skills
-- Cloud native SIEM deployment and configuration using Microsoft Sentinel
-- Centralized log ingestion using Azure Log Analytics and data connectors
-- Creation and tuning of analytics rules and detection logic
-- Log analysis and querying using KQL
-- Alert triage and SOC style investigation workflows
-- Incident management including documentation and escalation
-- Automation principles using playbooks and insights within Sentinel
-- Using workbooks and dashboards for operational visibility
+My background covers hands-on IT work in HIPAA and FERPA-regulated environments, which means I understand what I'm auditing. I've maintained full audit evidence cycles, authored SOPs under compliance pressure, done incident response documentation in live environments, and built risk programs from scratch.
 
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| Microsoft Sentinel Security Monitoring | <a href="https://github.com/trafficITguy/Microsoft-Sentinel-SIEM">Microsoft Sentinel Lab</a> |
+---
 
+## GRC Portfolio
 
-## Tools and Technologies
+**[grc-portfolio](https://github.com/trafficITguy/grc-portfolio)** — Applied GRC work built on real methodology
 
+| Document | Framework |
+|---|---|
+| Risk Register (14 risks, inherent/residual scoring) | NIST SP 800-30 |
+| Risk Assessment Methodology | NIST SP 800-30 / ISO 27005 |
+| HIPAA Security Rule Audit Checklist (50 controls) | 45 CFR Parts 160 & 164 |
+| NIST CSF 2.0 Maturity Assessment | NIST CSF 2.0 |
+| ISO 27001:2022 Gap Analysis (Annex A) | ISO/IEC 27001:2022 |
+| Information Security Policy | ISO 27001 / HIPAA |
+| Access Control Policy | NIST SP 800-53 / ISO 27001 |
+| Incident Response Plan (NIST-aligned, with playbooks) | NIST SP 800-61 |
+| Third-Party Risk Assessment Questionnaire (45 questions) | ISO 27001 / HIPAA |
 
-### Compliance Frameworks
-<div>
-   <img src="https://img.shields.io/badge/-HIPAA-4B275F?&style=for-the-badge&logoColor=white" />
-    <img src="https://img.shields.io/badge/-NIST%20800--53-2E5EAA?&style=for-the-badge&logoColor=white" />
-    <img src="https://img.shields.io/badge/-ISO%2027001-005B94?&style=for-the-badge&logoColor=white" />
-</div>
-
-### Security and Automation
-<div>
-    <img src="https://img.shields.io/badge/-PowerShell-012456?&style=for-the-badge&logo=PowerShell&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Log%20Parsing-4B275F?&style=for-the-badge&logoColor=white" />
-    <img src="https://img.shields.io/badge/-LogicGate-CC0000?&style=for-the-badge&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Archer-228B22?&style=for-the-badge&logoColor=white" />
-</div>
-
-### SIEM
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
-</div>
+---
 
 ## Certifications
 
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" /> <img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-A%2B-4D4D4D?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-</div>
+- ISO 27001 Certified Lead Auditor
+- CompTIA Security+ (2024)
+- CompTIA Network+ (2024)
+- Qualys Vulnerability Management Foundation
+- ITIL Foundation (2024)
+- Google Cybersecurity Certificate (2024)
 
-## Projects
-- <a href="https://github.com/trafficITguy/Microsoft-Sentinel-SIEM">Microsoft Sentinel Lab</a>
+---
+
+## Core Competencies
+
+**Frameworks:** HIPAA · FERPA · NIST CSF · ISO 27001 · SOC 1/2 · NIST 800-171 · ISO 27701 · ISO 42001
+
+**Audit & Compliance:** Gap analysis · Control testing · Evidence collection · Internal/external audit coordination · IMS documentation
+
+**Risk Management:** Risk register development · CAPA planning · Third-party risk assessments · Metrics and reporting
+
+**IAM & Controls:** Provisioning/deprovisioning · MFA enforcement · Access governance · Patch management · RCA
+
+**Tools:** Splunk · Wireshark · NinjaOne · Qualys · Confluence · Microsoft 365 / Azure AD · Active Directory
+
+---
+
+## Currently Working On
+
+- CISA exam preparation
+- Hands-on practice with ServiceNow GRC
+- Building portfolio artifacts for SOC 2 and NIST 800-171
+
+---
+
+*Reach me at briand.santiago@gmail.com*
