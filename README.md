@@ -1,36 +1,34 @@
-# Brian Santiago -- Cybersecurity GRC
+# Brian Santiago
 
-**ISO 27001 Certified Lead Auditor | CompTIA Security+ | HIPAA · FERPA · NIST CSF · ISO 27001 | AI Governance**
+Entry-level GRC professional based in Ocala, FL. ISO 27001 Lead Auditor. CompTIA Security+.
 
-Ocala, FL · [LinkedIn](https://linkedin.com/in/briansantiago) · Open to GRC Analyst and IT Compliance Analyst roles
-
----
-
-## What I Do
-
-I work at the intersection of IT operations, compliance, and emerging technology. My background is hands-on IT in HIPAA and FERPA-regulated environments, which means I understand what I'm auditing — not just the frameworks, but the systems and processes behind them.
-
-I've maintained full audit evidence cycles, authored SOPs under compliance pressure, done incident response documentation in live environments, and built risk programs from scratch.
-
-On the AI side: I actively build AI-powered automation workflows and study AI governance frameworks including ISO 42001. As organizations adopt AI, the compliance and risk questions around it are becoming a core part of GRC work — and I'm building toward being ready for that.
+[LinkedIn](https://linkedin.com/in/briansantiago-grc) · briand.santiago@gmail.com · Open to junior GRC and compliance roles
 
 ---
 
-## GRC Portfolio
+I got into GRC through IT operations. Spent a few years doing hands-on IT work in HIPAA and FERPA environments before I realized the compliance side was where I wanted to focus. That background actually helps -- I know what the systems look like behind the policies, not just what the frameworks say about them.
 
-**[grc-portfolio](https://github.com/BrianSantiago-GRC/grc-portfolio)** -- Applied GRC work built on real methodology
+Right now I work in a K-12 school managing compliance under HIPAA and FERPA. Audit evidence, SOPs, identity lifecycle, endpoint management. Real work, regulated environment.
+
+I built the portfolio below to show how I think through GRC problems. Everything in it is based on actual methodology, not just copied templates.
+
+---
+
+## Portfolio
+
+**[grc-portfolio](https://github.com/BrianSantiago-GRC/grc-portfolio)**
 
 | Document | Framework |
 |---|---|
-| Risk Register (14 risks, inherent/residual scoring) | NIST SP 800-30 |
+| Risk Register (14 risks, inherent and residual scoring) | NIST SP 800-30 |
 | Risk Assessment Methodology | NIST SP 800-30 / ISO 27005 |
 | HIPAA Security Rule Audit Checklist (50 controls) | 45 CFR Parts 160 and 164 |
 | NIST CSF 2.0 Maturity Assessment | NIST CSF 2.0 |
 | ISO 27001:2022 Gap Analysis (Annex A) | ISO/IEC 27001:2022 |
 | Information Security Policy | ISO 27001 / HIPAA |
 | Access Control Policy | NIST SP 800-53 / ISO 27001 |
-| Incident Response Plan (NIST-aligned, with playbooks) | NIST SP 800-61 |
-| Third-Party Risk Assessment Questionnaire (45 questions) | ISO 27001 / HIPAA |
+| Incident Response Plan with playbooks | NIST SP 800-61 |
+| Third-Party Risk Assessment Questionnaire | ISO 27001 / HIPAA |
 
 ---
 
@@ -39,33 +37,34 @@ On the AI side: I actively build AI-powered automation workflows and study AI go
 - ISO 27001 Certified Lead Auditor
 - CompTIA Security+ (2024)
 - CompTIA Network+ (2024)
+- Microsoft SC-900 Security, Compliance and Identity Fundamentals
 - Qualys Vulnerability Management Foundation
 - ITIL Foundation (2024)
 - Google Cybersecurity Certificate (2024)
 
 ---
 
-## Core Competencies
+## Skills
 
-**Frameworks:** HIPAA · FERPA · NIST CSF · ISO 27001 · SOC 1/2 · NIST 800-171 · ISO 27701 · ISO 42001 (AI Management Systems)
+Frameworks: HIPAA, FERPA, NIST CSF, ISO 27001, SOC 1/2, NIST 800-171, ISO 42001
 
-**Audit and Compliance:** Gap analysis · Control testing · Evidence collection · Internal/external audit coordination · IMS documentation
+Audit and compliance: gap analysis, control testing, evidence collection, audit coordination, policy and SOP authoring
 
-**Risk Management:** Risk register development · CAPA planning · Third-party risk assessments · Metrics and reporting
+Risk: risk register development, CAPA planning, third-party risk assessments, treatment planning
 
-**IAM and Controls:** Provisioning/deprovisioning · MFA enforcement · Access governance · Patch management · RCA
+IAM: provisioning and deprovisioning, MFA, access governance, access reviews, RCA
 
-**Tools:** Splunk · Wireshark · NinjaOne · Qualys · Confluence · Microsoft 365 / Azure AD · Active Directory · n8n
-
----
-
-## Currently Working On
-
-- CISA exam preparation
-- ISO 42001 AI governance framework study
-- Hands-on AI automation and workflow building with n8n
-- Building portfolio artifacts for SOC 2 and NIST 800-171
+Tools: Splunk, Wireshark, NinjaOne, Qualys, Confluence, Microsoft 365, Azure AD, Active Directory, n8n
 
 ---
 
-*Reach me at briand.santiago@gmail.com*
+## What I am working on
+
+- CISA exam prep
+- ISO 42001 study (AI governance is showing up more in GRC programs and I want to understand it properly)
+- Building automation workflows with n8n -- I use it to handle repetitive operational tasks and it has changed how I think about process efficiency
+- Adding SOC 2 and NIST 800-171 artifacts to the portfolio
+
+---
+
+Currently preparing for CISA. If you are hiring for a junior GRC, compliance, or IT audit role feel free to reach out.
