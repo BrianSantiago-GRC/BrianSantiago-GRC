@@ -10,29 +10,101 @@ I got into GRC through IT operations. Spent a few years doing hands-on IT work i
 
 Right now I work in a K-12 school managing compliance under HIPAA and FERPA. Audit evidence, SOPs, identity lifecycle, endpoint management. Real work, regulated environment.
 
-I built the portfolio below to show how I think through GRC problems. Everything in it is based on actual methodology, not just copied templates.
+Everything below is built from actual methodology. I structured this portfolio the way I would organize a working GRC program, not as a collection of disconnected documents.
 
 ---
 
 ## Portfolio
 
-**[grc-portfolio](https://github.com/BrianSantiago-GRC/grc-portfolio)**
+This repo is organized by GRC domain. Each folder contains artifacts that connect to each other the way they would in a real compliance program -- the risk register feeds into the maturity assessment, the policies reference the controls, the playbooks tie back to the risk scenarios, and the automation scripts work with the data in the artifacts.
+
+### Risk Assessment
+
+Artifacts for identifying, scoring, and managing information security risks.
 
 | Document | Framework |
-|---|---|
-| Risk Register (14 risks, inherent and residual scoring) | NIST SP 800-30 |
-| Risk Assessment Methodology | NIST SP 800-30 / ISO 27005 |
-| HIPAA Security Rule Audit Checklist (50 controls) | 45 CFR Parts 160 and 164 |
-| NIST CSF 2.0 Maturity Assessment | NIST CSF 2.0 |
-| ISO 27001:2022 Gap Analysis (Annex A) | ISO/IEC 27001:2022 |
-| Information Security Policy | ISO 27001 / HIPAA |
-| Access Control Policy | NIST SP 800-53 / ISO 27001 |
-| Incident Response Plan with playbooks | NIST SP 800-61 |
-| Third-Party Risk Assessment Questionnaire | ISO 27001 / HIPAA |
+|----------|-----------|
+| [Risk Register](risk-assessment/risk-register.md) -- 14 risks with inherent/residual scoring and treatment plans | NIST SP 800-30 |
+| [Risk Assessment Methodology](risk-assessment/risk-assessment-methodology.md) -- scoring criteria, risk matrix, treatment options | NIST SP 800-30 / ISO 27005 |
 
-**[risk-scoring-automation](https://github.com/BrianSantiago-GRC/BrianSantiago-GRC/tree/main/risk-scoring-automation)**
+### Policies and Procedures
 
-Python tool that automates risk scoring using NIST SP 800-30 methodology. Reads a risk register from CSV, calculates inherent and residual scores with control effectiveness adjustments, and generates a prioritized report with a 5x5 risk heat map. Zero dependencies -- runs on standard library only.
+Organizational policies that define security requirements and acceptable behavior.
+
+| Document | Framework |
+|----------|-----------|
+| [Information Security Policy](policies-and-procedures/information-security-policy.md) -- data classification, encryption, awareness, enforcement | ISO 27001 / HIPAA |
+| [Access Control Policy](policies-and-procedures/access-control-policy.md) -- RBAC, MFA, least privilege, access reviews, remote access | NIST SP 800-53 / ISO 27001 |
+| [Data Classification Policy](policies-and-procedures/data-classification-policy.md) -- classification levels, handling requirements, roles | NIST SP 800-60 / ISO 27001 |
+| [Patch Management Policy](policies-and-procedures/patch-management-policy.md) -- patching SLAs by severity, exception process, metrics | NIST SP 800-40 |
+
+### Compliance Frameworks
+
+Assessments and mappings that show current compliance posture across multiple standards.
+
+| Document | Framework |
+|----------|-----------|
+| [NIST CSF 2.0 Maturity Assessment](compliance-frameworks/nist-csf-maturity-assessment.md) -- all 6 functions scored with gap analysis | NIST CSF 2.0 |
+| [HIPAA Security Rule Audit Checklist](compliance-frameworks/hipaa-security-rule-checklist.md) -- 50 controls across all safeguard categories | 45 CFR Parts 160/164 |
+| [ISO 27001:2022 Gap Analysis](compliance-frameworks/iso27001-gap-analysis.md) -- full Annex A assessment (93 controls) | ISO/IEC 27001:2022 |
+| [Cross-Framework Control Mapping](compliance-frameworks/control-mapping-matrix.md) -- maps controls across NIST CSF, 800-53, ISO 27001, HIPAA | Multi-framework |
+
+### Incident Response
+
+IR plan, playbooks for specific scenarios, and tabletop exercise scripts.
+
+| Document | Framework |
+|----------|-----------|
+| [Incident Response Plan](incident-response/incident-response-plan.md) -- 6-phase plan with severity levels, communication plan, evidence handling | NIST SP 800-61 |
+| [Playbook: Ransomware](incident-response/playbook-ransomware.md) -- step-by-step with decision tree and notification requirements | NIST SP 800-61 / CISA |
+| [Playbook: Phishing](incident-response/playbook-phishing.md) -- triage, containment, investigation, and escalation triggers | NIST SP 800-61 |
+| [Playbook: Data Breach](incident-response/playbook-data-breach.md) -- HIPAA 4-factor test, FERPA assessment, notification timelines | HIPAA / FERPA |
+| [Tabletop Exercise Scenarios](incident-response/tabletop-exercises.md) -- 3 scenarios with injects and discussion prompts | NIST SP 800-84 |
+
+### Vulnerability Management
+
+Lifecycle documentation for identifying, prioritizing, and remediating vulnerabilities.
+
+| Document | Framework |
+|----------|-----------|
+| [Vulnerability Management Lifecycle](vulnerability-management/vulnerability-management-lifecycle.md) -- 6-phase lifecycle, SLAs, exception process, metrics | NIST SP 800-40 / ISO 27001 |
+
+### Third-Party Risk
+
+Vendor assessment questionnaire and risk tiering framework.
+
+| Document | Framework |
+|----------|-----------|
+| [Vendor Risk Assessment Questionnaire](third-party-risk/vendor-risk-assessment-questionnaire.md) -- 40+ questions across 8 security domains | ISO 27001 / HIPAA |
+| [Vendor Risk Tiering Framework](third-party-risk/vendor-risk-tiering.md) -- tier matrix, assessment requirements by tier, sample inventory | ISO 27001 / NIST SP 800-161 |
+
+### Access Control
+
+Procedures for managing and reviewing user access to systems and data.
+
+| Document | Framework |
+|----------|-----------|
+| [Access Review Procedures](access-control/access-review-procedures.md) -- review types, procedures, evidence templates, metrics | NIST SP 800-53 / ISO 27001 |
+
+### Audit Artifacts
+
+Guides and metrics for audit preparation and program measurement.
+
+| Document | Framework |
+|----------|-----------|
+| [Audit Evidence Collection Guide](audit-artifacts/audit-evidence-guide.md) -- maps every common audit request to evidence source and location | HIPAA / ISO 27001 |
+| [KPI and KRI Metrics](audit-artifacts/kpi-kri-metrics.md) -- measurable indicators across vuln mgmt, access control, IR, compliance, TPRM | Multi-framework |
+
+### Security Automation
+
+Python scripts that automate common GRC tasks. Zero external dependencies.
+
+| Script | What It Does | Framework |
+|--------|-------------|-----------|
+| [risk_scorer.py](security-automation/risk_scorer.py) | Calculates inherent/residual risk scores from CSV, generates heat map and prioritized report | NIST SP 800-30 |
+| [evidence_collector.py](security-automation/evidence_collector.py) | Collects and analyzes access, training, and patch evidence for audit prep | HIPAA / ISO 27001 |
+| [access_review_audit.py](security-automation/access_review_audit.py) | Audits user access for orphan accounts, MFA gaps, privilege ratios, and SoD violations | NIST SP 800-53 |
+| [compliance_checker.py](security-automation/compliance_checker.py) | Maps controls across 4 frameworks and reports implementation gaps by framework and owner | Multi-framework |
 
 ---
 

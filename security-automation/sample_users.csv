@@ -1,0 +1,11 @@
+username,display_name,department,role,mfa_enabled,last_login,status,privileged,data_access
+jsmith,John Smith,Nursing,Clinical Staff,True,2026-03-19,Active,False,ePHI
+mjones,Mary Jones,Registrar,Records Clerk,True,2026-03-20,Active,False,Student Records
+admin.tbrown,Tom Brown (Admin),IT,System Admin,True,2026-03-20,Active,True,Full
+kwilson,Karen Wilson,HR,HR Manager,True,2026-03-18,Active,False,HR Records
+rgarcia,Robert Garcia,IT,Help Desk,True,2026-03-20,Active,False,Standard
+ldavis,Lisa Davis,Teaching,Teacher,True,2026-03-17,Active,False,Student Records
+pmartin,Paul Martin,IT,Network Admin,True,2026-03-20,Active,True,Full
+jlee_old,James Lee,Teaching,Former Teacher,False,2025-11-30,Active,False,Student Records
+svc_backup,Backup Service,IT,Service Account,False,2026-03-20,Active,True,Full
+awhite,Amy White,Administration,Principal,True,2026-03-19,Active,False,Student Records
