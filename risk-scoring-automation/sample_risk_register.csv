@@ -1,0 +1,15 @@
+risk_id,risk_name,category,threat_source,affected_asset,likelihood,impact,control_description,control_effectiveness,status,owner
+RISK-001,Unauthorized access to ePHI,Confidentiality,External attacker,EHR System,4,5,MFA enforced on all accounts with access to ePHI; role-based access controls implemented,High,Open,IT Security
+RISK-002,Ransomware infection on endpoints,Integrity,External attacker,Workstations and servers,4,5,EDR deployed on all endpoints; daily backups with offline copy,Medium,Open,IT Operations
+RISK-003,Insider threat - data exfiltration,Confidentiality,Insider (malicious),Student records database,2,5,DLP policies active on email and USB; quarterly access reviews,Medium,Open,IT Security
+RISK-004,Unpatched critical vulnerabilities,Integrity,External attacker,Network infrastructure,3,4,Monthly vulnerability scans with Qualys; 30-day patching SLA for critical findings,Medium,Open,IT Operations
+RISK-005,Phishing leading to credential compromise,Confidentiality,External attacker,Email system and user credentials,4,4,Security awareness training quarterly; email filtering with anti-phishing rules,Medium,Open,IT Security
+RISK-006,Loss of backup data,Availability,System failure,Backup infrastructure,2,5,Geo-redundant backups; monthly restore testing,High,Open,IT Operations
+RISK-007,Third-party vendor breach,Confidentiality,Third party,Vendor-hosted SIS platform,3,4,Annual vendor risk assessments; BAA in place; contractual security requirements,Medium,Open,Compliance
+RISK-008,Misconfigured cloud permissions,Confidentiality,Insider (accidental),Azure AD and M365 tenant,3,4,Quarterly access reviews; least privilege policy enforced; Azure AD PIM,Medium,Open,IT Security
+RISK-009,Physical theft of devices,Confidentiality,External attacker,Laptops and mobile devices,3,3,Full disk encryption on all devices; remote wipe capability via MDM,High,Open,IT Operations
+RISK-010,Denial of service attack,Availability,External attacker,Public-facing web applications,2,3,WAF deployed; DDoS mitigation through cloud provider,High,Open,IT Security
+RISK-011,Non-compliance with FERPA audit,Compliance,Regulatory body,Student education records,2,4,Annual FERPA training; access limited to need-to-know; audit logging enabled,High,Open,Compliance
+RISK-012,Failure in identity lifecycle management,Confidentiality,Insider (accidental),Active Directory accounts,3,3,Automated provisioning/deprovisioning via HR sync; quarterly orphan account audits,Medium,Open,IT Security
+RISK-013,Insufficient logging and monitoring,Integrity,Internal gap,SIEM and log infrastructure,2,4,Splunk deployed with 90-day retention; alerting rules for critical events,Medium,Open,IT Security
+RISK-014,Social engineering targeting help desk,Confidentiality,External attacker,Help desk staff and credentials,3,4,Identity verification procedures for password resets; help desk security training,Low,Open,IT Operations

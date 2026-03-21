@@ -30,6 +30,10 @@ I built the portfolio below to show how I think through GRC problems. Everything
 | Incident Response Plan with playbooks | NIST SP 800-61 |
 | Third-Party Risk Assessment Questionnaire | ISO 27001 / HIPAA |
 
+**[risk-scoring-automation](https://github.com/BrianSantiago-GRC/BrianSantiago-GRC/tree/main/risk-scoring-automation)**
+
+Python tool that automates risk scoring using NIST SP 800-30 methodology. Reads a risk register from CSV, calculates inherent and residual scores with control effectiveness adjustments, and generates a prioritized report with a 5x5 risk heat map. Zero dependencies -- runs on standard library only.
+
 ---
 
 ## Certifications
