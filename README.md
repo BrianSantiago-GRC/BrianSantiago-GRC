@@ -100,7 +100,7 @@ Guides and metrics for audit preparation and program measurement.
 
 ### Security Automation
 
-Python scripts that automate common GRC tasks. Zero external dependencies.
+Python scripts that automate common GRC tasks. Zero external dependencies. See the [security-automation README](security-automation/README.md) for usage instructions and CLI examples.
 
 | Script | What It Does | Framework |
 |--------|-------------|-----------|
