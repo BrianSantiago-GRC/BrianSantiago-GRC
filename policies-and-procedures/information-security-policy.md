@@ -31,14 +31,7 @@ This policy applies to:
 
 ### 3.1 Information Classification
 
-All data must be classified according to sensitivity:
-
-| Classification | Description | Examples | Handling |
-|---------------|-------------|----------|----------|
-| Restricted | Regulated data requiring legal protection | ePHI, student records (FERPA), SSNs | Encrypted at rest and in transit; access logged |
-| Confidential | Internal data not for public disclosure | HR records, financial data, IT configs | Need-to-know access; no external sharing without approval |
-| Internal | General business information | Policies, procedures, meeting notes | Available to employees; not for public |
-| Public | Information approved for external release | Website content, press releases | No restrictions |
+All data must be classified according to the four-level scheme (Restricted, Confidential, Internal, Public) defined in the Data Classification Policy. That policy is the authoritative source for classification levels, data type mappings, and handling requirements.
 
 ### 3.2 Access Control
 

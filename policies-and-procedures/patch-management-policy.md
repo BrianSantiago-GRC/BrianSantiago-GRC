@@ -28,7 +28,7 @@ All operating systems, applications, firmware, and network device software manag
 
 | Severity (CVSS) | Classification | Patching SLA | Testing Required |
 |-----------------|---------------|--------------|-----------------|
-| Critical (9.0-10.0) | Emergency | 14 days | Abbreviated (24-48 hours) |
+| Critical (9.0-10.0) | Emergency | 14 days (72 hours if in CISA KEV) | Abbreviated (24-48 hours) |
 | High (7.0-8.9) | Urgent | 30 days | Standard |
 | Medium (4.0-6.9) | Routine | 60 days | Standard |
 | Low (0.1-3.9) | Scheduled | 90 days | Standard or bundled |

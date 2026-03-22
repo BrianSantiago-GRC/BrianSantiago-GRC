@@ -111,7 +111,7 @@ Using the DoD NIST SP 800-171 Assessment Methodology:
 | 3.5.4 | Employ replay-resistant authentication mechanisms | Met | Kerberos and SAML tokens with replay protection |
 | 3.5.5 | Prevent reuse of identifiers for a defined period | Met | AD policy: no reuse of usernames for 2 years |
 | 3.5.6 | Disable identifiers after a defined period of inactivity | Met | 90-day inactivity disables account via automated script |
-| 3.5.7 | Enforce minimum password complexity | Met | 12-char minimum, complexity requirements via GPO |
+| 3.5.7 | Enforce minimum password complexity | Met | 14-char minimum, complexity requirements via GPO |
 | 3.5.8 | Prohibit password reuse for a specified number of generations | Met | 24-password history enforced |
 | 3.5.9 | Allow temporary password use with immediate change | Met | Temporary passwords require change at first login |
 | 3.5.10 | Store and transmit only cryptographically-protected passwords | Met | NTLM disabled, Kerberos AES encryption |

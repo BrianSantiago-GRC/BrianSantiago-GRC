@@ -42,7 +42,7 @@
 | 18 | Data backup plan | 164.308(a)(7)(ii)(A) | Implemented | Backup schedules, restore logs | Daily backups, geo-redundant |
 | 19 | Disaster recovery plan | 164.308(a)(7)(ii)(B) | Partially Implemented | DR plan draft | Needs full DR test |
 | 20 | Emergency mode operations | 164.308(a)(7)(ii)(C) | Partially Implemented | Emergency procedures | Documented, not fully tested |
-| 21 | Testing and revision | 164.308(a)(7)(ii)(D) | Partially Implemented | Restore test results | Need annual DR exercise |
+| 21 | Testing and revision | 164.308(a)(7)(ii)(D) | Partially Implemented | Restore test results | Monthly backup restore tests pass; need annual full DR exercise |
 | 22 | BAA with business associates | 164.308(b)(1) | Implemented | Signed BAAs | All ePHI vendors covered |
 | 23 | BAA content requirements | 164.308(b)(4) | Implemented | BAA template | Reviewed by legal |
 
@@ -73,7 +73,7 @@
 | 35 | Emergency access procedure | 164.312(a)(2)(ii) | Partially Implemented | Break-glass procedure | Needs regular testing |
 | 36 | Automatic logoff | 164.312(a)(2)(iii) | Implemented | Group Policy settings | 15-min idle timeout |
 | 37 | Encryption and decryption | 164.312(a)(2)(iv) | Implemented | BitLocker, TLS configs | AES-256 at rest |
-| 38 | Audit controls | 164.312(b) | Implemented | Splunk deployment | 90-day retention |
+| 38 | Audit controls | 164.312(b) | Implemented | Splunk deployment | 1-year retention |
 | 39 | Integrity controls | 164.312(c)(1) | Implemented | File integrity monitoring | EDR-based |
 | 40 | Authentication of entity | 164.312(d) | Implemented | MFA configuration | All ePHI access |
 | 41 | Transmission encryption | 164.312(e)(1) | Implemented | TLS 1.2+ enforcement | Tested with SSL scan |

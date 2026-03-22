@@ -12,17 +12,7 @@
 
 ## Scoring Methodology
 
-- **Likelihood** (1-5): Very Low, Low, Moderate, High, Very High
-- **Impact** (1-5): Very Low, Low, Moderate, High, Very High
-- **Inherent Risk** = Likelihood x Impact (1-25 scale)
-- **Residual Risk** = Inherent Risk adjusted by control effectiveness
-
-| Risk Level | Score Range | Treatment Priority |
-|------------|-------------|-------------------|
-| Low | 1-4 | Accept or monitor |
-| Medium | 5-9 | Mitigate within 90 days |
-| High | 10-16 | Mitigate within 30 days |
-| Critical | 17-25 | Immediate action required |
+Risks are scored using the methodology defined in the [Risk Assessment Methodology](../risk-assessment/risk-assessment-methodology.md). In brief: **Inherent Risk** = Likelihood (1-5) x Impact (1-5), scored on a 1-25 scale. **Residual Risk** = Inherent Risk adjusted by control effectiveness. Risk levels: Low (1-4), Medium (5-9), High (10-16), Critical (17-25).
 
 ---
 
@@ -42,7 +32,7 @@
 | RISK-010 | Denial of service attack | Availability | External attacker | Public-facing web apps | 2 | 3 | 6 | WAF deployed; cloud DDoS mitigation | High | 4 | Low | IT Security |
 | RISK-011 | Non-compliance with FERPA audit | Compliance | Regulatory body | Student education records | 2 | 4 | 8 | Annual FERPA training; need-to-know access; audit logging | High | 5 | Medium | Compliance |
 | RISK-012 | Identity lifecycle failures | Confidentiality | Insider (accidental) | Active Directory | 3 | 3 | 9 | Automated provisioning via HR sync; orphan account audits | Medium | 7 | Medium | IT Security |
-| RISK-013 | Insufficient logging/monitoring | Integrity | Internal gap | SIEM infrastructure | 2 | 4 | 8 | Splunk with 90-day retention; critical event alerting | Medium | 6 | Medium | IT Security |
+| RISK-013 | Insufficient logging/monitoring | Integrity | Internal gap | SIEM infrastructure | 2 | 4 | 8 | Splunk with 1-year retention; critical event alerting | Medium | 6 | Medium | IT Security |
 | RISK-014 | Social engineering - help desk | Confidentiality | External attacker | Help desk staff | 3 | 4 | 12 | Identity verification for resets; help desk security training | Low | 11 | High | IT Operations |
 
 ---
@@ -69,6 +59,6 @@
 
 ## Notes
 
-- Risks are reviewed quarterly and after any significant incident
+- Risks are reviewed quarterly and after any significant incident; full risk assessment conducted annually per the Risk Assessment Methodology
 - Risk register feeds into the NIST CSF 2.0 maturity assessment (ID.RA)
 - Automated scoring available via `security-automation/risk_scorer.py`

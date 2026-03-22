@@ -82,7 +82,7 @@ Access is assigned through predefined roles rather than individual permissions:
 ### 3.6 Remote Access (AC-17)
 
 - Remote access requires VPN or approved zero-trust network access (ZTNA)
-- Split tunneling is disabled for VPN connections
+- Split tunneling is disabled for VPN connections to systems containing Restricted data; full-tunnel migration for all VPN users is in progress (see NIST 800-171 POA&M)
 - Remote sessions to systems with Restricted data have a 15-minute idle timeout
 - Personal devices are not permitted to access Restricted data unless enrolled in MDM
 
@@ -99,8 +99,9 @@ Access is assigned through predefined roles rather than individual permissions:
 
 - All access to systems containing Restricted data is logged
 - Authentication events (success and failure) are forwarded to SIEM (Splunk)
-- Failed login attempts trigger alerting after 5 consecutive failures
-- Access logs are retained for a minimum of 90 days
+- Accounts are locked out after 5 consecutive failed login attempts for 30 minutes
+- Failed login attempts trigger SIEM alerting after 5 consecutive failures
+- Access logs are retained for a minimum of 1 year
 - Privileged access usage is reviewed monthly
 
 ---
