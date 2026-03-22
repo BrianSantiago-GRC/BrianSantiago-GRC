@@ -108,7 +108,7 @@ Python scripts that automate common GRC tasks. Zero external dependencies.
 | [evidence_collector.py](security-automation/evidence_collector.py) | Collects and analyzes access, training, and patch evidence for audit prep | HIPAA / ISO 27001 |
 | [access_review_audit.py](security-automation/access_review_audit.py) | Audits user access for orphan accounts, MFA gaps, privilege ratios, and SoD violations | NIST SP 800-53 |
 | [compliance_checker.py](security-automation/compliance_checker.py) | Maps controls across 5 frameworks and reports implementation gaps by framework and owner | Multi-framework |
-| [integrations.py](security-automation/integrations.py) | Live integration module — connects scripts to AD, Microsoft Graph, Qualys, Splunk, and n8n | Multi-platform |
+| [integrations.py](security-automation/integrations.py) | Live integration module that connects scripts to AD, Microsoft Graph, Qualys, Splunk, and n8n | Multi-platform |
 
 ---
 

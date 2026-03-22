@@ -60,7 +60,7 @@ class ActiveDirectoryExporter:
         @{N='mfa_enabled';E={
             # Check for Azure AD MFA registration
             # In hybrid environments, query MSOL or Graph API instead
-            $true  # Placeholder — replace with actual MFA check
+            $true  # Placeholder - replace with actual MFA check
         }},
         Enabled
     | Export-Csv -Path '{output_path}' -NoTypeInformation
@@ -290,7 +290,7 @@ class QualysIntegration:
         #
         # The response is XML. Parse with xml.etree.ElementTree.
         # Each HOST_LIST/HOST has IP, DNS, and DETECTION_LIST entries.
-        print("[Qualys] API call would go here — see inline comments for endpoint details")
+        print("[Qualys] API call would go here - see inline comments for endpoint details")
         return []
 
     def export_patch_compliance(self, output_path):
@@ -354,7 +354,7 @@ class SplunkIntegration:
 
     def search_failed_logins(self, days=30):
         """
-        Search for failed login events — evidence for NIST 800-53 AC-7
+        Search for failed login events. Evidence for NIST 800-53 AC-7
         and HIPAA 164.312(d).
         """
         query = f"""index=wineventlog EventCode=4625 earliest=-{days}d
@@ -366,7 +366,7 @@ class SplunkIntegration:
 
     def search_privileged_actions(self, days=7):
         """
-        Search for privileged account activity — evidence for NIST 800-53 AU-2
+        Search for privileged account activity. Evidence for NIST 800-53 AU-2
         and HIPAA 164.312(b).
         """
         query = f"""index=wineventlog
@@ -379,8 +379,8 @@ class SplunkIntegration:
 
     def search_account_changes(self, days=30):
         """
-        Search for account creation, deletion, and modification —
-        evidence for NIST 800-53 AC-2 and HIPAA 164.308(a)(4).
+        Search for account creation, deletion, and modification.
+        Evidence for NIST 800-53 AC-2 and HIPAA 164.308(a)(4).
         """
         query = f"""index=wineventlog
         (EventCode=4720 OR EventCode=4722 OR EventCode=4725 OR EventCode=4726
@@ -485,7 +485,7 @@ class N8nWebhookIntegration:
 
 def main():
     print("\n" + "=" * 70)
-    print("  GRC AUTOMATION — LIVE INTEGRATION MODULE")
+    print("  GRC AUTOMATION - LIVE INTEGRATION MODULE")
     print("  Shows how to connect scripts to real data sources")
     print("=" * 70)
 
@@ -493,7 +493,7 @@ def main():
         {
             "name": "Active Directory (PowerShell)",
             "class": "ActiveDirectoryExporter",
-            "env_vars": ["(none — uses AD module directly)"],
+            "env_vars": ["(none - uses AD module directly)"],
             "feeds_into": "access_review_audit.py",
             "example": "exporter = ActiveDirectoryExporter()\nexporter.export_users('ad_users.csv')",
         },

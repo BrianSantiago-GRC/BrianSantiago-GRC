@@ -44,14 +44,14 @@ python3 access_review_audit.py users.csv        # your own AD export
 ---
 
 ### compliance_checker.py
-Reads a control mapping (or uses built-in sample data) and generates a compliance status report across NIST CSF, NIST 800-53, ISO 27001, and HIPAA. Shows implementation rates by framework and by owner, highlights gaps, and flags stale control reviews.
+Reads a control mapping (or uses built-in sample data) and generates a compliance status report across NIST CSF, NIST 800-53, NIST 800-171, ISO 27001, and HIPAA. Shows implementation rates by framework and by owner, highlights gaps, and flags stale control reviews.
 
 ```bash
 python3 compliance_checker.py                   # uses sample data
 python3 compliance_checker.py controls.csv      # your own control mapping
 ```
 
-**Frameworks:** NIST CSF 2.0, NIST 800-53, ISO 27001, HIPAA
+**Frameworks:** NIST CSF 2.0, NIST 800-53, NIST 800-171, ISO 27001, HIPAA
 
 ---
 
@@ -71,7 +71,7 @@ graph.export_for_access_review("users.csv")    # then: python3 access_review_aud
 
 | Integration | Env Vars | Feeds Into |
 |-------------|----------|------------|
-| Active Directory (PowerShell) | _(none — uses AD module)_ | access_review_audit.py |
+| Active Directory (PowerShell) | _(none - uses AD module)_ | access_review_audit.py |
 | Microsoft Graph / Entra ID | `AZURE_TENANT_ID`, `AZURE_CLIENT_ID`, `AZURE_CLIENT_SECRET` | access_review_audit.py |
 | Qualys Vulnerability Scanner | `QUALYS_API_URL`, `QUALYS_USERNAME`, `QUALYS_PASSWORD` | evidence_collector.py |
 | Splunk SIEM | `SPLUNK_URL`, `SPLUNK_TOKEN` | evidence_collector.py |
@@ -90,6 +90,6 @@ Each tool documents its expected CSV format in the script header or generates sa
 - Risk scoring by hand is slow and inconsistent. A script applies the same formula every time.
 - Access reviews that run quarterly on 500 accounts need automation, not spreadsheets.
 - Evidence collection before an audit is usually the most stressful part. Scripting the export and analysis cuts that down significantly.
-- Compliance mapping across 4+ frameworks by hand is where mistakes happen. A tool catches the gaps.
+- Compliance mapping across 5 frameworks by hand is where mistakes happen. A tool catches the gaps.
 
 These are the kinds of tasks I have automated or plan to automate using n8n and Python in my day-to-day work.

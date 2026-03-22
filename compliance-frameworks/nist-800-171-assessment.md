@@ -2,7 +2,7 @@
 
 **Standard:** NIST Special Publication 800-171, Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations
 
-**Applicability:** Organizations handling CUI — relevant to K-12 districts managing student records (FERPA), employee PII, and grant/contract data from federal agencies
+**Applicability:** Organizations handling CUI, including K-12 districts managing student records (FERPA), employee PII, and grant/contract data from federal agencies
 
 **Assessment Date:** 2026-03-15
 

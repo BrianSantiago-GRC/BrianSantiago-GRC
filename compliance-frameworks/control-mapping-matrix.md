@@ -139,7 +139,7 @@ Each row represents a security control area. Columns show the corresponding requ
 ## Key Findings
 
 1. Strong coverage across access control, data protection, identification/authentication, and physical security
-2. NIST 800-171 maps closely to existing controls — 86% implementation rate with minimal additional effort needed
+2. NIST 800-171 maps closely to existing controls. 86% implementation rate with minimal additional effort needed
 3. Gaps in threat intelligence, supply chain risk, and continuous monitoring map across all frameworks
 4. HIPAA has the highest implementation rate since the environment is already HIPAA-regulated
 5. ISO 27001 A.5.21 (supply chain) is the primary gap with no compensating control
