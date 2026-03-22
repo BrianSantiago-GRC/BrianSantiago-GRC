@@ -1,6 +1,6 @@
 # Information Security Policy
 
-**Framework:** ISO/IEC 27001:2022 / HIPAA Security Rule
+**Framework:** ISO 27001:2022 / HIPAA Security Rule
 
 **Version:** 1.0
 
@@ -117,7 +117,7 @@ Exceptions to this policy require written approval from the CISO or designee wit
 
 ## 6. References
 
-- ISO/IEC 27001:2022 (Clause 5.2 - Information Security Policy)
+- ISO 27001:2022 (Clause 5.2 - Information Security Policy)
 - HIPAA Security Rule (45 CFR 164.306 - Security Standards)
 - FERPA (34 CFR Part 99)
 - NIST SP 800-53 Rev. 5 (PL-1: Policy and Procedures)

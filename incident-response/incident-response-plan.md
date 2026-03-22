@@ -149,13 +149,11 @@ Detailed response playbooks are maintained for the following scenarios:
 
 | Playbook | Scenario | Severity |
 |----------|----------|----------|
-| PB-001 | Ransomware | SEV-1 |
-| PB-002 | Phishing with credential compromise | SEV-2/SEV-3 |
-| PB-003 | Insider threat / unauthorized access | SEV-2 |
-| PB-004 | Data breach involving regulated data | SEV-1 |
-| PB-005 | Lost or stolen device | SEV-3 |
+| PB-001 | [Ransomware](playbook-ransomware.md) | SEV-1 |
+| PB-002 | [Phishing with credential compromise](playbook-phishing.md) | SEV-2/SEV-3 |
+| PB-003 | [Data breach involving regulated data](playbook-data-breach.md) | SEV-1 |
 
-See `incident-response/playbooks/` directory for full playbooks.
+See the other files in this directory for full playbooks.
 
 ---
 

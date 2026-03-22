@@ -6,6 +6,10 @@
 
 **Version:** 1.0
 
+**Effective Date:** 2026-01-15
+
+**Review Cycle:** Annual
+
 ---
 
 ## 1. Purpose

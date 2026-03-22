@@ -6,7 +6,7 @@
 
 **Assessment Date:** 2026-03-15
 
-**Assessor:** Brian Santiago, ISO 27001 Certified Lead Auditor
+**Assessor:** Brian Santiago
 
 ---
 

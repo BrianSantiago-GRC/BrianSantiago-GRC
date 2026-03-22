@@ -126,20 +126,20 @@ Each row represents a security control area. Columns show the corresponding requ
 
 | Framework | Total Controls Mapped | Implemented | Partial | Not Implemented |
 |-----------|---------------------|-------------|---------|-----------------|
-| NIST CSF 2.0 | 48 | 41 | 6 | 1 |
-| NIST 800-53 | 48 | 41 | 6 | 1 |
-| NIST 800-171 | 43 | 37 | 5 | 1 |
-| ISO 27001:2022 | 48 | 41 | 6 | 1 |
-| HIPAA Security Rule | 45 | 40 | 4 | 1 |
+| NIST CSF 2.0 | 50 | 42 | 7 | 1 |
+| NIST 800-53 | 50 | 42 | 7 | 1 |
+| NIST 800-171 | 44 | 39 | 5 | 0 |
+| ISO 27001:2022 | 50 | 42 | 7 | 1 |
+| HIPAA Security Rule | 48 | 42 | 6 | 0 |
 
-**Overall Implementation Rate: 85%**
+**Overall Implementation Rate: 84%**
 
 ---
 
 ## Key Findings
 
 1. Strong coverage across access control, data protection, identification/authentication, and physical security
-2. NIST 800-171 maps closely to existing controls. 86% implementation rate with minimal additional effort needed
+2. NIST 800-171 maps closely to existing controls. 89% implementation rate with minimal additional effort needed
 3. Gaps in threat intelligence, supply chain risk, and continuous monitoring map across all frameworks
 4. HIPAA has the highest implementation rate since the environment is already HIPAA-regulated
 5. ISO 27001 A.5.21 (supply chain) is the primary gap with no compensating control

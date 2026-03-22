@@ -1,6 +1,6 @@
 # ISO 27001:2022 Gap Analysis - Annex A Controls
 
-**Standard:** ISO/IEC 27001:2022
+**Standard:** ISO 27001:2022
 
 **Scope:** Information security management for a K-12 organization
 

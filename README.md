@@ -46,10 +46,10 @@ Assessments and mappings that show current compliance posture across multiple st
 |----------|-----------|
 | [NIST CSF 2.0 Maturity Assessment](compliance-frameworks/nist-csf-maturity-assessment.md) -- all 6 functions scored with gap analysis | NIST CSF 2.0 |
 | [HIPAA Security Rule Audit Checklist](compliance-frameworks/hipaa-security-rule-checklist.md) -- 50 controls across all safeguard categories | 45 CFR Parts 160/164 |
-| [ISO 27001:2022 Gap Analysis](compliance-frameworks/iso27001-gap-analysis.md) -- full Annex A assessment (93 controls) | ISO/IEC 27001:2022 |
+| [ISO 27001:2022 Gap Analysis](compliance-frameworks/iso27001-gap-analysis.md) -- full Annex A assessment (93 controls) | ISO 27001:2022 |
 | [SOC 2 Type II Readiness Assessment](compliance-frameworks/soc2-readiness-assessment.md) -- 47 Trust Services Criteria assessed, 87% ready, remediation plan | AICPA TSC 2017 |
 | [NIST 800-171 Self-Assessment](compliance-frameworks/nist-800-171-assessment.md) -- all 110 requirements, SPRS scoring (77/110), POA&M | NIST SP 800-171 Rev 2 |
-| [ISO 42001 AI Governance Assessment](compliance-frameworks/iso42001-ai-governance.md) -- AI risk assessment, responsible use policy, governance controls | ISO/IEC 42001:2023 |
+| [ISO 42001 AI Governance Assessment](compliance-frameworks/iso42001-ai-governance.md) -- AI risk assessment, responsible use policy, governance controls | ISO 42001:2023 |
 | [Cross-Framework Control Mapping](compliance-frameworks/control-mapping-matrix.md) -- maps controls across NIST CSF, 800-53, 800-171, ISO 27001, HIPAA | Multi-framework |
 
 ### Incident Response
@@ -78,7 +78,7 @@ Vendor assessment questionnaire and risk tiering framework.
 
 | Document | Framework |
 |----------|-----------|
-| [Vendor Risk Assessment Questionnaire](third-party-risk/vendor-risk-assessment-questionnaire.md) -- 40+ questions across 8 security domains | ISO 27001 / HIPAA |
+| [Vendor Risk Assessment Questionnaire](third-party-risk/vendor-risk-assessment-questionnaire.md) -- 38 questions across 8 security domains | ISO 27001 / HIPAA |
 | [Vendor Risk Tiering Framework](third-party-risk/vendor-risk-tiering.md) -- tier matrix, assessment requirements by tier, sample inventory | ISO 27001 / NIST SP 800-161 |
 
 ### Access Control
