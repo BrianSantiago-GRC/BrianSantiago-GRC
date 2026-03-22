@@ -227,7 +227,7 @@ Using the DoD NIST SP 800-171 Assessment Methodology:
 | 3.13.4 | Prevent unauthorized and unintended information transfer | Met | DLP on email, web filtering, USB controls |
 | 3.13.5 | Implement subnetworks for publicly accessible system components | Met | DMZ for public-facing services, isolated from internal |
 | 3.13.6 | Deny network communications by default and allow by exception | Met | Default deny firewall rules, documented exceptions |
-| 3.13.7 | Prevent remote devices from establishing non-remote connections simultaneously | Not Met | Split tunneling allowed on VPN for performance |
+| 3.13.7 | Prevent remote devices from establishing non-remote connections simultaneously | Partially Met | Split tunneling disabled for CUI/Restricted data VPN connections; full-tunnel migration for all users in progress |
 | 3.13.8 | Implement cryptographic mechanisms to prevent unauthorized disclosure during transmission | Met | TLS 1.2+ enforced for all CUI transmissions |
 | 3.13.9 | Terminate network connections at the end of sessions | Met | Session timeouts configured on all services |
 | 3.13.10 | Establish and manage cryptographic keys for required cryptography | Met | Key management procedures documented |
@@ -293,7 +293,7 @@ Using the DoD NIST SP 800-171 Assessment Methodology:
 | 5 | 3.4.1 - Baseline configurations | Not enforced via automation | Implement GPO compliance scanning or CIS-CAT tool | Medium |
 | 6 | 3.4.2 - Security configuration enforcement | No compliance scanning | Deploy configuration compliance tool (CIS Benchmarks) | Medium |
 | 7 | 3.13.11 - FIPS-validated cryptography | Not all systems validated | Audit cryptographic modules, enable FIPS mode where supported | Medium |
-| 8 | 3.13.7 - Split tunneling | Allowed for performance | Evaluate full-tunnel VPN impact, implement for CUI users | Low |
+| 8 | 3.13.7 - Split tunneling | Disabled for CUI; allowed for general users | Complete full-tunnel VPN migration for all remaining users | Low |
 | 9 | 3.12.3 - Continuous monitoring | Not fully established | Define continuous monitoring strategy, automate control checks | High |
 | 10 | 3.8.4 - CUI marking | No marking program | Develop CUI marking guide, implement header/footer templates | Low |
 | 11 | 3.1.20 - External connections | Not catalogued | Create external connection inventory, review annually | Low |
