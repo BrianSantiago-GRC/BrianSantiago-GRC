@@ -182,7 +182,7 @@ Using the DoD NIST SP 800-171 Assessment Methodology:
 | ID | Requirement | Status | Evidence / Notes |
 |----|------------|--------|-----------------|
 | 3.10.1 | Limit physical access to authorized individuals | Met | Badge access for server rooms and data centers |
-| 3.10.2 | Protect and monitor the physical facility and infrastructure | Met | Security cameras, visitor logs, alarm systems |
+| 3.10.2 | Protect and monitor the physical facility and infrastructure | Partially Met | Badge access logging, visitor logs, alarm systems; camera integration planned |
 | 3.10.3 | Escort visitors and monitor visitor activity | Met | Visitor badge and escort policy enforced |
 | 3.10.4 | Maintain audit logs of physical access | Met | Badge reader logs retained 1 year |
 | 3.10.5 | Control and manage physical access devices | Met | Badge issuance/revocation tracked in access management system |
@@ -297,6 +297,7 @@ Using the DoD NIST SP 800-171 Assessment Methodology:
 | 9 | 3.12.3 - Continuous monitoring | Not fully established | Define continuous monitoring strategy, automate control checks | High |
 | 10 | 3.8.4 - CUI marking | No marking program | Develop CUI marking guide, implement header/footer templates | Low |
 | 11 | 3.1.20 - External connections | Not catalogued | Create external connection inventory, review annually | Low |
+| 12 | 3.10.2 - Physical facility monitoring | Badge access logging only; no camera integration | Integrate security camera system with monitoring infrastructure | Medium |
 
 ---
 

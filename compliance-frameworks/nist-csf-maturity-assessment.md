@@ -47,7 +47,7 @@ Each subcategory is rated on a 1-5 maturity scale:
 | ID.AM-01 | Hardware asset inventory | 3 | 4 | 1 | NinjaOne for endpoints; network devices tracked manually |
 | ID.AM-02 | Software asset inventory | 2 | 3 | 1 | Partial; needs centralized CMDB |
 | ID.AM-03 | Data flow mapping | 2 | 3 | 1 | ePHI flows documented; other data flows incomplete |
-| ID.RA-01 | Vulnerabilities identified | 3 | 4 | 1 | Qualys scans monthly; need continuous scanning |
+| ID.RA-01 | Vulnerabilities identified | 3 | 4 | 1 | Qualys scans weekly; need continuous scanning |
 | ID.RA-02 | Threat intelligence received | 2 | 3 | 1 | CISA alerts reviewed; no formal TI feed |
 | ID.RA-03 | Threats identified | 3 | 3 | 0 | Risk register includes threat sources |
 | ID.RA-04 | Risk assessment performed | 3 | 4 | 1 | NIST 800-30 methodology in place |
