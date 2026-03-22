@@ -23,7 +23,7 @@ Risks are scored using the methodology defined in the [Risk Assessment Methodolo
 | RISK-001 | Unauthorized access to ePHI | Confidentiality | External attacker | EHR System | 4 | 5 | 20 | MFA on all ePHI accounts; RBAC implemented | High | 12 | High | IT Security |
 | RISK-002 | Ransomware infection on endpoints | Integrity | External attacker | Workstations/servers | 4 | 5 | 20 | EDR on all endpoints; daily backups with offline copy | Medium | 15 | High | IT Operations |
 | RISK-003 | Insider threat - data exfiltration | Confidentiality | Insider (malicious) | Student records DB | 2 | 5 | 10 | DLP on email/USB; quarterly access reviews | Medium | 8 | Medium | IT Security |
-| RISK-004 | Unpatched critical vulnerabilities | Integrity | External attacker | Network infrastructure | 3 | 4 | 12 | Monthly Qualys scans; 30-day critical patching SLA | Medium | 9 | Medium | IT Operations |
+| RISK-004 | Unpatched critical vulnerabilities | Integrity | External attacker | Network infrastructure | 3 | 4 | 12 | Monthly Qualys scans; 14-day critical patching SLA | Medium | 9 | Medium | IT Operations |
 | RISK-005 | Phishing - credential compromise | Confidentiality | External attacker | Email/credentials | 4 | 4 | 16 | Quarterly security awareness; email anti-phishing rules | Medium | 12 | High | IT Security |
 | RISK-006 | Loss of backup data | Availability | System failure | Backup infrastructure | 2 | 5 | 10 | Geo-redundant backups; monthly restore testing | High | 6 | Medium | IT Operations |
 | RISK-007 | Third-party vendor breach | Confidentiality | Third party | Vendor-hosted SIS | 3 | 4 | 12 | Annual vendor risk assessments; BAA; contractual controls | Medium | 9 | Medium | Compliance |

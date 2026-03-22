@@ -71,7 +71,7 @@ Reference: Incident Response Plan (separate document)
 
 - All vendors with access to Restricted data must complete a risk assessment before onboarding
 - Business Associate Agreements (BAAs) are required for any vendor handling ePHI
-- Vendor security posture is reassessed annually
+- Vendor security posture is reassessed per the vendor risk tiering schedule
 - Contractual security requirements must address access controls, encryption, incident notification, and audit rights
 
 Reference: Third-Party Risk Assessment Questionnaire (separate document)

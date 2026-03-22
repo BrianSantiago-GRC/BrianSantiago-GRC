@@ -198,7 +198,7 @@ Using the DoD NIST SP 800-171 Assessment Methodology:
 |----|------------|--------|-----------------|
 | 3.11.1 | Periodically assess the risk to operations and assets | Met | Annual risk assessment, quarterly reviews |
 | 3.11.2 | Scan for vulnerabilities periodically and when new vulnerabilities are identified | Met | Weekly Qualys scans, patch Tuesday response |
-| 3.11.3 | Remediate vulnerabilities in accordance with risk assessments | Met | SLA-based remediation: Critical 72hr, High 7d, Medium 30d |
+| 3.11.3 | Remediate vulnerabilities in accordance with risk assessments | Met | SLA-based remediation per patch management policy: Critical 14d (72hr if CISA KEV), High 30d, Medium 60d |
 
 **Risk Assessment Score: 3/3 Met**
 
