@@ -58,7 +58,7 @@
 | 27 | Access control and validation | 164.310(a)(2)(iii) | Implemented | Visitor logs, escort policy | Sign-in required |
 | 28 | Maintenance records | 164.310(a)(2)(iv) | Implemented | Maintenance logs | Tracked in NinjaOne |
 | 29 | Workstation use policy | 164.310(b) | Implemented | Acceptable use policy | Clean desk policy |
-| 30 | Workstation security | 164.310(c) | Implemented | MDM enrollment, screen lock | Auto-lock 5 minutes |
+| 30 | Workstation security | 164.310(c) | Implemented | MDM enrollment, screen lock | MDM auto-lock 5 min (mobile); GPO 10-min lock (desktops) |
 | 31 | Device and media disposal | 164.310(d)(1) | Implemented | Disposal certificates | NIST 800-88 compliant |
 | 32 | Media reuse | 164.310(d)(2)(i) | Implemented | Sanitization procedures | Verified before reuse |
 | 33 | Device movement accountability | 164.310(d)(2)(iii) | Implemented | Asset tracking | NinjaOne inventory |
