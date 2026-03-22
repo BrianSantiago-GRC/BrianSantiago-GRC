@@ -115,7 +115,7 @@
 | A.8.12 | Data leakage prevention | Conforming | - | DLP on email/USB |
 | A.8.13 | Information backup | Conforming | - | Daily, geo-redundant |
 | A.8.14 | Redundancy of information processing facilities | Partially | Single site | Evaluate cloud DR |
-| A.8.15 | Logging | Conforming | - | Splunk, 90-day retention |
+| A.8.15 | Logging | Conforming | - | Splunk, 1-year retention |
 | A.8.16 | Monitoring activities | Partially | Basic alerting | Tune SIEM correlation rules |
 | A.8.17 | Clock synchronization | Conforming | - | NTP configured |
 | A.8.18 | Use of privileged utility programs | Conforming | - | Restricted to admins |

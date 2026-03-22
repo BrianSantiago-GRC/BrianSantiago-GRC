@@ -77,7 +77,7 @@ Access is assigned through predefined roles rather than individual permissions:
 | Application access | Quarterly | System owners | Users with access to Restricted data |
 | General access | Semi-annually | Department managers | All user accounts in their department |
 | Orphan account audit | Quarterly | IT Security | Accounts with no recent login (90+ days) |
-| Third-party access | Annually | Compliance | Vendor and contractor accounts |
+| Third-party access | Quarterly | Compliance | Vendor and contractor accounts |
 
 ### 3.6 Remote Access (AC-17)
 

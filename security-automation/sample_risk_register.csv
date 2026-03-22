@@ -11,5 +11,5 @@ RISK-009,Physical theft of devices,Confidentiality,External attacker,Laptops and
 RISK-010,Denial of service attack,Availability,External attacker,Public-facing web applications,2,3,WAF deployed; DDoS mitigation through cloud provider,High,Open,IT Security
 RISK-011,Non-compliance with FERPA audit,Compliance,Regulatory body,Student education records,2,4,Annual FERPA training; access limited to need-to-know; audit logging enabled,High,Open,Compliance
 RISK-012,Failure in identity lifecycle management,Confidentiality,Insider (accidental),Active Directory accounts,3,3,Automated provisioning/deprovisioning via HR sync; quarterly orphan account audits,Medium,Open,IT Security
-RISK-013,Insufficient logging and monitoring,Integrity,Internal gap,SIEM and log infrastructure,2,4,Splunk deployed with 90-day retention; alerting rules for critical events,Medium,Open,IT Security
+RISK-013,Insufficient logging and monitoring,Integrity,Internal gap,SIEM and log infrastructure,2,4,Splunk deployed with 1-year retention; alerting rules for critical events,Medium,Open,IT Security
 RISK-014,Social engineering targeting help desk,Confidentiality,External attacker,Help desk staff and credentials,3,4,Identity verification procedures for password resets; help desk security training,Low,Open,IT Operations
