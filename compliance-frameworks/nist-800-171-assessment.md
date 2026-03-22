@@ -36,7 +36,7 @@ Using the DoD NIST SP 800-171 Assessment Methodology:
 | 3.1.8 | Limit unsuccessful logon attempts | Met | Account lockout after 5 failed attempts, 30-min lockout |
 | 3.1.9 | Provide privacy and security notices consistent with CUI rules | Met | Login banners on all systems |
 | 3.1.10 | Use session lock with pattern-hiding displays | Met | GPO: 10-minute screen lock, password required |
-| 3.1.11 | Terminate sessions after defined conditions | Met | GPO: 30-minute idle timeout for remote sessions |
+| 3.1.11 | Terminate sessions after defined conditions | Met | GPO: 15-minute idle timeout for remote sessions to CUI systems |
 | 3.1.12 | Monitor and control remote access sessions | Met | VPN with MFA, session logging enabled |
 | 3.1.13 | Employ cryptographic mechanisms for remote access | Met | TLS 1.2+ required for VPN and web apps |
 | 3.1.14 | Route remote access via managed access control points | Met | All remote access routes through VPN concentrator |
