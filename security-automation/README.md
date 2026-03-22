@@ -55,6 +55,30 @@ python3 compliance_checker.py controls.csv      # your own control mapping
 
 ---
 
+### integrations.py
+Production integration module showing how each script connects to real data sources: Active Directory (PowerShell), Microsoft Graph / Entra ID, Qualys vulnerability scanner, Splunk SIEM, and n8n workflow webhooks. Uses only the standard library. Set the environment variables, import the classes, and feed live data into the audit scripts.
+
+```bash
+python3 integrations.py                        # list available integrations
+
+# In your own scripts:
+from integrations import MicrosoftGraphIntegration
+graph = MicrosoftGraphIntegration()
+graph.export_for_access_review("users.csv")    # then: python3 access_review_audit.py users.csv
+```
+
+**Integrations:** Active Directory, Microsoft Graph, Qualys, Splunk, n8n
+
+| Integration | Env Vars | Feeds Into |
+|-------------|----------|------------|
+| Active Directory (PowerShell) | _(none — uses AD module)_ | access_review_audit.py |
+| Microsoft Graph / Entra ID | `AZURE_TENANT_ID`, `AZURE_CLIENT_ID`, `AZURE_CLIENT_SECRET` | access_review_audit.py |
+| Qualys Vulnerability Scanner | `QUALYS_API_URL`, `QUALYS_USERNAME`, `QUALYS_PASSWORD` | evidence_collector.py |
+| Splunk SIEM | `SPLUNK_URL`, `SPLUNK_TOKEN` | evidence_collector.py |
+| n8n Workflows | `N8N_WEBHOOK_URL` | All scripts (routes findings to Slack, Jira, email) |
+
+---
+
 ## CSV Formats
 
 Each tool documents its expected CSV format in the script header or generates sample data when run without arguments. Run any script with no arguments to see the output format.
