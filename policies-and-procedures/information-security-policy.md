@@ -38,7 +38,7 @@ All data must be classified according to the four-level scheme (Restricted, Conf
 - Access is granted based on the principle of least privilege
 - Role-based access control (RBAC) is required for all systems containing Restricted or Confidential data
 - Multi-factor authentication (MFA) is required for access to systems containing ePHI or student records
-- Access is reviewed quarterly by system owners
+- Access is reviewed quarterly (privileged, application, third-party) or semi-annually (general) by system owners
 - Access is revoked within 24 hours of termination; role-change access is modified within 48 hours
 
 Reference: Access Control Policy (separate document)
