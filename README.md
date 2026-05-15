@@ -14,7 +14,7 @@ My background is practical and operations-focused: Microsoft 365, Active Directo
 
 This GitHub is my learning portfolio. The projects here are intended to show how I document work, think through operational problems, and connect IT support experience to security operations and GRC.
 
-I am not presenting these projects as senior production ownership. They are practical learning projects and sample artifacts that support my transition into junior SOC, security analyst, GRC, and compliance operations roles.
+I am not presenting these projects as ownership of live production systems. They are practical learning projects and sample artifacts that support my transition into junior SOC, security analyst, GRC, and compliance operations roles.
 
 ---
 
@@ -30,7 +30,7 @@ I am not presenting these projects as senior production ownership. They are prac
 ### SOC / Security Operations
 
 - Microsoft Sentinel SIEM learning lab.
-- Phishing analysis workflow work in progress.
+- Phishing analysis workflow documentation.
 - Log review, alert concepts, escalation, and incident documentation practice.
 
 ### IT Operations
@@ -49,6 +49,7 @@ I am not presenting these projects as senior production ownership. They are prac
 |---|---|---|
 | [grc-portfolio](https://github.com/BrianSantiago-GRC/grc-portfolio) | Sample GRC documentation and compliance operations artifacts | Active portfolio repo |
 | [Microsoft-Sentinel-SIEM](https://github.com/BrianSantiago-GRC/Microsoft-Sentinel-SIEM) | Personal SIEM learning lab and security operations documentation | Active learning repo |
+| [phishing-analysis-workflow](https://github.com/BrianSantiago-GRC/phishing-analysis-workflow) | Practical phishing triage workflow, IOC review, and escalation documentation | Active documentation repo |
 
 ---
 
@@ -67,7 +68,7 @@ I am not presenting these projects as senior production ownership. They are prac
 ## Current Focus
 
 - Security+ study and reinforcement
-- Phishing analysis workflow project
+- Phishing analysis workflow screenshots and evidence cleanup
 - Microsoft identity and endpoint security fundamentals
 - SOC/GRC interview preparation
 - Practical documentation and process improvement
