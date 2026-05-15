@@ -12,7 +12,7 @@ This GitHub profile is a practical cybersecurity and GRC learning portfolio.
 
 The purpose is to show how I document security-focused work, organize operational notes, and connect IT support experience to junior SOC, security analyst, GRC, compliance operations, and Microsoft security support roles.
 
-I am not presenting these projects as ownership of live production systems. They are learning projects and sample artifacts built to be realistic, readable, and interview-defensible.
+I am not presenting these projects as ownership of live production systems. They are completed portfolio artifacts built with sanitized practice scenarios so they stay realistic, readable, and interview-defensible.
 
 ---
 
@@ -28,7 +28,7 @@ My background includes Microsoft 365, Active Directory, Entra ID, endpoint suppo
 
 | Repository | Focus | Status |
 |---|---|---|
-| [grc-portfolio](https://github.com/BrianSantiago-GRC/grc-portfolio) | Sample GRC documentation, risk/control concepts, access review practice, and audit evidence support | Active portfolio repo |
+| [grc-portfolio](https://github.com/BrianSantiago-GRC/grc-portfolio) | Completed GRC documentation artifacts covering risk/control concepts, access review practice, and audit evidence support | Active portfolio repo |
 | [Microsoft-Sentinel-SIEM](https://github.com/BrianSantiago-GRC/Microsoft-Sentinel-SIEM) | Personal SIEM learning lab for Sentinel, basic KQL, log review, alert concepts, and incident notes | Active learning repo |
 | [phishing-analysis-workflow](https://github.com/BrianSantiago-GRC/phishing-analysis-workflow) | Practical phishing triage workflow, IOC review, Microsoft 365 context, and escalation documentation | Active documentation repo |
 
@@ -52,7 +52,7 @@ My background includes Microsoft 365, Active Directory, Entra ID, endpoint suppo
 - Documenting security and GRC workflows clearly.
 - Building interview-defensible portfolio projects.
 - Connecting IT support tasks to security operations and compliance work.
-- Writing sample audit evidence, access review, risk, and incident notes.
+- Writing completed audit evidence, access review, risk, and incident note artifacts.
 - Practicing phishing triage and SIEM investigation concepts.
 - Keeping public documentation realistic and junior-aligned.
 
@@ -110,4 +110,3 @@ Current screenshot priorities:
 - Compliance Operations Analyst
 - IT Operations / Security Support
 - Microsoft security support roles
-

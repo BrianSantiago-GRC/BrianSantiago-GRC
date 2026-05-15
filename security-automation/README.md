@@ -2,7 +2,7 @@
 
 Small Python scripts for practicing security, GRC, and compliance operations workflows.
 
-These scripts are learning examples. They use sample data and are meant to show how repetitive documentation or review tasks can be made more consistent. They do not represent live deployment work or organization-wide tooling.
+These are completed practice scripts. They use sanitized practice data and are meant to show how repetitive documentation or review tasks can be made more consistent. They do not represent live deployment work or organization-wide tooling.
 
 ---
 
@@ -17,9 +17,9 @@ The focus is on repeatable logic, readable output, and documentation discipline 
 ## Tools Used
 
 - Python standard library
-- CSV sample data
+- Sanitized CSV practice data
 - Markdown documentation
-- Sample GRC/security operations scenarios
+- Sanitized GRC/security operations scenarios
 
 No external Python packages are required.
 
@@ -27,9 +27,9 @@ No external Python packages are required.
 
 ## What I Practiced
 
-- Reading sample CSV data.
+- Reading sanitized CSV practice data.
 - Applying simple risk scoring logic.
-- Reviewing sample access data for common issues.
+- Reviewing sanitized access data for common issues.
 - Generating basic compliance or evidence reports.
 - Thinking through how scripts can reduce repetitive manual review work.
 
@@ -39,10 +39,10 @@ No external Python packages are required.
 
 | Script | Purpose | Practice Area |
 |---|---|---|
-| `risk_scorer.py` | Reads a sample risk register and calculates basic inherent/residual risk scores | Risk management basics |
-| `evidence_collector.py` | Simulates collecting access, training, and patch evidence from sample data | Audit evidence support |
-| `access_review_audit.py` | Reviews sample user access data for common access review issues | IAM / access review practice |
-| `compliance_checker.py` | Reviews sample control mapping data and highlights control gaps | GRC control tracking |
+| `risk_scorer.py` | Reads a sanitized risk register and calculates basic inherent/residual risk scores | Risk management basics |
+| `evidence_collector.py` | Simulates collecting access, training, and patch evidence from sanitized practice data | Audit evidence support |
+| `access_review_audit.py` | Reviews sanitized user access data for common access review issues | IAM / access review practice |
+| `compliance_checker.py` | Reviews sanitized control mapping data and highlights control gaps | GRC control tracking |
 
 ---
 
@@ -74,7 +74,7 @@ python3 compliance_checker.py
 - Automation is most useful when the manual process is already understood.
 - Small scripts can make review work more consistent.
 - Output should be easy for another person to understand.
-- Sample data should be clearly labeled so it is not confused with real evidence.
+- Practice data should be clearly labeled so it is not confused with real evidence.
 
 ---
 
@@ -84,7 +84,7 @@ Screenshots are not included yet.
 
 Planned additions:
 
-- Sample script output.
+- Script output.
 - Example risk scoring report.
 - Example access review findings.
 - Example compliance summary output.
@@ -93,7 +93,7 @@ Planned additions:
 
 ## Future Improvements
 
-- Add sample output files.
+- Add completed output files.
 - Add screenshots of each script run.
 - Add clearer input CSV examples.
 - Add short notes explaining how each script could support IT security, GRC, or compliance operations.
@@ -102,7 +102,7 @@ Planned additions:
 
 ## Limitations
 
-- Sample data only.
+- Sanitized practice data only.
 - No live system connections.
 - No production deployment.
 - No claim of advanced automation engineering.
