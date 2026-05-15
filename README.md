@@ -6,78 +6,103 @@ IT Support Specialist transitioning into cybersecurity operations and GRC.
 
 ---
 
-## About
+## Project Purpose
+
+This GitHub profile is a practical cybersecurity and GRC learning portfolio.
+
+The purpose is to show how I document security-focused work, organize operational notes, and connect IT support experience to junior SOC, security analyst, GRC, compliance operations, and Microsoft security support roles.
+
+I am not presenting these projects as ownership of live production systems. They are learning projects and sample artifacts built to be realistic, readable, and interview-defensible.
+
+---
+
+## Current Positioning
 
 I am an IT support and operations professional building toward junior cybersecurity and GRC roles.
 
-My background is practical and operations-focused: Microsoft 365, Active Directory, Entra ID, endpoint support, account and access tasks, documentation, audit support, security-focused troubleshooting, and compliance-aware work in healthcare and education environments.
-
-This GitHub is my learning portfolio. The projects here are intended to show how I document work, think through operational problems, and connect IT support experience to security operations and GRC.
-
-I am not presenting these projects as ownership of live production systems. They are practical learning projects and sample artifacts that support my transition into junior SOC, security analyst, GRC, and compliance operations roles.
+My background includes Microsoft 365, Active Directory, Entra ID, endpoint support, account and access tasks, documentation, audit support, security-focused troubleshooting, and compliance-aware work in healthcare and education environments.
 
 ---
 
-## Portfolio Focus
-
-### GRC / Compliance
-
-- Sample risk and control documentation.
-- Audit evidence support examples.
-- Access review and policy documentation practice.
-- HIPAA, NIST, and compliance operations learning artifacts.
-
-### SOC / Security Operations
-
-- Microsoft Sentinel SIEM learning lab.
-- Phishing analysis workflow documentation.
-- Log review, alert concepts, escalation, and incident documentation practice.
-
-### IT Operations
-
-- Microsoft 365, Active Directory, Entra ID, endpoint support, account support, documentation, and troubleshooting foundations.
-
-### Automation
-
-- Small workflow and documentation automation examples where they support real operations.
-
----
-
-## Public Repositories
+## Portfolio Projects
 
 | Repository | Focus | Status |
 |---|---|---|
-| [grc-portfolio](https://github.com/BrianSantiago-GRC/grc-portfolio) | Sample GRC documentation and compliance operations artifacts | Active portfolio repo |
-| [Microsoft-Sentinel-SIEM](https://github.com/BrianSantiago-GRC/Microsoft-Sentinel-SIEM) | Personal SIEM learning lab and security operations documentation | Active learning repo |
-| [phishing-analysis-workflow](https://github.com/BrianSantiago-GRC/phishing-analysis-workflow) | Practical phishing triage workflow, IOC review, and escalation documentation | Active documentation repo |
+| [grc-portfolio](https://github.com/BrianSantiago-GRC/grc-portfolio) | Sample GRC documentation, risk/control concepts, access review practice, and audit evidence support | Active portfolio repo |
+| [Microsoft-Sentinel-SIEM](https://github.com/BrianSantiago-GRC/Microsoft-Sentinel-SIEM) | Personal SIEM learning lab for Sentinel, basic KQL, log review, alert concepts, and incident notes | Active learning repo |
+| [phishing-analysis-workflow](https://github.com/BrianSantiago-GRC/phishing-analysis-workflow) | Practical phishing triage workflow, IOC review, Microsoft 365 context, and escalation documentation | Active documentation repo |
 
 ---
 
-## Skills I Am Building
+## Tools Used
 
-- Security operations fundamentals
-- Phishing analysis and incident notes
-- Microsoft security fundamentals
-- GRC documentation and audit evidence support
-- Access review concepts
-- Risk and control mapping basics
-- Clear technical documentation
-
----
-
-## Current Focus
-
-- Security+ study and reinforcement
-- Phishing analysis workflow screenshots and evidence cleanup
-- Microsoft identity and endpoint security fundamentals
-- SOC/GRC interview preparation
-- Practical documentation and process improvement
+- Microsoft 365
+- Active Directory
+- Microsoft Entra ID
+- Microsoft Sentinel
+- Azure Log Analytics
+- Microsoft Defender concepts
+- Markdown documentation
+- Python for small operational scripting examples
 
 ---
 
-## Positioning
+## What I Practiced
 
-Target roles:
+- Documenting security and GRC workflows clearly.
+- Building interview-defensible portfolio projects.
+- Connecting IT support tasks to security operations and compliance work.
+- Writing sample audit evidence, access review, risk, and incident notes.
+- Practicing phishing triage and SIEM investigation concepts.
+- Keeping public documentation realistic and junior-aligned.
+
+---
+
+## Skills Demonstrated
+
+- Security operations fundamentals.
+- Phishing analysis workflow documentation.
+- Microsoft identity and endpoint security awareness.
+- GRC documentation and audit evidence support.
+- Access review and control mapping basics.
+- Incident note writing and escalation communication.
+- Practical technical documentation.
+
+---
+
+## Lessons Learned
+
+- Clear documentation is a security skill.
+- Portfolio projects are stronger when the scope is realistic.
+- GRC work depends on evidence, ownership, and repeatable process.
+- SOC learning should focus on investigation reasoning, not inflated claims.
+- IT support experience can transfer into security through identity, endpoints, troubleshooting, documentation, and user support.
+
+---
+
+## Screenshots / Evidence
+
+Screenshots and evidence are added only when they support real completed project work and can be safely sanitized.
+
+Current screenshot priorities:
+
+- Add sanitized Sentinel lab screenshots.
+- Add phishing workflow screenshots or realistic sanitized training examples.
+- Add GRC artifact previews only where they improve recruiter review.
+
+---
+
+## Future Improvements
+
+- Add project screenshots where safe.
+- Add more concise walkthroughs for each project.
+- Keep README language aligned with junior cybersecurity and GRC positioning.
+- Continue Security+ study and connect study notes to project work.
+- Expand Microsoft 365, Entra ID, and Defender-related documentation over time.
+
+---
+
+## Target Roles
 
 - Junior SOC Analyst
 - Security Analyst I
@@ -85,3 +110,4 @@ Target roles:
 - Compliance Operations Analyst
 - IT Operations / Security Support
 - Microsoft security support roles
+
