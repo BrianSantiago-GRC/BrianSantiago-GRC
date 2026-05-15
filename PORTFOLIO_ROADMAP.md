@@ -28,7 +28,7 @@ It should not look like fake enterprise engineering, senior security architectur
 |---:|---|---|---|---|
 | 1 | Phishing Analysis Workflow | Operational Security / Security Operations | Completed documentation; screenshot polish pending | Complete proof |
 | 2 | Microsoft Sentinel Alert Triage Lab | Security Operations | Next build | High |
-| 3 | Entra ID MFA and Conditional Access Review | Microsoft Security / GRC | Planned | High |
+| 3 | Entra ID Identity Security Review | Microsoft Security / GRC | Completed with redacted evidence | Complete proof |
 | 4 | Microsoft Defender Endpoint Investigation Walkthrough | Microsoft Security / Security Operations | Planned | High |
 | 5 | GRC Access Review and Audit Evidence Pack | GRC / Compliance | Planned | High |
 | 6 | Vulnerability Remediation Workflow | Operational Security / GRC | Planned | Medium |
@@ -37,7 +37,7 @@ It should not look like fake enterprise engineering, senior security architectur
 
 1. Finish phishing screenshots and evidence polish.
 2. Build Microsoft Sentinel Alert Triage Lab.
-3. Build Entra ID MFA and Conditional Access Review.
+3. Use completed Entra ID Identity Security Review in GitHub, LinkedIn, resume bullets, and interviews.
 4. Build Microsoft Defender Endpoint Investigation Walkthrough.
 5. Build GRC Access Review and Audit Evidence Pack.
 6. Build Vulnerability Remediation Workflow.
@@ -132,11 +132,11 @@ This should show how a junior analyst reviews a signal, checks supporting eviden
 
 ---
 
-## Project 3: Entra ID MFA and Conditional Access Review
+## Project 3: Entra ID Identity Security Review
 
-**Purpose:** Create a Microsoft identity security review showing how MFA, sign-in logs, user access, and Conditional Access concepts support operational security and GRC.
+**Purpose:** Document a Microsoft Entra ID identity security review showing how Security Defaults, authentication methods, admin roles, sign-in logs, user access, and Conditional Access concepts support operational security and GRC.
 
-If Conditional Access licensing is unavailable, document the review as a checklist and policy design exercise. Do not claim a live rollout unless it was actually performed.
+The project is completed with redacted evidence and should be presented as a review and recommendation project, not an enterprise identity ownership claim.
 
 **Skills Demonstrated:**
 - Identity and access management
@@ -155,24 +155,28 @@ If Conditional Access licensing is unavailable, document the review as a checkli
 - Conditional Access templates or documentation
 - Markdown checklist
 
-**Screenshots Needed:**
-- MFA status or authentication method view
-- Sign-in log review
-- User/group access review example
-- Conditional Access policy concept or template
-- Final review checklist
+**Screenshots / Evidence Included:**
+- Entra admin overview
+- Active users / test accounts
+- Authentication methods
+- Security Defaults
+- Roles and administrators
+- Sign-in logs
+- Conditional Access overview
+- Access review checklist
+- Findings and recommendations
 
 **Interview Value:** Very strong. Identity is the cleanest bridge from IT support into security operations and GRC.
 
 **LinkedIn Value:** Strong. Good for posts on MFA, risky sign-ins, access reviews, and operational identity security.
 
-**GitHub Value:** Strong. Shows Microsoft ecosystem alignment and realistic security maturity.
+**GitHub Value:** Strong. Published as `entra-identity-security-review` with sanitized screenshots, review notes, findings, recommendations, and evidence documentation.
 
 **Realism Score:** 9/10
 
 **Difficulty Level:** Junior to intermediate Microsoft security / GRC
 
-**Estimated Completion Time:** 6-8 hours
+**Estimated Completion Time:** Complete. Future polish only if a lab Conditional Access policy design is added.
 
 ---
 
@@ -337,7 +341,7 @@ Each project is complete only when it has:
 
 1. Finish phishing screenshots and evidence polish.
 2. Complete Microsoft Sentinel Alert Triage Lab.
-3. Complete Entra ID MFA and Conditional Access Review.
+3. Use completed Entra ID Identity Security Review in applications, LinkedIn, resume bullets, and interviews.
 4. Publish one grounded LinkedIn post per completed proof milestone.
 5. Use completed projects in applications and interviews.
 

@@ -33,10 +33,10 @@ Full roadmap: [Cybersecurity / GRC Portfolio Roadmap](PORTFOLIO_ROADMAP.md)
 | [grc-portfolio](https://github.com/BrianSantiago-GRC/grc-portfolio) | Completed GRC documentation artifacts covering risk/control concepts, access review practice, and audit evidence support | Active portfolio repo |
 | [Microsoft-Sentinel-SIEM](https://github.com/BrianSantiago-GRC/Microsoft-Sentinel-SIEM) | Personal SIEM learning lab for Sentinel, basic KQL, log review, alert concepts, and incident notes | Active learning repo |
 | [phishing-analysis-workflow](https://github.com/BrianSantiago-GRC/phishing-analysis-workflow) | Practical phishing triage workflow, IOC review, Microsoft 365 context, and escalation documentation | Active documentation repo |
+| [entra-identity-security-review](https://github.com/BrianSantiago-GRC/entra-identity-security-review) | Completed Microsoft Entra ID identity security review with redacted evidence for Security Defaults, authentication methods, admin roles, sign-in logs, Conditional Access recommendations, and access review documentation | Completed portfolio repo |
 
 Planned next projects:
 
-- Entra ID MFA and Conditional Access Review.
 - Microsoft Defender Endpoint Investigation Walkthrough.
 - GRC Access Review and Audit Evidence Pack.
 - Vulnerability Remediation Workflow.
@@ -97,6 +97,7 @@ Current screenshot priorities:
 
 - Add sanitized Sentinel lab screenshots.
 - Add phishing workflow screenshots or realistic sanitized training examples.
+- Use the completed Entra ID identity security review as Microsoft identity/security evidence.
 - Add GRC artifact previews only where they improve recruiter review.
 
 ---
