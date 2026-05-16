@@ -31,7 +31,7 @@ Full roadmap: [Cybersecurity / GRC Portfolio Roadmap](PORTFOLIO_ROADMAP.md)
 | Repository | Focus | Status |
 |---|---|---|
 | [grc-portfolio](https://github.com/BrianSantiago-GRC/grc-portfolio) | Completed GRC documentation artifacts covering risk/control concepts, access review practice, and audit evidence support | Active portfolio repo |
-| [Microsoft-Sentinel-SIEM](https://github.com/BrianSantiago-GRC/Microsoft-Sentinel-SIEM) | Personal SIEM learning lab for Sentinel, basic KQL, log review, alert concepts, and incident notes | Active learning repo |
+| [Microsoft-Sentinel-SIEM](https://github.com/BrianSantiago-GRC/Microsoft-Sentinel-SIEM) | Completed Microsoft Sentinel honeypot SIEM lab write-up covering failed logon review, basic KQL, SIEM triage thinking, incident notes, analyst timeline, and lessons learned | Completed portfolio repo |
 | [phishing-analysis-workflow](https://github.com/BrianSantiago-GRC/phishing-analysis-workflow) | Practical phishing triage workflow, IOC review, Microsoft 365 context, and escalation documentation | Active documentation repo |
 | [entra-identity-security-review](https://github.com/BrianSantiago-GRC/entra-identity-security-review) | Completed Microsoft Entra ID identity security review with redacted evidence for Security Defaults, authentication methods, admin roles, sign-in logs, Conditional Access recommendations, and access review documentation | Completed portfolio repo |
 | [microsoft-defender-endpoint-investigation](https://github.com/BrianSantiago-GRC/microsoft-defender-endpoint-investigation) | Completed endpoint investigation walkthrough using Windows Security, Defender status checks, PowerShell, Event Viewer, analyst timeline notes, and sanitized remediation evidence | Completed portfolio repo |
@@ -95,7 +95,7 @@ Screenshots and evidence are added only when they support real completed project
 
 Current screenshot priorities:
 
-- Add sanitized Sentinel lab screenshots.
+- Recreate Sentinel lab screenshots only if needed; do not fake missing evidence from the completed honeypot lab.
 - Add phishing workflow screenshots or realistic sanitized training examples.
 - Use the completed Entra ID identity security review as Microsoft identity/security evidence.
 - Use the completed Defender endpoint investigation walkthrough as endpoint/security operations evidence.

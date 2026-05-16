@@ -27,7 +27,7 @@ It should not look like fake enterprise engineering, senior security architectur
 | Order | Project | Category | Status | Priority |
 |---:|---|---|---|---|
 | 1 | Phishing Analysis Workflow | Operational Security / Security Operations | Completed documentation; screenshot polish pending | Complete proof |
-| 2 | Microsoft Sentinel Alert Triage Lab | Security Operations | Next build | High |
+| 2 | Microsoft Sentinel Honeypot SIEM Lab | Security Operations | Completed documentation; screenshots not captured | Complete proof |
 | 3 | Entra ID Identity Security Review | Microsoft Security / GRC | Completed with redacted evidence | Complete proof |
 | 4 | Microsoft Defender Endpoint Investigation Walkthrough | Microsoft Security / Security Operations | Completed with sanitized evidence | Complete proof |
 | 5 | GRC Access Review and Audit Evidence Pack | GRC / Compliance | Completed and published | Complete proof |
@@ -36,7 +36,7 @@ It should not look like fake enterprise engineering, senior security architectur
 ## Execution Order
 
 1. Finish phishing screenshots and evidence polish.
-2. Build Microsoft Sentinel Alert Triage Lab.
+2. Use completed Microsoft Sentinel Honeypot SIEM Lab in resume, LinkedIn, and interviews. Recreate screenshots only if needed.
 3. Use completed Entra ID Identity Security Review in GitHub, LinkedIn, resume bullets, and interviews.
 4. Use completed Microsoft Defender Endpoint Investigation Walkthrough in GitHub, LinkedIn, resume bullets, and interviews.
 5. Use completed GRC Access Review and Audit Evidence Pack in GitHub, LinkedIn, resume bullets, and interviews.
@@ -88,11 +88,11 @@ Do not start more than one new project at a time.
 
 ---
 
-## Project 2: Microsoft Sentinel Alert Triage Lab
+## Project 2: Microsoft Sentinel Honeypot SIEM Lab
 
-**Purpose:** Practice basic SIEM alert triage using Microsoft Sentinel, Log Analytics, simple KQL, and clear incident notes.
+**Purpose:** Document a completed Microsoft Sentinel honeypot lab focused on failed logon review, basic KQL, SIEM triage thinking, and junior SOC incident notes.
 
-This should show how a junior analyst reviews a signal, checks supporting evidence, documents findings, and decides whether to escalate.
+This project shows how a junior analyst reviews authentication activity, organizes evidence, documents limitations, and writes clear follow-up notes without pretending to own a production SOC.
 
 **Skills Demonstrated:**
 - SIEM basics
@@ -106,29 +106,30 @@ This should show how a junior analyst reviews a signal, checks supporting eviden
 **Tools Used:**
 - Microsoft Sentinel
 - Azure Log Analytics Workspace
-- Entra ID logs if available
-- Windows Security Event logs if available
+- Windows Security Events
 - KQL
 - Markdown documentation
 
-**Screenshots Needed:**
+**Screenshots Needed If Recreated Later:**
 - Sentinel workspace overview
 - Log Analytics query screen
 - Basic KQL query results
 - Example alert or incident view
 - Investigation summary or incident notes
 
+Note: screenshots were not captured during the completed lab. Do not fake screenshots. Add them only if the lab is recreated or the original environment can be safely revisited.
+
 **Interview Value:** Strong. Supports SOC Analyst I and Security Analyst interviews without pretending to be a detection engineer.
 
 **LinkedIn Value:** Strong. Useful for posts on learning SIEM basics, alert context, and incident documentation.
 
-**GitHub Value:** Strong. Can become the main SOC anchor project after screenshots and one complete alert walkthrough.
+**GitHub Value:** Strong. Published as `Microsoft-Sentinel-SIEM` and functions as a completed SOC anchor project through written evidence, KQL, analyst timeline, incident notes, and lessons learned. Screenshots remain a future polish item.
 
 **Realism Score:** 8/10
 
 **Difficulty Level:** Junior security operations
 
-**Estimated Completion Time:** 8-12 hours
+**Estimated Completion Time:** Core documentation complete. Screenshot recreation only if useful: 2-4 hours.
 
 ---
 
