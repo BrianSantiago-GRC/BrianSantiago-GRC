@@ -30,7 +30,7 @@ It should not look like fake enterprise engineering, senior security architectur
 | 2 | Microsoft Sentinel Alert Triage Lab | Security Operations | Next build | High |
 | 3 | Entra ID Identity Security Review | Microsoft Security / GRC | Completed with redacted evidence | Complete proof |
 | 4 | Microsoft Defender Endpoint Investigation Walkthrough | Microsoft Security / Security Operations | Completed with sanitized evidence | Complete proof |
-| 5 | GRC Access Review and Audit Evidence Pack | GRC / Compliance | Planned | High |
+| 5 | GRC Access Review and Audit Evidence Pack | GRC / Compliance | Completed and published | Complete proof |
 | 6 | Vulnerability Remediation Workflow | Operational Security / GRC | Planned | Medium |
 
 ## Execution Order
@@ -39,8 +39,8 @@ It should not look like fake enterprise engineering, senior security architectur
 2. Build Microsoft Sentinel Alert Triage Lab.
 3. Use completed Entra ID Identity Security Review in GitHub, LinkedIn, resume bullets, and interviews.
 4. Use completed Microsoft Defender Endpoint Investigation Walkthrough in GitHub, LinkedIn, resume bullets, and interviews.
-5. Build GRC Access Review and Audit Evidence Pack.
-6. Build Vulnerability Remediation Workflow.
+5. Use completed GRC Access Review and Audit Evidence Pack in GitHub, LinkedIn, resume bullets, and interviews.
+6. Build Vulnerability Remediation Workflow after the completed projects are integrated into applications.
 
 Do not start more than one new project at a time.
 
@@ -229,7 +229,7 @@ The project focuses on reviewing endpoint context, checking Defender status, col
 
 **Purpose:** Build a practical evidence pack showing how an access review can be documented for audit readiness.
 
-The project should connect user access, review evidence, exceptions, control mapping, and remediation follow-up.
+The project connects user access, review evidence, exceptions, control mapping, and remediation follow-up.
 
 **Skills Demonstrated:**
 - Access review documentation
@@ -248,7 +248,7 @@ The project should connect user access, review evidence, exceptions, control map
 - HIPAA safeguard concepts
 - Markdown documentation
 
-**Screenshots Needed:**
+**Screenshots / Evidence Included:**
 - Completed access review tracker
 - Evidence checklist
 - Control mapping table
@@ -259,13 +259,13 @@ The project should connect user access, review evidence, exceptions, control map
 
 **LinkedIn Value:** Medium to strong. Good for posts about audit readiness, evidence quality, and access reviews.
 
-**GitHub Value:** Strong. Recruiters can scan it quickly and understand the GRC value.
+**GitHub Value:** Strong. Published as `grc-access-review-audit-evidence-pack` so recruiters can quickly understand the GRC value.
 
 **Realism Score:** 9/10
 
 **Difficulty Level:** Junior GRC / compliance operations
 
-**Estimated Completion Time:** 6-8 hours
+**Estimated Completion Time:** Complete. Future polish only if screenshots or visuals improve recruiter scanning.
 
 ---
 
@@ -340,11 +340,11 @@ Each project is complete only when it has:
 
 ## Next 30-Day Priorities
 
-1. Finish phishing screenshots and evidence polish.
-2. Complete Microsoft Sentinel Alert Triage Lab.
-3. Use completed Entra ID Identity Security Review in applications, LinkedIn, resume bullets, and interviews.
-4. Publish one grounded LinkedIn post per completed proof milestone.
-5. Use completed projects in applications and interviews.
+1. Add completed GRC project to LinkedIn Projects and Featured.
+2. Add one GRC project bullet to the GRC resume variant.
+3. Use completed Entra, Defender, and GRC projects in applications, LinkedIn, resume bullets, and interviews.
+4. Submit the next 10 targeted applications using the updated portfolio proof.
+5. Build Vulnerability Remediation Workflow only after the completed projects are integrated into career materials.
 
 ## Anti-Overengineering Rule
 
