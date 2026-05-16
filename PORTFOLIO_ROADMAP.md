@@ -29,7 +29,7 @@ It should not look like fake enterprise engineering, senior security architectur
 | 1 | Phishing Analysis Workflow | Operational Security / Security Operations | Completed documentation; screenshot polish pending | Complete proof |
 | 2 | Microsoft Sentinel Alert Triage Lab | Security Operations | Next build | High |
 | 3 | Entra ID Identity Security Review | Microsoft Security / GRC | Completed with redacted evidence | Complete proof |
-| 4 | Microsoft Defender Endpoint Investigation Walkthrough | Microsoft Security / Security Operations | Planned | High |
+| 4 | Microsoft Defender Endpoint Investigation Walkthrough | Microsoft Security / Security Operations | Completed with sanitized evidence | Complete proof |
 | 5 | GRC Access Review and Audit Evidence Pack | GRC / Compliance | Planned | High |
 | 6 | Vulnerability Remediation Workflow | Operational Security / GRC | Planned | Medium |
 
@@ -38,7 +38,7 @@ It should not look like fake enterprise engineering, senior security architectur
 1. Finish phishing screenshots and evidence polish.
 2. Build Microsoft Sentinel Alert Triage Lab.
 3. Use completed Entra ID Identity Security Review in GitHub, LinkedIn, resume bullets, and interviews.
-4. Build Microsoft Defender Endpoint Investigation Walkthrough.
+4. Use completed Microsoft Defender Endpoint Investigation Walkthrough in GitHub, LinkedIn, resume bullets, and interviews.
 5. Build GRC Access Review and Audit Evidence Pack.
 6. Build Vulnerability Remediation Workflow.
 
@@ -184,7 +184,7 @@ The project is completed with redacted evidence and should be presented as a rev
 
 **Purpose:** Document a realistic endpoint investigation workflow using Microsoft Defender and Windows evidence.
 
-The project should focus on reviewing endpoint context, checking Defender status, collecting basic evidence, documenting findings, and recommending containment or remediation.
+The project focuses on reviewing endpoint context, checking Defender status, collecting basic evidence, documenting findings, and recommending containment or remediation.
 
 **Skills Demonstrated:**
 - Endpoint security awareness
@@ -203,24 +203,25 @@ The project should focus on reviewing endpoint context, checking Defender status
 - Microsoft Defender portal or evaluation lab if available
 - Markdown documentation
 
-**Screenshots Needed:**
+**Screenshots / Evidence Included:**
 - Windows Security / Defender status
-- Event Viewer evidence
 - PowerShell Defender status output
-- Endpoint investigation notes
-- Containment or remediation summary
+- Event Viewer Security log
+- Event Viewer System log
+- Endpoint investigation timeline
+- Containment and remediation recommendations
 
 **Interview Value:** Strong. Helps explain how IT support troubleshooting transfers into endpoint security investigation.
 
 **LinkedIn Value:** Medium to strong. Useful for posts about endpoint visibility, containment thinking, and clear notes.
 
-**GitHub Value:** Strong if screenshots are real and sanitized.
+**GitHub Value:** Strong. Published as `microsoft-defender-endpoint-investigation` with sanitized screenshots, evidence notes, investigation timeline, lessons learned, and remediation recommendations.
 
 **Realism Score:** 8/10
 
 **Difficulty Level:** Junior to intermediate security operations
 
-**Estimated Completion Time:** 6-10 hours
+**Estimated Completion Time:** Complete. Future polish only if a Microsoft Defender portal/evaluation screenshot is added later.
 
 ---
 
