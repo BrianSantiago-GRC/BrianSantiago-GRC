@@ -21,7 +21,7 @@ Start with these proof repos:
 6. [GRC Portfolio](https://github.com/BrianSantiago-GRC/grc-portfolio)
 7. [Phishing Analysis Workflow](https://github.com/BrianSantiago-GRC/phishing-analysis-workflow)
 
-Honest scope: my paid background is IT support. The SOC/GRC work here is portfolio, lab, walkthrough, and documentation proof built to show junior-level readiness without claiming senior SOC, senior GRC, audit authority, or production security ownership.
+Honest scope: my paid background is IT support. The SOC/GRC work here is portfolio, lab, walkthrough, and documentation proof built to show junior-level readiness while keeping the scope clear and realistic.
 
 Contact: [LinkedIn](https://linkedin.com/in/briansantiago-grc) | briand.santiago@gmail.com | Ocala, FL
 <!-- recruiter-review:end -->
