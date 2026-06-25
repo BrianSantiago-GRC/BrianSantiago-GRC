@@ -1,3 +1,31 @@
+<!-- recruiter-review:start -->
+# Brian Santiago
+
+**IT Support Specialist | Microsoft 365, Active Directory/Entra ID, endpoint support, ticketing, documentation | Security+ | SOC and GRC proof portfolio**
+
+Recruiter quick review:
+
+- **Best immediate fit:** IT Support Specialist, Help Desk Analyst, Desktop Support, Service Desk, Technical Support, Microsoft 365 support, endpoint support, identity/access support.
+- **Adjacent junior lanes:** Junior SOC, Security Support, GRC Analyst, IT Compliance, IT Risk, audit support, access review, IAM support.
+- **Measured support proof:** 3+ years in IT support, 400+ tickets/month, 99% SLA, 500+ users supported, 200+ endpoints supported.
+- **Microsoft/search keywords:** Microsoft 365, Active Directory, Entra ID, Azure, Windows 10/11, endpoint support, onboarding, offboarding, MFA, access review, Defender, Sentinel, KQL, ServiceNow, ITSM, documentation.
+- **Why this profile is easier to place:** The public projects show how I document identity, endpoint, ticket, incident, and audit evidence in a way support, security, and compliance teams can review quickly.
+
+Start with these proof repos:
+
+1. [Entra ID Identity Security Review](https://github.com/BrianSantiago-GRC/entra-identity-security-review)
+2. [GRC Access Review and Audit Evidence Pack](https://github.com/BrianSantiago-GRC/grc-access-review-audit-evidence-pack)
+3. [Microsoft Defender Endpoint Investigation](https://github.com/BrianSantiago-GRC/microsoft-defender-endpoint-investigation)
+4. [Microsoft Sentinel SIEM Lab](https://github.com/BrianSantiago-GRC/Microsoft-Sentinel-SIEM)
+5. [IAM Joiner-Mover-Leaver Workflow Pack](https://github.com/BrianSantiago-GRC/iam-jml-access-workflow-pack)
+6. [GRC Portfolio](https://github.com/BrianSantiago-GRC/grc-portfolio)
+7. [Phishing Analysis Workflow](https://github.com/BrianSantiago-GRC/phishing-analysis-workflow)
+
+Honest scope: my paid background is IT support. The SOC/GRC work here is portfolio, lab, walkthrough, and documentation proof built to show junior-level readiness without claiming senior SOC, senior GRC, audit authority, or production security ownership.
+
+Contact: [LinkedIn](https://linkedin.com/in/briansantiago-grc) | briand.santiago@gmail.com | Ocala, FL
+<!-- recruiter-review:end -->
+
 # Brian Santiago
 
 IT Support Specialist transitioning into cybersecurity operations and GRC.
