@@ -40,7 +40,7 @@ Microsoft 365, Active Directory, Entra ID, Azure, Windows 10/11, endpoint suppor
 
 ## Honest Scope
 
-Brian's paid experience is IT support. The SOC and GRC work in this portfolio is junior-level portfolio, lab, walkthrough, and documentation proof. It does not claim senior SOC ownership, senior GRC authority, audit leadership, production detection engineering, or enterprise security architecture.
+Brian's paid experience is IT support. The SOC and GRC work in this portfolio is junior-level portfolio, lab, walkthrough, and documentation proof. It is scoped as readiness evidence for support-adjacent security and compliance roles, not as claims of ownership over enterprise programs or production systems.
 
 ## Contact
 
