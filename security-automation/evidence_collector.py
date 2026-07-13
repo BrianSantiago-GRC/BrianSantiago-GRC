@@ -12,6 +12,7 @@ Framework: HIPAA Security Rule / ISO 27001:2022
 Author: Brian Santiago
 """
 
+import argparse
 import csv
 import os
 import sys
@@ -20,6 +21,7 @@ import json
 
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DEMO_AS_OF_DATE = datetime(2026, 4, 1)
 
 # -----------------------------------------------------------------------
 # Sample data generators (replace with API calls in production)
@@ -74,7 +76,7 @@ def generate_sample_patches():
 # Evidence collection functions
 # -----------------------------------------------------------------------
 
-def collect_access_evidence(users):
+def collect_access_evidence(users, as_of=None):
     """Analyze user access data and flag issues."""
     findings = []
     stats = {
@@ -85,7 +87,7 @@ def collect_access_evidence(users):
         "restricted_data_users": 0,
     }
 
-    today = datetime.now()
+    today = as_of or datetime.now()
 
     for user in users:
         if user["mfa_enabled"]:
@@ -218,7 +220,7 @@ def collect_patch_evidence(patches):
 # Report generation
 # -----------------------------------------------------------------------
 
-def generate_evidence_report(output_dir=None):
+def generate_evidence_report(output_dir=None, as_of=None):
     """Generate a full evidence collection report."""
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
@@ -226,7 +228,8 @@ def generate_evidence_report(output_dir=None):
     training = generate_sample_training()
     patches = generate_sample_patches()
 
-    access_stats, access_findings = collect_access_evidence(users)
+    review_date = as_of or DEMO_AS_OF_DATE
+    access_stats, access_findings = collect_access_evidence(users, review_date)
     training_stats, training_findings = collect_training_evidence(training)
     patch_stats, patch_findings = collect_patch_evidence(patches)
 
@@ -239,6 +242,7 @@ def generate_evidence_report(output_dir=None):
     print(f"\n{'='*80}")
     print(f"  GRC EVIDENCE COLLECTION REPORT")
     print(f"  Generated: {timestamp}")
+    print(f"  Review date: {review_date.strftime('%Y-%m-%d')}")
     print(f"  Scope: HIPAA Security Rule / ISO 27001 Audit Preparation")
     print(f"{'='*80}")
 
@@ -325,8 +329,17 @@ def generate_evidence_report(output_dir=None):
 
 
 def main():
-    output_dir = sys.argv[1] if len(sys.argv) > 1 else None
-    generate_evidence_report(output_dir)
+    parser = argparse.ArgumentParser(description="Generate a synthetic audit evidence package.")
+    parser.add_argument("output_dir", nargs="?", help="Optional output directory")
+    parser.add_argument("--as-of", dest="as_of", default="2026-04-01", help="Review date in YYYY-MM-DD format")
+    args = parser.parse_args()
+
+    try:
+        as_of = datetime.strptime(args.as_of, "%Y-%m-%d")
+    except ValueError:
+        parser.error("--as-of must use YYYY-MM-DD")
+
+    generate_evidence_report(args.output_dir, as_of=as_of)
 
 
 if __name__ == "__main__":
