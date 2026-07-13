@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Brian Santiago's IT Support, SOC, and GRC portfolio with recruiter-ready proof: 400+ tickets/month, 99% SLA, 500+ users, 200+ endpoints, GRC evidence, and SOC lab work.">
+  <link rel="canonical" href="https://briansantiago-grc.github.io/BrianSantiago-GRC/">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Brian Santiago | IT Support, SOC, and GRC Portfolio">
+  <meta property="og:description" content="Former over-the-road driver turned IT, SOC, and GRC professional. See support metrics, GRC evidence, SOC labs, certifications, resumes, and GitHub projects.">
+  <meta property="og:url" content="https://briansantiago-grc.github.io/BrianSantiago-GRC/">
+  <meta property="og:image" content="https://briansantiago-grc.github.io/BrianSantiago-GRC/recruiter_portfolio_hero_visual.png">
+  <meta property="og:image:width" content="1800">
+  <meta property="og:image:height" content="900">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Brian Santiago | IT Support, SOC, and GRC Portfolio">
+  <meta name="twitter:description" content="Recruiter-ready proof, resumes, GitHub projects, GRC evidence, and SOC lab work.">
+  <meta name="twitter:image" content="https://briansantiago-grc.github.io/BrianSantiago-GRC/recruiter_portfolio_hero_visual.png">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%2300161b'/%3E%3Cpath d='M10 10h44v44H10z' fill='none' stroke='%2324d6c4' stroke-width='3'/%3E%3Ctext x='32' y='39' text-anchor='middle' font-family='Arial' font-size='22' font-weight='800' fill='white'%3EBS%3C/text%3E%3C/svg%3E">
+  <title>Brian Santiago | IT Support, SOC, and GRC Portfolio</title>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Brian Santiago",
+      "email": "mailto:briand.santiago@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Ocala",
+        "addressRegion": "FL",
+        "addressCountry": "US"
+      },
+      "jobTitle": "IT Support Specialist, SOC Analyst, GRC Analyst",
+      "url": "https://briansantiago-grc.github.io/BrianSantiago-GRC/",
+      "sameAs": [
+        "https://www.linkedin.com/in/briansantiago-grc",
+        "https://github.com/BrianSantiago-GRC"
+      ],
+      "knowsAbout": [
+        "IT Support",
+        "Microsoft 365",
+        "Entra ID",
+        "Microsoft Sentinel",
+        "KQL",
+        "GRC",
+        "ISO 27001",
+        "NIST CSF",
+        "HIPAA",
+        "Access Reviews"
+      ]
+    }
+  </script>
+  <style>
+    :root {
+      --ink: #071117;
+      --dark: #061014;
+      --dark-2: #0b171d;
+      --dark-3: #101f26;
+      --paper: #ffffff;
+      --soft: #f6f8fa;
+      --line: #d9e2e7;
+      --line-dark: rgba(180, 216, 219, 0.2);
+      --text: #17242b;
+      --muted: #586d77;
+      --teal: #20c7bc;
+      --teal-2: #0a8f84;
+      --amber: #f2ad22;
+      --amber-2: #ffcf5a;
+      --blue: #1d5668;
+      --max: 1220px;
+      --shadow: 0 26px 60px rgba(7, 17, 23, 0.14);
+      --radius: 6px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      background: var(--paper);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img,
+    svg {
+      max-width: 100%;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      text-decoration-thickness: 2px;
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 3px solid var(--amber);
+      outline-offset: 4px;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -60px;
+      left: 16px;
+      z-index: 99;
+      padding: 10px 14px;
+      border-radius: 4px;
+      background: var(--amber);
+      color: var(--ink);
+      font-weight: 800;
+    }
+
+    .skip-link:focus {
+      top: 14px;
+    }
+
+    .site-shell {
+      min-height: 100vh;
+    }
+
+    .hero {
+      position: relative;
+      color: var(--paper);
+      background:
+        linear-gradient(90deg, rgba(6, 16, 20, 0.96) 0%, rgba(6, 16, 20, 0.88) 37%, rgba(6, 16, 20, 0.64) 72%, rgba(6, 16, 20, 0.92) 100%),
+        radial-gradient(circle at 70% 18%, rgba(32, 199, 188, 0.22), transparent 26%),
+        radial-gradient(circle at 52% 52%, rgba(242, 173, 34, 0.12), transparent 28%),
+        #061014;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: 0.56;
+      background:
+        linear-gradient(116deg, transparent 0 38%, rgba(32, 199, 188, 0.18) 38.2%, transparent 38.7%),
+        linear-gradient(125deg, transparent 0 49%, rgba(242, 173, 34, 0.17) 49.2%, transparent 49.75%),
+        linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px) 0 0 / 70px 70px,
+        linear-gradient(rgba(255,255,255,0.038) 1px, transparent 1px) 0 0 / 70px 70px;
+      pointer-events: none;
+    }
+
+    .route-map {
+      position: absolute;
+      inset: 0 0 auto auto;
+      width: 68%;
+      height: 620px;
+      pointer-events: none;
+      opacity: 0.92;
+    }
+
+    .route-map svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .nav {
+      position: relative;
+      z-index: 5;
+      max-width: var(--max);
+      min-height: 78px;
+      margin: 0 auto;
+      padding: 0 clamp(20px, 4vw, 42px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+      border-bottom: 1px solid var(--line-dark);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--paper);
+      font-weight: 900;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .brand-mark {
+      width: 36px;
+      height: 36px;
+      display: grid;
+      place-items: center;
+      border: 2px solid var(--teal);
+      border-radius: 3px;
+      color: var(--paper);
+      font-size: 17px;
+      line-height: 1;
+      box-shadow: 0 0 24px rgba(32, 199, 188, 0.3);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: clamp(18px, 3vw, 34px);
+      font-size: 14px;
+      font-weight: 800;
+      color: #f1f7f8;
+    }
+
+    .hero-grid {
+      position: relative;
+      z-index: 2;
+      max-width: var(--max);
+      min-height: 650px;
+      margin: 0 auto;
+      padding: 70px clamp(20px, 4vw, 42px) 44px;
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(420px, 0.9fr);
+      gap: clamp(32px, 6vw, 82px);
+      align-items: center;
+    }
+
+    .kicker {
+      margin: 0 0 16px;
+      color: var(--teal);
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      color: var(--paper);
+      font-size: clamp(54px, 7vw, 88px);
+      line-height: 0.98;
+      font-weight: 900;
+      letter-spacing: 0;
+    }
+
+    .hero-role {
+      margin: 0 0 24px;
+      color: var(--teal);
+      font-size: clamp(23px, 3vw, 32px);
+      font-weight: 900;
+      line-height: 1.15;
+    }
+
+    .hero-role span {
+      color: var(--amber);
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    .hero-copy {
+      max-width: 650px;
+    }
+
+    .hero-copy p:not(.kicker):not(.hero-role) {
+      margin: 0;
+      color: #d9e8eb;
+      font-size: 17px;
+      max-width: 580px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 30px;
+    }
+
+    .btn {
+      min-height: 48px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 0 16px;
+      border-radius: 4px;
+      border: 1px solid transparent;
+      font-size: 14px;
+      font-weight: 900;
+      transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      text-decoration: none;
+    }
+
+    .btn.primary {
+      background: var(--teal);
+      color: #031112;
+      box-shadow: 0 14px 26px rgba(32, 199, 188, 0.22);
+    }
+
+    .btn.outline {
+      color: var(--paper);
+      border-color: var(--amber);
+      background: rgba(6, 16, 20, 0.28);
+    }
+
+    .btn.secondary {
+      color: var(--paper);
+      border-color: rgba(217, 232, 235, 0.48);
+      background: rgba(217, 232, 235, 0.08);
+    }
+
+    .hero-proof {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      margin-top: 26px;
+      border: 1px solid var(--line-dark);
+      background: rgba(7, 17, 23, 0.42);
+      backdrop-filter: blur(8px);
+    }
+
+    .proof-point {
+      min-height: 82px;
+      padding: 15px 14px 13px;
+      border-left: 1px solid var(--line-dark);
+    }
+
+    .proof-point:first-child {
+      border-left: 0;
+    }
+
+    .proof-point strong {
+      display: block;
+      color: var(--amber);
+      font-size: 25px;
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    .proof-point span {
+      display: block;
+      margin-top: 7px;
+      color: #d9e8eb;
+      font-size: 12px;
+      line-height: 1.25;
+      font-weight: 800;
+    }
+
+    .hero-traits {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 22px;
+      margin-top: 54px;
+      max-width: 760px;
+    }
+
+    .trait {
+      display: grid;
+      grid-template-columns: 32px 1fr;
+      gap: 10px;
+      align-items: start;
+      min-width: 0;
+    }
+
+    .trait svg {
+      width: 28px;
+      height: 28px;
+      color: var(--teal);
+      stroke-width: 1.8;
+    }
+
+    .trait strong {
+      display: block;
+      color: var(--paper);
+      font-size: 13px;
+      line-height: 1.25;
+    }
+
+    .trait span {
+      display: block;
+      color: #a9bdc2;
+      margin-top: 3px;
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .hero-evidence {
+      position: relative;
+      min-height: 680px;
+    }
+
+    .mile-card,
+    .route-card,
+    .evidence-table,
+    .event-log {
+      position: absolute;
+      border: 1px solid rgba(180, 216, 219, 0.25);
+      border-radius: var(--radius);
+      background: rgba(6, 16, 20, 0.72);
+      color: #d9e8eb;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+      backdrop-filter: blur(10px);
+    }
+
+    .mile-card {
+      top: 110px;
+      left: 85px;
+      width: 110px;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .mile-card span {
+      display: block;
+      color: #bcd0d5;
+      font-size: 11px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .mile-card strong {
+      display: block;
+      color: var(--amber);
+      font-size: 38px;
+      line-height: 1;
+      margin-top: 4px;
+      font-weight: 900;
+    }
+
+    .route-card {
+      top: 44px;
+      right: 0;
+      width: 210px;
+      padding: 18px;
+    }
+
+    .route-card h3,
+    .evidence-table h3,
+    .event-log h3 {
+      margin: 0 0 12px;
+      color: var(--teal);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .route-card ul {
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 9px;
+      list-style: none;
+    }
+
+    .route-card li {
+      display: grid;
+      grid-template-columns: 18px 1fr;
+      gap: 8px;
+      align-items: center;
+      color: #d9e8eb;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .check-dot {
+      width: 15px;
+      height: 15px;
+      border: 1px solid var(--teal);
+      border-radius: 999px;
+      position: relative;
+    }
+
+    .check-dot::after {
+      content: "";
+      position: absolute;
+      left: 4px;
+      top: 2px;
+      width: 4px;
+      height: 7px;
+      border: solid var(--teal);
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+
+    .evidence-table {
+      right: 0;
+      top: 230px;
+      width: min(100%, 430px);
+      padding: 16px;
+    }
+
+    .evidence-table table {
+      width: 100%;
+      border-collapse: collapse;
+      color: #d7e5e8;
+      font-size: 12px;
+    }
+
+    .evidence-table th,
+    .evidence-table td {
+      padding: 7px 6px;
+      border-top: 1px solid rgba(180, 216, 219, 0.15);
+      text-align: left;
+    }
+
+    .evidence-table th {
+      color: #94acb3;
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .evidence-table td:nth-child(2) {
+      color: var(--paper);
+      font-weight: 800;
+    }
+
+    .evidence-table td:nth-child(3) {
+      color: var(--amber);
+      text-align: right;
+      font-weight: 900;
+    }
+
+    .event-log {
+      right: 0;
+      top: 498px;
+      width: min(100%, 430px);
+      padding: 14px 16px;
+    }
+
+    .log-line {
+      display: grid;
+      grid-template-columns: 94px 48px 1fr;
+      gap: 8px;
+      padding: 4px 0;
+      color: #aebfc4;
+      font: 12px/1.3 Consolas, "Courier New", monospace;
+    }
+
+    .log-line span:nth-child(2) {
+      color: var(--teal);
+      font-weight: 900;
+    }
+
+    .log-line.warning span:nth-child(2),
+    .log-line.warning span:nth-child(3) {
+      color: var(--amber);
+    }
+
+    .role-router {
+      color: var(--paper);
+      background:
+        linear-gradient(90deg, rgba(6,16,20,0.98), rgba(9,28,35,0.94)),
+        var(--dark);
+      border-top: 1px solid var(--line-dark);
+      border-bottom: 1px solid var(--line-dark);
+      padding: 30px clamp(20px, 4vw, 42px);
+    }
+
+    .role-router-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(250px, 0.72fr) minmax(0, 1fr) minmax(230px, 0.54fr);
+      gap: 28px;
+      align-items: center;
+    }
+
+    .role-router h2 {
+      margin: 0;
+      color: var(--paper);
+      font-size: clamp(25px, 3vw, 34px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    .role-router p {
+      margin: 8px 0 0;
+      color: #cfe1e4;
+      font-size: 15px;
+    }
+
+    .role-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 6px;
+      border: 1px solid var(--line-dark);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .role-tab {
+      flex: 1 1 118px;
+      min-height: 42px;
+      border: 0;
+      border-radius: 3px;
+      background: transparent;
+      color: #d9e8eb;
+      cursor: pointer;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .role-tab[aria-pressed="true"] ×}5òÚ$z{-®éÜj×æ÷FW2ÂW6W"–×7BÂWf–FVæ6RÂæB&VÖVF–F–öâ&V6öÖÖVæFF–öç2ãÂ÷ãÂöF—cà¢ÆF—b6Æ73Ò&66R×Fw2#ãÇ7ãäFVfVæFW#Â÷7ããÇ7ãäWfVçBf–WvW#Â÷7ããÇ7ãåF–ÖVÆ–æSÂ÷7ããÂöF—cà¢ÆF—b6Æ73Ò&66RÖ7F–öâ#ãÆ‡&VcÒ&‡GG3¢òöv—F‡V"æ6öÒô'&–å6çF–vòÔu$2öÖ–7&÷6ögBÖFVfVæFW"ÖVæGö–çBÖ–çfW7F–vF–öâ"&–ÖÆ&VÃÒ%f–WrFVfVæFW"VæGö–çB–çfW7F–vF–öâöâv—D‡V"#ä÷Vâv—D‡V"g&'#³ÂöãÂöF—cà¢Âö'F–6ÆSà ¢Æ'F–6ÆR6Æ73Ò&66R×&÷r"FF×&öÆW3Ò&w&2—B#à¢ÆF—b6Æ73Ò&66RÖ–6öâ#ãÇ7frf–Wt&÷ƒÒ##B#B"f–ÆÃÒ&æöæR"7G&ö¶SÒ&7W'&VçD6öÆ÷"#ãÇF‚CÒ$ÓBvƒgcdƒG¤ÓB6ƒgcf‚Óg¤ÓBVƒgcf‚Óg¢"óãÇF‚CÒ$ÓƒDÓr—cb"óãÂ÷7fsãÂöF—cà¢ÆF—b6Æ73Ò&66RÖçVÒ#ãcÂöF—cà¢ÆF—b6Æ73Ò&66RÖÖ–â#ãÆƒ3ä”Ò¤ÔÂv÷&¶fÆ÷sÂöƒ3ãÇä¦ö–æW"ÖÖ÷fW"ÖÆVfW"66W72v÷&¶fÆ÷rv—F‚&÷fÇ2ÂÆ–6Vç6R†æFÆ–ærÂÆV7B×&—f–ÆVvR6†V6·2ÂæBVF—BG&–ÂF†–æ¶–ærãÂ÷ãÂöF—cà¢ÆF—b6Æ73Ò&66R×Fw2#ãÇ7ãä”ÓÂ÷7ããÇ7ãä¤ÔÃÂ÷7ããÇ7ãäWf–FVæ6SÂ÷7ããÂöF—cà¢ÆF—b6Æ73Ò&66RÖ7F–öâ#ãÆ‡&VcÒ&‡GG3¢òöv—F‡V"æ6öÒô'&–å6çF–vòÔu$2ö–ÒÖ¦ÖÂÖ66W72×v÷&¶fÆ÷r×6²"&–ÖÆ&VÃÒ%f–Wr”Ò¤ÔÂv÷&¶fÆ÷röâv—D‡V"#ä÷Vâv—D‡V"g&'#³ÂöãÂöF—cà¢Âö'F–6ÆSà¢ÂöF—cà¢ÂöF—cà¢Â÷6V7F–öãà ¢Ç6V7F–öâ6Æ73Ò'6V7F–öâ"–CÒ'6¶–ÆÇ2#à¢ÆF—b6Æ73Ò'6V7F–öâÖ–ææW"#à¢Ç6Æ73Ò&Æ&VÂ#å6¶–ÆÇ2f×²g&ÖWv÷&·3Â÷à¢ÆF—b6Æ73Ò'6¶–ÆÇ2#à¢Æ'F–6ÆR6Æ73Ò'6¶–ÆÂ#à¢Ç7frf–Wt&÷ƒÒ##B#B"f–ÆÃÒ&æöæR"7G&ö¶SÒ&7W'&VçD6öÆ÷"#ãÇF‚CÒ$Ó"6Ãr7cV3RÓ2‚ÓrÓBÓ"ÓrÓRÓrÓcfÃrÓ7¢"óãÇF‚CÒ$Ó’&Ã""BÓR"óãÂ÷7fsà¢Æƒ3ä–FVçF—G’f×²66W73Âöƒ3à¢ÇVÃãÆÆ“äVçG&”CÂöÆ“ãÆÆ“ä7F—fRF—&V7F÷'“ÂöÆ“ãÆÆ“ä¤ÔÂÆ–fV7–6ÆSÂöÆ“ãÆÆ“äÔdf×²FÖ–â&öÆW3ÂöÆ“ãÂ÷VÃà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò'6¶–ÆÂ#à¢Ç7frf–Wt&÷ƒÒ##B#B"f–ÆÃÒ&æöæR"7G&ö¶SÒ&7W'&VçD6öÆ÷"#ãÇF‚CÒ$Ó"6Ã‚GcV3RÓB‚Ó‚’ÓBÓÓ‚ÓBÓ‚Ó•cvÃ‚ÓG¢"óãÇF‚CÒ$Ó‚&ƒ‚"óãÂ÷7fsà¢Æƒ3å6V7W&—G’÷W&F–öç3Âöƒ3à¢ÇVÃãÆÆ“äÖ–7&÷6ögB6VçF–æVÃÂöÆ“ãÆÆ“äµÂ'VÆW3ÂöÆ“ãÆÆ“å7ÇVæ²Æör&Wf–WsÂöÆ“ãÆÆ“äÔ•E$REBf×´4³ÂöÆ“ãÂ÷VÃà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò'6¶–ÆÂ#à¢Ç7frf–Wt&÷ƒÒ##B#B"f–ÆÃÒ&æöæR"7G&ö¶SÒ&7W'&VçD6öÆ÷"#ãÇF‚CÒ$ÓBVƒgcƒG¢"óãÇF‚CÒ$Ó‚#ƒ„Ó"gcR"óãÂ÷7fsà¢Æƒ3äVæGö–çB6V7W&—G“Âöƒ3à¢ÇVÃãÆÆ“äÖ–7&÷6ögBFVfVæFW#ÂöÆ“ãÆÆ“äæ–æ¦öæR$ÔÓÂöÆ“ãÆÆ“äWfVçBf–WvW#ÂöÆ“ãÆÆ“åF6‚Wf–FVæ6SÂöÆ“ãÂ÷VÃà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò'6¶–ÆÂ#à¢Ç7frf–Wt&÷ƒÒ##B#B"f–ÆÃÒ&æöæR"7G&ö¶SÒ&7W'&VçD6öÆ÷"#ãÇF‚CÒ$Ób6ƒ–Ã27cTƒg¢"óãÇF‚CÒ$ÓB7cFƒB"óãÇF‚CÒ$Ó’6ƒdÓ’vƒB"óãÂ÷7fsà¢Æƒ3äu$2f×²6ö×Æ–æ6SÂöƒ3à¢ÇVÃãÆÆ“ä•4ò#sÂöÆ“ãÆÆ“ää•5B54cÂöÆ“ãÆÆ“ä„•ò4õƒÂöÆ“ãÆÆ“åE$Òf×²&—6²&Vv—7FW'3ÂöÆ“ãÂ÷VÃà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò'6¶–ÆÂ#à¢Ç7frf–Wt&÷ƒÒ##B#B"f–ÆÃÒ&æöæR"7G&ö¶SÒ&7W'&VçD6öÆ÷"#ãÇF‚CÒ$ÓB&‚‚bcB"óãÇF‚CÒ$ÓBfƒGcTƒG¤ÓbfƒGcV‚ÓG¢"óãÇF‚CÒ$Ó’#ƒb"óãÂ÷7fsà¢Æƒ3ä•B7W÷'CÂöƒ3à¢ÇVÃãÆÆ“äÖ–7&÷6ögB3cSÂöÆ“ãÆÆ“å6W'f–6Tæ÷rò¦—&ÂöÆ“ãÆÆ“åv–æF÷w2óÂöÆ“ãÆÆ“å4õ2f×²´'3ÂöÆ“ãÂ÷VÃà¢Âö'F–6ÆSà¢ÂöF—cà¢ÂöF—cà¢Â÷6V7F–öãà ¢ÆF—b6Æ73Ò&F—f–FW""&–Ö†–FFVãÒ'G'VR#ãÂöF—cà ¢Ç6V7F–öâ6Æ73Ò'6V7F–öâ"–CÒ&6W'F–f–6F–öç2#à¢ÆF—b6Æ73Ò'6V7F–öâÖ–ææW"#à¢ÆF—b6Æ73Ò&6W'BÖ†VB#à¢Ç6Æ73Ò&Æ&VÂ#ä6W'F–f–6F–öç3Â÷à¢Æ'WGFöâ6Æ73Ò&Ö'VVR×FövvÆR"G—SÒ&'WGFöâ"–CÒ&6W'EFövvÆR"&–×&W76VCÒ&fÇ6R#åW6R67&öÆÃÂö'WGFöãà¢ÂöF—cà¢ÆF—b6Æ73Ò&6W'BÖÖ'VVR"&–ÖÆ&VÃÒ$6W'F–f–6F–öâ&FvW2#à¢ÆF—b6Æ73Ò&6W'B×G&6²#à¢ÆF—b6Æ73Ò&6W'B×6WB#à¢Æ'F–6ÆR6Æ73Ò&6W'B#à¢ÆF—b6Æ73Ò&&FvR&FvRÖ6ö×F–Ö"&–Ö†–FFVãÒ'G'VR#ãÇ7â6Æ73Ò&&FvRÖ'&æB#ä6ö×D”Â÷7ããÇ7â6Æ73Ò&&FvRÖÖ&²#ä³Â÷7ããÇ7â6Æ73Ò&&FvRÖæ÷FR#ä6÷&SÂ÷7ããÂöF—cà¢Ç7G&öæsä6ö×D”³Â÷7G&öæsãÇ7ãä•B7W÷'Bf÷VæFF–öãÂ÷7ããÇ7â6Æ73Ò&6W'B×7FGW2#äV&æVCÂ÷7ãà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò&6W'B#à¢ÆF—b6Æ73Ò&&FvR&FvRÖæWGv÷&²"&–Ö†–FFVãÒ'G'VR#ãÇ7â6Æ73Ò&&FvRÖ'&æB#ä6ö×D”Â÷7ããÇ7â6Æ73Ò&&FvRÖÖ&²#äâ³Â÷7ããÇ7â6Æ73Ò&&FvRÖæ÷FR#äæWCÂ÷7ããÂöF—cà¢Ç7G&öæsä6ö×D”æWGv÷&²³Â÷7G&öæsãÇ7ãäæWGv÷&¶–ærf÷VæFF–öãÂ÷7ããÇ7â6Æ73Ò&6W'B×7FGW2#äV&æVCÂ÷7ãà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò&6W'B#à¢ÆF—b6Æ73Ò&&FvR&FvR×6V7W&—G’"&–Ö†–FFVãÒ'G'VR#ãÇ7â6Æ73Ò&&FvRÖ'&æB#ä6ö×D”Â÷7ããÇ7â6Æ73Ò&&FvRÖÖ&²#å2³Â÷7ããÇ7â6Æ73Ò&&FvRÖæ÷FR#å6V3Â÷7ããÂöF—cà¢Ç7G&öæsä6ö×D”6V7W&—G’³Â÷7G&öæsãÇ7ãå6V7W&—G’f÷VæFF–öãÂ÷7ããÇ7â6Æ73Ò&6W'B×7FGW2#äV&æVCÂ÷7ãà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò&6W'B#à¢ÆF—b6Æ73Ò&&FvR&FvRÖvöövÆR"&–Ö†–FFVãÒ'G'VR#ãÇ7â6Æ73Ò&&FvRÖ'&æB#ävöövÆSÂ÷7ããÇ7â6Æ73Ò&&FvRÖÖ&²#äsÂ÷7ããÇ7â6Æ73Ò&&FvRÖæ÷FR#ä7–&W#Â÷7ããÂöF—cà¢Ç7G&öæsävöövÆR7–&W'6V7W&—G“Â÷7G&öæsãÇ7ãå6V7W&—G’÷W&F–öç2&6–73Â÷7ããÇ7â6Æ73Ò&6W'B×7FGW2#äV&æVCÂ÷7ãà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò&6W'B#à¢ÆF—b6Æ73Ò&&FvR&FvRÖ—6ò"&–Ö†–FFVãÒ'G'VR#ãÇ7â6Æ73Ò&&FvRÖ'&æB#ä•4óÂ÷7ããÇ7â6Æ73Ò&&FvRÖÖ&²#ã#sÂ÷7ããÇ7â6Æ73Ò&&FvRÖæ÷FR#äVF—CÂ÷7ããÂöF—cà¢Ç7G&öæsä•4ò#sÆVBVF—F÷#Â÷7G&öæsãÇ7ãäVF—BæB•4Õ2F†–æ¶–æsÂ÷7ããÇ7â6Æ73Ò&6W'B×7FGW2#äV&æVCÂ÷7ãà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò&6W'B#à¢ÆF—b6Æ73Ò&&FvR&FvRÖw&2"&–Ö†–FFVãÒ'G'VR#ãÇ7â6Æ73Ò&&FvRÖ'&æB#äu$3Â÷7ããÇ7â6Æ73Ò&&FvRÖÖ&²#ätÓÂ÷7ããÇ7â6Æ73Ò&&FvRÖæ÷FR#å&—6³Â÷7ããÂöF—cà¢Ç7G&öæsäu$2Ö7FW'“Â÷7G&öæsãÇ7ãäv÷fW&ææ6RæB&—6³Â÷7ããÇ7â6Æ73Ò&6W'B×7FGW2#äV&æVCÂ÷7ãà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò&6W'B#à¢ÆF—b6Æ73Ò&&FvR&FvRÖ†—"&–Ö†–FFVãÒ'G'VR#ãÇ7â6Æ73Ò&&FvRÖ'&æB#äÖVF”6ÆV#Â÷7ããÇ7â6Æ73Ò&&FvRÖÖ&²#ä„•Â÷7ããÇ7â6Æ73Ò&&FvRÖæ÷FR#ä†VÇFƒÂ÷7ããÂöF—cà¢Ç7G&öæsäÖVF”6ÆV"„•6ö×Æ–æ6SÂ÷7G&öæsãÇ7ãä†VÇF†6&R6ö×Æ–æ6SÂ÷7ããÇ7â6Æ73Ò&6W'B×7FGW2#äV&æVCÂ÷7ãà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò&6W'B#à¢ÆF—b6Æ73Ò&&FvR&FvRÖ7—6"&–Ö†–FFVãÒ'G'VR#ãÇ7â6Æ73Ò&&FvRÖ'&æB#ä6ö×D”Â÷7ããÇ7â6Æ73Ò&&FvRÖÖ&²#ä7•4³Â÷7ããÇ7â6Æ73Ò&&FvRÖæ÷FR#å4ô3Â÷7ããÂöF—cà¢Ç7G&öæsä7•4³Â÷7G&öæsãÇ7ãåF&vWBB##cÂ÷7ããÇ7â6Æ73Ò&6W'B×7FGW2–â×&öw&W72#ä–â&öw&W73Â÷7ãà¢Âö'F–6ÆSà¢ÂöF—cà¢ÆF—b6Æ73Ò&6W'B×6WB"&–Ö†–FFVãÒ'G'VR#à¢Æ'F–6ÆR6Æ73Ò&6W'B#à¢ÆF—b6Æ73Ò&&FvR&FvRÖ6ö×F–Ö#ãÇ7â6Æ73Ò&&FvRÖ'&æB#ä6ö×D”Â÷7ããÇ7â6Æ73Ò&&FvRÖÖ&²#ä³Â÷7ããÇ7â6Æ73Ò&&FvRÖæ÷FR#ä6÷&SÂ÷7ããÂöF—cà¢Ç7G&öæsä6ö×D”³Â÷7G&öæsãÇ7ãä•B7W÷'Bf÷VæFF–öãÂ÷7ããÇ7â6Æ73Ò&6W'B×7FGW2#äV&æVCÂ÷7ãà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò&6W'B#à¢ÆF—b6Æ73Ò&&FvR&FvRÖæWGv÷&²#ãÇ7â6Æ73Ò&&FvRÖ'&æB#ä6ö×D”Â÷7ããÇ7â6Æ73Ò&&FvRÖÖ&²#äâ³Â÷7ããÇ7â6Æ73Ò&&FvRÖæ÷FR#äæWCÂ÷7ããÂöF—cà¢Ç7G&öæsä6ö×D”æWGv÷&²³Â÷7G&öæsãÇ7ãäæWGv÷&¶–ærf÷VæFF–öãÂ÷7ããÇ7â6Æ73Ò&6W'B×7FGW2#äV&æVCÂ÷7ãà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò&6W'B#à¢ÆF—b6Æ73Ò&&FvR&FvR×6V7W&—G’#ãÇ7â6Æ73Ò&&FvRÖ'&æB#ä6ö×D”Â÷7ããÇ7â6Æ73Ò&&FvRÖÖ&²#å2³Â÷7ããÇ7â6Æ73Ò&&FvRÖæ÷FR#å6V3Â÷7ããÂöF—cà¢Ç7G&öæsä6ö×D”6V7W&—G’³Â÷7G&öæsãÇ7ãå6V7W&—G’f÷VæFF–öãÂ÷7ããÇ7â6Æ73Ò&6W'B×7FGW2#äV&æVCÂ÷7ãà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò&6W'B#à¢ÆF—b6Æ73Ò&&FvR&FvRÖvöövÆR#ãÇ7â6Æ73Ò&&FvRÖ'&æB#ävöövÆSÂ÷7ããÇ7â6Æ73Ò&&FvRÖÖ&²#äsÂ÷7ããÇ7â6Æ73Ò&&FvRÖæ÷FR#ä7–&W#Â÷7ããÂöF—cà¢Ç7G&öæsävöövÆR7–&W'6V7W&—G“Â÷7G&öæsãÇ7ãå6V7W&—G’÷W&F–öç2&6–73Â÷7ããÇ7â6Æ73Ò&6W'B×7FGW2#äV&æVCÂ÷7ãà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò&6W'B#à¢ÆF—b6Æ73Ò&&FvR&FvRÖ—6ò#ãÇ7â6Æ73Ò&&FvRÖ'&æB#ä•4óÂ÷7ããÇ7â6Æ73Ò&&FvRÖÖ&²#ã#sÂ÷7ããÇ7â6Æ73Ò&&FvRÖæ÷FR#äVF—CÂ÷7ããÂöF—cà¢Ç7G&öæsä•4ò#sÆVBVF—F÷#Â÷7G&öæsãÇ7ãäVF—BæB•4Õ2F†–æ¶–æsÂ÷7ããÇ7â6Æ73Ò&6W'B×7FGW2#äV&æVCÂ÷7ãà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò&6W'B#à¢ÆF—b6Æ73Ò&&FvR&FvRÖw&2#ãÇ7â6Æ73Ò&&FvRÖ'&æB#äu$3Â÷7ããÇ7â6Æ73Ò&&FvRÖÖ&²#ätÓÂ÷7ããÇ7â6Æ73Ò&&FvRÖæ÷FR#å&—6³Â÷7ããÂöF—cà¢Ç7G&öæsäu$2Ö7FW'“Â÷7G&öæsãÇ7ãäv÷fW&ææ6RæB&—6³Â÷7ããÇ7â6Æ73Ò&6W'B×7FGW2#äV&æVCÂ÷7ãà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò&6W'B#à¢ÆF—b6Æ73Ò&&FvR&FvRÖ†—#ãÇ7â6Æ73Ò&&FvRÖ'&æB#äÖVF”6ÆV#Â÷7ããÇ7â6Æ73Ò&&FvRÖÖ&²#ä„•Â÷7ããÇ7â6Æ73Ò&&FvRÖæ÷FR#ä†VÇFƒÂ÷7ããÂöF—cà¢Ç7G&öæsäÖVF”6ÆV"„•6ö×Æ–æ6SÂ÷7G&öæsãÇ7ãä†VÇF†6&R6ö×Æ–æ6SÂ÷7ããÇ7â6Æ73Ò&6W'B×7FGW2#äV&æVCÂ÷7ãà¢Âö'F–6ÆSà¢Æ'F–6ÆR6Æ73Ò&6W'B#à¢ÆF—b6Æ73Ò&&FvR&FvRÖ7—6#ãÇ7â6Æ73Ò&&FvRÖ'&æB#ä6ö×D”Â÷7ããÇ7â6Æ73Ò&&FvRÖÖ&²#ä7•4³Â÷7ããÇ7â6Æ73Ò&&FvRÖæ÷FR#å4ô3Â÷7ããÂöF—cà¢Ç7G&öæsä7•4³Â÷7G&öæsãÇ7ãåF&vWBB##cÂ÷7ããÇ7â6Æ73Ò&6W'B×7FGW2–â×&öw&W72#ä–â&öw&W73Â÷7ãà¢Âö'F–6ÆSà¢ÂöF—cà¢ÂöF—cà¢ÂöF—cà¢ÂöF—cà¢Â÷6V7F–öãà¢ÂöÖ–ãà ¢Ç6V7F–öâ6Æ73Ò&fö÷FW"Ö7F"–CÒ&6öçF7B#à¢ÆF—b6Æ73Ò&fö÷FW"Ö–ææW"#à¢ÆF—cà¢Æƒ#äÆWBw2v÷&²F†R&÷WFRFövWF†W"Ç7â6Æ73Ò&F÷B#âãÂ÷7ããÂöƒ#à¢Çä’Ò÷VâFò•B7W÷'BÂ†VÇFW6²ÂFW6·F÷7W÷'BÂ§Væ–÷"4ô2Â6V7W&—G’æÇ—7BÂu$2Â”ÒÂæB•B6ö×Æ–æ6R÷÷'GVæ—F–W2v†W&R’6âFBfÇVRæB¶VW–×&÷f–ærãÂ÷à¢ÂöF—cà¢ÆF—b6Æ73Ò&6öçF7BÖÆ—7B#à¢Æ‡&VcÒ&Ö–ÇFó¦'&–æBç6çF–vôvÖ–Âæ6öÒ#ãÇ7frf–Wt&÷ƒÒ##B#B"f–ÆÃÒ&æöæR"7G&ö¶SÒ&7W'&VçD6öÆ÷"#ãÇF‚CÒ$ÓBfƒgc$ƒG¢"óãÇF‚CÒ$ÓBvÃ‚b‚Ób"óãÂ÷7fsæ'&–æBç6çF–vôvÖ–Âæ6öÓÂöà¢Æ‡&VcÒ&‡GG3¢ò÷wwræÆ–æ¶VF–âæ6öÒö–âö'&–ç6çF–vòÖw&2#ãÇ7frf–Wt&÷ƒÒ##B#B"f–ÆÃÒ&æöæR"7G&ö¶SÒ&7W'&VçD6öÆ÷"#ãÇ&V7BƒÒ#B"“Ò#B"v–GFƒÒ#b"†V–v‡CÒ#b"'ƒÒ#""óãÇF‚CÒ$Ó‚ctÓ‚wbãÓ"wbÓtÓ"3Ó"RÓ2R'cR"óãÂ÷7fsæÆ–æ¶VF–âæ6öÒö–âö'&–ç6çF–vòÖw&3Âöà¢Æ‡&VcÒ&‡GG3¢òöv—F‡V"æ6öÒô'&–å6çF–vòÔu$2#ãÇ7frf–Wt&÷ƒÒ##B#B"f–ÆÃÒ&æöæR"7G&ö¶SÒ&7W'&VçD6öÆ÷"#ãÇF‚CÒ$Ó’–2ÓRÓRÓ"ÓrÓ4ÓR#'bÓFBBÓÓ632bÓ"bÓvRRÓÓ2RRÓ72ÓÓ2Ób3‚"r"r&RR2RRÓ63R2rbvBBÓ7cB"óãÂ÷7fsæv—F‡V"æ6öÒô'&–å6çF–vòÔu$3Âöà¢ÂöF—cà¢Æ6Æ73Ò'6VæBÖ'Fâ"‡&VcÒ&Ö–ÇFó¦'&–æBç6çF–vôvÖ–Âæ6öÒ#å6VæBÖW76vRÇ7â&–Ö†–FFVãÒ'G'VR#âg&'#³Â÷7ããÂöà¢ÂöF—cà¢ÆF—b6Æ73Ò&6÷—&–v‡B#à¢Ç7ãì*’##b'&–â6çF–vòâ'V–ÇBf÷"&V7'V—FW"&Wf–WrãÂ÷7ãà¢Ç7ããÆ'WGFöâ6Æ73Ò&6÷’Ö'WGFöâ"G—SÒ&'WGFöâ"–CÒ&6÷”VÖ–Â#ä6÷’VÖ–ÃÂö'WGFöãâÇ7â–CÒ&6÷•7FGW2"&–ÖÆ—fSÒ'öÆ—FR#ãÂ÷7ããÂ÷7ãà¢ÂöF—cà¢Â÷6V7F–öãà¢ÂöF—cà ¢Ç67&—Cà¢6öç7B6÷”VÖ–ÂÒFö7VÖVçBævWDVÆVÖVçD'”–B‚&6÷”VÖ–Â"“°¢6öç7B6÷•7FGW2ÒFö7VÖVçBævWDVÆVÖVçD'”–B‚&6÷•7FGW2"“°¢6÷”VÖ–ÃòæFDWfVçDÆ—7FVæW"‚&6Æ–6²"Â7–æ2‚’Óâ°¢G'’°¢v—Bæf–vF÷"æ6Æ—&ö&Bçw&—FUFW‡B‚&'&–æBç6çF–vôvÖ–Âæ6öÒ"“°¢6÷•7FGW2çFW‡D6öçFVçBÒ$6÷–VB#°¢Ò6F6‚†W'&÷"’°¢6÷•7FGW2çFW‡D6öçFVçBÒ&'&–æBç6çF–vôvÖ–Âæ6öÒ#°¢Ğ¢Ò“° ¢6öç7B&öÆTFFÒ°¢ÆÃ¢°¢F—FÆS¢$ÆÂ&öÆR&ööb"À¢7VÖÖ'“¢%7W÷'BÖWG&–72Â4ô2–çfW7F–vF–öâv÷&²Â–FVçF—G’6öçG&öÇ2Âu$2Wf–FVæ6RÂæB&öÆR×7V6–f–2&W7VÖW2&R&VG’f÷"&Wf–Wrâ"À¢&W7VÖUFW‡C¢$F÷væÆöB•B7W÷'B&W7VÖR(i""À¢&W7VÖT‡&Vc¢&76WG2÷&W7VÖW2ô'&–åõ6çF–võô•BçFb ¢ÒÀ¢—C¢°¢F—FÆS¢$•B7W÷'B&ööb"À¢7VÖÖ'“¢#C²F–6¶WG2öÖöçF‚Â“’R4ÄÂS²W6W'2Â#²VæGö–çG2Â4õ2Â6W'f–6Tæ÷rÂæ–æ¦öæRÂÖ–7&÷6ögB3cRÂæB66W72Æ–fV7–6ÆRv÷&²â"À¢&W7VÖUFW‡C¢$F÷væÆöB•B7W÷'B&W7VÖR(i""À¢&W7VÖT‡&Vc¢&76WG2÷&W7VÖW2ô'&–åõ6çF–võô•BçFb ¢ÒÀ¢6ö3¢°¢F—FÆS¢%4ô2&ööb"À¢7VÖÖ'“¢%6VçF–æVÂÆ"v÷&²Â‚µÂFWFV7F–öâ'VÆW2ÂÔ•E$RÖ–ærÂVæGö–çB–çfW7F–vF–öâæ÷FW2ÂW66ÆF–öâFV×ÆFW2ÂæBfÇ6R×÷6—F—fRGVæ–ærâ"À¢&W7VÖUFW‡C¢$F÷væÆöB4ô2&W7VÖR(i""À¢&W7VÖT‡&Vc¢&76WG2÷&W7VÖW2ô'&–åõ6çF–võõ4ô2çFb ¢ÒÀ¢w&3¢°¢F—FÆS¢$u$2&ööb"À¢7VÖÖ'“¢$•4ò#sÂä•5B54bÂ„•Â4õ‚•Dt2Â66W72&Wf–Ww2ÂE$ÒÂ&—6²&Vv—7FW'2ÂöÆ–7’v÷&²ÂæBVF—B×&VG’Wf–FVæ6R6¶vW2â"À¢&W7VÖUFW‡C¢$F÷væÆöBu$2&W7VÖR(i""À¢&W7VÖT‡&Vc¢&76WG2÷&W7VÖW2ô'&–åõ6çF–võôu$2çFb ¢Ğ¢Ó° ¢6öç7B&öÆT'WGFöç2Ò²ââæFö7VÖVçBçVW'•6VÆV7F÷$ÆÂ‚"ç&öÆR×F""•Ó°¢6öç7Bf–ÇFW$'WGFöç2Ò²ââæFö7VÖVçBçVW'•6VÆV7F÷$ÆÂ‚"æf–ÇFW"Ö6†—"•Ó°¢6öç7B&ö¦V7E&÷w2Ò²ââæFö7VÖVçBçVW'•6VÆV7F÷$ÆÂ‚"æ66R×&÷u¶FF×&öÆW5Ò"•Ó°¢6öç7B&öÆUF—FÆRÒFö7VÖVçBævWDVÆVÖVçD'”–B‚'&öÆUF—FÆR"“°¢6öç7B&öÆU7VÖÖ'’ÒFö7VÖVçBævWDVÆVÖVçD'”–B‚'&öÆU7VÖÖ'’"“°¢6öç7B&öÆU&W7VÖRÒFö7VÖVçBævWDVÆVÖVçD'”–B‚'&öÆU&W7VÖR"“° ¢gVæ7F–öâÇ•&öÆR‡&öÆR’°¢6öç7BFFÒ&öÆTFF·&öÆUÒÇÂ&öÆTFFæÆÃ°¢&öÆT'WGFöç2æf÷$V6‚‚†'WGFöâ’Óâ'WGFöâç6WDGG&–'WFR‚&&–×&W76VB"Â7G&–ær†'WGFöâæFF6WBç&öÆRÓÓÒ&öÆR’’“°¢f–ÇFW$'WGFöç2æf÷$V6‚‚†'WGFöâ’Óâ'WGFöâç6WDGG&–'WFR‚&&–×&W76VB"Â7G&–ær†'WGFöâæFF6WBç&öÆRÓÓÒ&öÆR’’“°¢&ö¦V7E&÷w2æf÷$V6‚‚‡&÷r’Óâ°¢6öç7B&öÆW2Ò&÷ræFF6WBç&öÆW2ç7Æ—B‚""“°¢&÷ræ†–FFVâÒ&öÆRÓÒ&ÆÂ"bb&öÆW2æ–æ6ÇVFW2‡&öÆR“°¢Ò“°¢–b‡&öÆUF—FÆR’&öÆUF—FÆRçFW‡D6öçFVçBÒFFçF—FÆS°¢–b‡&öÆU7VÖÖ'’’&öÆU7VÖÖ'’çFW‡D6öçFVçBÒFFç7VÖÖ'“°¢–b‡&öÆU&W7VÖR’°¢&öÆU&W7VÖRçFW‡D6öçFVçBÒFFç&W7VÖUFW‡C°¢&öÆU&W7VÖRæ‡&VbÒFFç&W7VÖT‡&Vc°¢Ğ¢Ğ ¢²ââç&öÆT'WGFöç2Âââæf–ÇFW$'WGFöç5Òæf÷$V6‚‚†'WGFöâ’Óâ°¢'WGFöâæFDWfVçDÆ—7FVæW"‚&6Æ–6²"Â‚’ÓâÇ•&öÆR†'WGFöâæFF6WBç&öÆRÇÂ&ÆÂ"’“°¢Ò“° ¢6öç7B6W'EFövvÆRÒFö7VÖVçBævWDVÆVÖVçD'”–B‚&6W'EFövvÆR"“°¢6öç7B6W'DÖ'VVRÒFö7VÖVçBçVW'•6VÆV7F÷"‚"æ6W'BÖÖ'VVR"“°¢6W'EFövvÆSòæFDWfVçDÆ—7FVæW"‚&6Æ–6²"Â‚’Óâ°¢6öç7B—5W6VBÒ6W'DÖ'VVSòæ6Æ74Æ—7BçFövvÆR‚&6W'B×W6VB"“°¢6W'EFövvÆRç6WDGG&–'WFR‚&&–×&W76VB"Â7G&–ær„&ööÆVâ†—5W6VB’’“°¢6W'EFövvÆRçFW‡D6öçFVçBÒ—5W6VBò%&W7VÖR67&öÆÂ"¢%W6R67&öÆÂ#°¢Ò“°¢Â÷67&—Cà£Âö&öG“à£Âö‡FÖÃà
