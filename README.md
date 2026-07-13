@@ -1,152 +1,56 @@
-<!-- recruiter-review:start -->
 # Brian Santiago
 
-**IT Support Specialist | Microsoft 365, Active Directory/Entra ID, endpoint support, ticketing, documentation | Security+ | SOC and GRC proof portfolio**
+**IT Support Specialist | Microsoft 365 | Active Directory / Entra ID | Endpoint and Identity Support**
 
-Recruiter quick review:
+Ocala, Florida | Open to remote and Central Florida roles
 
-- **Best immediate fit:** IT Support Specialist, Help Desk Analyst, Desktop Support, Service Desk, Technical Support, Microsoft 365 support, endpoint support, identity/access support.
-- **Adjacent junior lanes:** Junior SOC, Security Support, GRC Analyst, IT Compliance, IT Risk, audit support, access review, IAM support.
-- **Measured support proof:** 3+ years in IT support, 400+ tickets/month, 99% SLA, 500+ users supported, 200+ endpoints supported.
-- **Microsoft/search keywords:** Microsoft 365, Active Directory, Entra ID, Azure, Windows 10/11, endpoint support, onboarding, offboarding, MFA, access review, Defender, Sentinel, KQL, ServiceNow, ITSM, documentation.
-- **Why this profile is easier to place:** The public projects show how I document identity, endpoint, ticket, incident, and audit evidence in a way support, security, and compliance teams can review quickly.
+[LinkedIn](https://www.linkedin.com/in/briansantiago-grc/) | [Email](mailto:briand.santiago@gmail.com)
 
-Start with these proof repos:
+I solve user, endpoint, account, access, and connectivity problems, then document the fix so the next person can move faster. My paid background is IT support; the security work below is clearly labeled portfolio evidence built to show how I investigate and communicate.
 
-1. [Entra ID Identity Security Review](https://github.com/BrianSantiago-GRC/entra-identity-security-review)
-2. [GRC Access Review and Audit Evidence Pack](https://github.com/BrianSantiago-GRC/grc-access-review-audit-evidence-pack)
-3. [Microsoft Defender Endpoint Investigation](https://github.com/BrianSantiago-GRC/microsoft-defender-endpoint-investigation)
-4. [Microsoft Sentinel SIEM Lab](https://github.com/BrianSantiago-GRC/Microsoft-Sentinel-SIEM)
-5. [IAM Joiner-Mover-Leaver Workflow Pack](https://github.com/BrianSantiago-GRC/iam-jml-access-workflow-pack)
-6. [GRC Portfolio](https://github.com/BrianSantiago-GRC/grc-portfolio)
-7. [Phishing Analysis Workflow](https://github.com/BrianSantiago-GRC/phishing-analysis-workflow)
+## Verified Support Impact
 
-Honest scope: my paid background is IT support. The SOC/GRC work here is portfolio, lab, walkthrough, and documentation proof built to show junior-level readiness while keeping the scope clear and realistic.
+| 3+ years | 400+ tickets/month | 99% SLA | 500+ users | 200+ endpoints |
+|---:|---:|---:|---:|---:|
+| IT support | Ticket volume | Service level | User environment | Device environment |
 
-Contact: [LinkedIn](https://linkedin.com/in/briansantiago-grc) | briand.santiago@gmail.com | Ocala, FL
-<!-- recruiter-review:end -->
+Best-fit conversations: **IT Support Specialist, Help Desk Analyst, Desktop Support, Service Desk, Technical Support, Microsoft 365 Support, and Identity/Access Support.**
 
-# Brian Santiago
+## Start Here
 
-IT Support Specialist transitioning into cybersecurity operations and GRC.
-
-[LinkedIn](https://linkedin.com/in/briansantiago-grc) | briand.santiago@gmail.com | Ocala, FL
-
----
-
-## Project Purpose
-
-This GitHub profile is a practical cybersecurity and GRC learning portfolio.
-
-The purpose is to show how I document security-focused work, organize operational notes, and connect IT support experience to junior SOC, security analyst, GRC, compliance operations, and Microsoft security support roles.
-
-I am not presenting these projects as ownership of live production systems. They are completed portfolio artifacts built with sanitized practice scenarios so they stay realistic, readable, and interview-defensible.
-
----
-
-## Current Positioning
-
-I am an IT support and operations professional building toward junior cybersecurity and GRC roles.
-
-My background includes Microsoft 365, Active Directory, Entra ID, endpoint support, account and access tasks, documentation, audit support, security-focused troubleshooting, and compliance-aware work in healthcare and education environments.
-
----
-
-## Portfolio Projects
-
-Full roadmap: [Cybersecurity / GRC Portfolio Roadmap](PORTFOLIO_ROADMAP.md)
-
-| Repository | Focus | Status |
+| Project | Evidence | What a reviewer can verify |
 |---|---|---|
-| [grc-portfolio](https://github.com/BrianSantiago-GRC/grc-portfolio) | Completed GRC documentation artifacts covering risk/control concepts, access review practice, and audit evidence support | Active portfolio repo |
-| [Microsoft-Sentinel-SIEM](https://github.com/BrianSantiago-GRC/Microsoft-Sentinel-SIEM) | Completed Microsoft Sentinel honeypot SIEM lab write-up covering failed logon review, basic KQL, SIEM triage thinking, incident notes, analyst timeline, and lessons learned | Completed portfolio repo |
-| [phishing-analysis-workflow](https://github.com/BrianSantiago-GRC/phishing-analysis-workflow) | Practical phishing triage workflow, IOC review, Microsoft 365 context, and escalation documentation | Active documentation repo |
-| [entra-identity-security-review](https://github.com/BrianSantiago-GRC/entra-identity-security-review) | Completed Microsoft Entra ID identity security review with redacted evidence for Security Defaults, authentication methods, admin roles, sign-in logs, Conditional Access recommendations, and access review documentation | Completed portfolio repo |
-| [microsoft-defender-endpoint-investigation](https://github.com/BrianSantiago-GRC/microsoft-defender-endpoint-investigation) | Completed endpoint investigation walkthrough using Windows Security, Defender status checks, PowerShell, Event Viewer, analyst timeline notes, and sanitized remediation evidence | Completed portfolio repo |
-| [grc-access-review-audit-evidence-pack](https://github.com/BrianSantiago-GRC/grc-access-review-audit-evidence-pack) | Completed GRC access review and audit evidence project showing findings, exceptions, remediation steps, and compliance documentation practice | Completed portfolio repo |
+| [Entra ID Identity Security Review](https://github.com/BrianSantiago-GRC/entra-identity-security-review) | 10 sanitized tenant screenshots and review notes | Identity settings, authentication methods, role review, sign-in review, findings, and recommendations |
+| [Microsoft Defender Endpoint Investigation](https://github.com/BrianSantiago-GRC/microsoft-defender-endpoint-investigation) | 6 Windows Security and Event Viewer screenshots | Endpoint posture checks, evidence capture, investigation sequencing, and remediation documentation |
+| [Security Automation Toolkit](security-automation/) | 4 Python tools, sample data, deterministic outputs, and automated tests | Risk scoring, access review checks, audit evidence packaging, and control-gap analysis |
+| [Microsoft Sentinel SIEM Casebook](https://github.com/BrianSantiago-GRC/Microsoft-Sentinel-SIEM) | KQL catalog and analyst documentation from a completed lab | Failed-logon query logic, triage reasoning, incident notes, limitations, and next steps |
 
-Planned next projects:
+## What I Bring
 
-- Vulnerability Remediation Workflow.
+| Area | Paid work and public proof |
+|---|---|
+| User and endpoint support | Windows 10/11, Microsoft 365, Google Workspace, printers, VPN, Wi-Fi, classroom technology, remote troubleshooting, escalation |
+| Identity operations | Active Directory, Entra ID, account provisioning/deprovisioning, password resets, MFA enrollment, group updates, access review support |
+| Service delivery | High-volume ticket ownership, SLA performance, root-cause troubleshooting, SOPs, knowledge-base documentation, handoffs |
+| Security-minded support | Endpoint evidence, authentication troubleshooting, suspicious-user-report intake, least privilege, incident documentation |
+| Automation | Python standard-library tools for repeatable review and reporting; tested against clearly labeled synthetic data |
 
----
+## Supporting Work
 
-## Tools Used
+- [Phishing Analysis Workflow](https://github.com/BrianSantiago-GRC/phishing-analysis-workflow): sanitized message-header and IOC triage exercise.
+- [IAM Joiner-Mover-Leaver Workflow](https://github.com/BrianSantiago-GRC/iam-jml-access-workflow-pack): sample access-request, approval, and offboarding documentation.
+- [Access Review Evidence Pack](https://github.com/BrianSantiago-GRC/grc-access-review-audit-evidence-pack): synthetic access-review decisions, exceptions, and remediation tracking.
+- [GRC Documentation Portfolio](https://github.com/BrianSantiago-GRC/grc-portfolio): sample policies, risk/control artifacts, and audit-support documentation.
 
-- Microsoft 365
-- Active Directory
-- Microsoft Entra ID
-- Microsoft Sentinel
-- Azure Log Analytics
-- Microsoft Defender concepts
-- Markdown documentation
-- Python for small operational scripting examples
+## Credentials
 
----
+CompTIA **A+**, **Network+**, and **Security+** | Google **IT Support** and **Cybersecurity** | MediClear **HIPAA Compliance** | CompTIA **CySA+ in progress**
 
-## What I Practiced
+## Evidence Standard
 
-- Documenting security and GRC workflows clearly.
-- Building interview-defensible portfolio projects.
-- Connecting IT support tasks to security operations and compliance work.
-- Writing completed audit evidence, access review, risk, and incident note artifacts.
-- Practicing phishing triage and SIEM investigation concepts.
-- Keeping public documentation realistic and junior-aligned.
+- Paid-work metrics are presented as professional experience.
+- Labs, walkthroughs, and synthetic datasets are labeled as such.
+- Missing evidence is disclosed instead of recreated or implied.
+- Every featured project is designed to support a concrete interview discussion: the problem, the action, the evidence, the result, and the limitation.
 
----
-
-## Skills Demonstrated
-
-- Security operations fundamentals.
-- Phishing analysis workflow documentation.
-- Microsoft identity and endpoint security awareness.
-- GRC documentation and audit evidence support.
-- Access review and control mapping basics.
-- Incident note writing and escalation communication.
-- Practical technical documentation.
-
----
-
-## Lessons Learned
-
-- Clear documentation is a security skill.
-- Portfolio projects are stronger when the scope is realistic.
-- GRC work depends on evidence, ownership, and repeatable process.
-- SOC learning should focus on investigation reasoning, not inflated claims.
-- IT support experience can transfer into security through identity, endpoints, troubleshooting, documentation, and user support.
-
----
-
-## Screenshots / Evidence
-
-Screenshots and evidence are added only when they support real completed project work and can be safely sanitized.
-
-Current screenshot priorities:
-
-- Recreate Sentinel lab screenshots only if needed; do not fake missing evidence from the completed honeypot lab.
-- Add phishing workflow screenshots or realistic sanitized training examples.
-- Use the completed Entra ID identity security review as Microsoft identity/security evidence.
-- Use the completed Defender endpoint investigation walkthrough as endpoint/security operations evidence.
-- Use the completed GRC access review and audit evidence pack as compliance/GRC evidence.
-- Add GRC artifact previews only where they improve recruiter review.
-
----
-
-## Future Improvements
-
-- Add project screenshots where safe.
-- Add more concise walkthroughs for each project.
-- Keep README language aligned with junior cybersecurity and GRC positioning.
-- Continue Security+ study and connect study notes to project work.
-- Expand Microsoft 365, Entra ID, and Defender-related documentation over time.
-
----
-
-## Target Roles
-
-- Junior SOC Analyst
-- Security Analyst I
-- Junior GRC Analyst
-- Compliance Operations Analyst
-- IT Operations / Security Support
-- Microsoft security support roles
+I am ready to discuss how I can help a support team own tickets, improve identity and endpoint operations, and produce documentation that users, managers, and security teams can trust.
