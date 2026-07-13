@@ -22,7 +22,7 @@ Best-fit conversations: **IT Support Specialist, Help Desk Analyst, Desktop Supp
 |---|---|---|
 | [Entra ID Identity Security Review](https://github.com/BrianSantiago-GRC/entra-identity-security-review) | 10 sanitized tenant screenshots and review notes | Identity settings, authentication methods, role review, sign-in review, findings, and recommendations |
 | [Microsoft Defender Endpoint Investigation](https://github.com/BrianSantiago-GRC/microsoft-defender-endpoint-investigation) | 6 Windows Security and Event Viewer screenshots | Endpoint posture checks, evidence capture, investigation sequencing, and remediation documentation |
-| [Security Automation Toolkit](security-automation/) | 4 Python tools, sample data, deterministic outputs, and automated tests | Risk scoring, access review checks, audit evidence packaging, and control-gap analysis |
+| [Security Automation Toolkit](https://github.com/BrianSantiago-GRC/BrianSantiago-GRC/tree/main/security-automation) | 4 Python tools, sample data, deterministic outputs, and automated tests | Risk scoring, access review checks, audit evidence packaging, and control-gap analysis |
 | [Microsoft Sentinel SIEM Casebook](https://github.com/BrianSantiago-GRC/Microsoft-Sentinel-SIEM) | KQL catalog and analyst documentation from a completed lab | Failed-logon query logic, triage reasoning, incident notes, limitations, and next steps |
 
 ## What I Bring
@@ -54,3 +54,4 @@ CompTIA **A+**, **Network+**, and **Security+** | Google **IT Support** and **Cy
 - Every featured project is designed to support a concrete interview discussion: the problem, the action, the evidence, the result, and the limitation.
 
 I am ready to discuss how I can help a support team own tickets, improve identity and endpoint operations, and produce documentation that users, managers, and security teams can trust.
+
