@@ -24,6 +24,8 @@ class PortfolioParser(HTMLParser):
         self.role_buttons: list[dict[str, str]] = []
         self.button_names: list[str] = []
         self.projects: list[dict[str, str]] = []
+        self.artifact_previews: list[dict[str, str]] = []
+        self.classes: list[str] = []
         self.meta: dict[str, str] = {}
         self.canonical = ""
         self.h1_count = 0
@@ -33,6 +35,7 @@ class PortfolioParser(HTMLParser):
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         values = {key: value or "" for key, value in attrs}
+        self.classes.extend(values.get("class", "").split())
         if values.get("id"):
             self.ids.append(values["id"])
         if tag == "h1":
@@ -63,6 +66,8 @@ class PortfolioParser(HTMLParser):
                 self.role_buttons.append(values)
         if tag == "article" and "project-card" in values.get("class", "").split():
             self.projects.append(values)
+        if tag == "figure" and "artifact-preview" in values.get("class", "").split():
+            self.artifact_previews.append(values)
 
     def handle_endtag(self, tag: str) -> None:
         if tag == "button" and self._button_depth:
@@ -124,6 +129,7 @@ def main() -> int:
         "role-proof",
         "copy-email",
         "copy-status",
+        "scroll-progress",
     }
     missing_ids = sorted(required_ids.difference(parser.ids))
     require(not missing_ids, f"missing required ids: {', '.join(missing_ids)}")
@@ -154,6 +160,11 @@ def main() -> int:
     require(all(parser.button_names), "every button must have a visible accessible name")
 
     require(len(parser.projects) == 6, f"expected 6 project cards, found {len(parser.projects)}")
+    require(
+        len(parser.artifact_previews) == 6,
+        f"expected 6 artifact previews, found {len(parser.artifact_previews)}",
+    )
+    require("signal-path" in parser.classes, "missing Signal Path hero layer")
     required_project_attrs = {
         "data-project",
         "data-roles",
@@ -209,6 +220,10 @@ def main() -> int:
     )
 
     visible_text = " ".join(parser.text).lower()
+    require(
+        sum(text.lower() == "artifact preview" for text in parser.text) == 6,
+        "every project must display an Artifact preview label",
+    )
     for label in ("problem", "action", "tools", "result", "scope"):
         require(label in visible_text, f"missing project evidence label: {label}")
     for required_copy in (
@@ -239,6 +254,30 @@ def main() -> int:
         javascript = script_text.read_text(encoding="utf-8")
         for token in ("applyRole", "history.replaceState", "URLSearchParams", "aria-pressed", "popstate"):
             require(token in javascript, f"site.js missing role behavior token: {token}")
+        for token in (
+            "initializeCinematics",
+            "IntersectionObserver",
+            "requestAnimationFrame",
+            "is-role-transitioning",
+            "scroll-progress",
+        ):
+            require(token in javascript, f"site.js missing cinematic behavior token: {token}")
+
+    stylesheet = DOCS / "assets" / "site.css"
+    if stylesheet.is_file():
+        css = stylesheet.read_text(encoding="utf-8")
+        for token in (
+            ".artifact-preview",
+            ".signal-path",
+            ".is-revealed",
+            ".is-role-transitioning",
+            "--scroll-progress",
+            "prefers-reduced-motion: reduce",
+        ):
+            require(token in css, f"site.css missing cinematic token: {token}")
+
+    external_scripts = [src for src in parser.scripts if is_external_http(src)]
+    require(not external_scripts, f"external runtime scripts are not allowed: {', '.join(external_scripts)}")
 
     if failures:
         for failure in failures:
