@@ -260,6 +260,7 @@ def main() -> int:
             "requestAnimationFrame",
             "is-role-transitioning",
             "scroll-progress",
+            "threshold: 0.04",
         ):
             require(token in javascript, f"site.js missing cinematic behavior token: {token}")
 

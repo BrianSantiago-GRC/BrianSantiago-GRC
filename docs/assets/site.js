@@ -252,7 +252,7 @@ function initializeCinematics() {
             observer.unobserve(entry.target);
           });
         },
-        { threshold: 0.12, rootMargin: "0px 0px -7%" },
+        { threshold: 0.04, rootMargin: "0px 0px -7%" },
       );
       revealTargets.forEach((target) => observer.observe(target));
     } else {
