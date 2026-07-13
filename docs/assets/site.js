@@ -74,6 +74,8 @@ const projectCards = [...document.querySelectorAll(".project-card")];
 const skillGroups = [...document.querySelectorAll("[data-skill-roles]")];
 const resumeCards = [...document.querySelectorAll("[data-resume-role]")];
 const projectAction = document.querySelector(".hero-actions a[href='#projects']");
+const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+let roleTransitionTimer = 0;
 
 function validRole(role) {
   return Object.prototype.hasOwnProperty.call(roleData, role) ? role : "it";
@@ -114,6 +116,15 @@ function updateUrl(role) {
 function applyRole(requestedRole, options = {}) {
   const role = validRole(requestedRole);
   const data = roleData[role];
+  const shouldAnimate =
+    options.animate !== false &&
+    !reducedMotionQuery.matches &&
+    document.body.classList.contains("cinematics-active");
+
+  if (shouldAnimate) {
+    window.clearTimeout(roleTransitionTimer);
+    document.body.classList.add("is-role-transitioning");
+  }
 
   document.body.dataset.activeRole = role;
   document.title = data.title;
@@ -145,10 +156,16 @@ function applyRole(requestedRole, options = {}) {
 
   sortProjects(role);
   if (options.updateUrl !== false) updateUrl(role);
+
+  if (shouldAnimate) {
+    roleTransitionTimer = window.setTimeout(() => {
+      document.body.classList.remove("is-role-transitioning");
+    }, 180);
+  }
 }
 
 roleButtons.forEach((button) => {
-  button.addEventListener("click", () => applyRole(button.dataset.role || "it"));
+  button.addEventListener("click", () => applyRole(button.dataset.role || "it", { animate: true }));
 });
 
 window.addEventListener("popstate", () => {
@@ -201,5 +218,71 @@ async function copyEmail() {
 
 document.getElementById("copy-email")?.addEventListener("click", copyEmail);
 
+function initializeCinematics() {
+  const body = document.body;
+  const progress = document.getElementById("scroll-progress");
+  const staggeredItems = [
+    ...document.querySelectorAll(".skill-group, .credential, .resume-card, .contact-link"),
+  ];
+
+  staggeredItems.forEach((item, index) => {
+    item.dataset.reveal = "item";
+    item.style.setProperty("--reveal-delay", `${Math.min(index % 4, 3) * 55}ms`);
+  });
+
+  const revealTargets = [...document.querySelectorAll("[data-reveal]")];
+  body.classList.add("cinematics-ready");
+
+  const revealAll = () => {
+    revealTargets.forEach((target) => target.classList.add("is-revealed"));
+  };
+
+  if (reducedMotionQuery.matches) {
+    revealAll();
+    body.classList.add("cinematics-active");
+  } else {
+    requestAnimationFrame(() => body.classList.add("cinematics-active"));
+
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add("is-revealed");
+            observer.unobserve(entry.target);
+          });
+        },
+        { threshold: 0.12, rootMargin: "0px 0px -7%" },
+      );
+      revealTargets.forEach((target) => observer.observe(target));
+    } else {
+      revealAll();
+    }
+  }
+
+  let progressFrame = 0;
+  const updateProgress = () => {
+    const documentHeight = Math.max(
+      document.documentElement.scrollHeight - window.innerHeight,
+      1,
+    );
+    const percentage = Math.min(Math.max(window.scrollY / documentHeight, 0), 1) * 100;
+    document.documentElement.style.setProperty("--scroll-progress", `${percentage.toFixed(2)}%`);
+    progressFrame = 0;
+  };
+
+  const requestProgressUpdate = () => {
+    if (progressFrame) return;
+    progressFrame = requestAnimationFrame(updateProgress);
+  };
+
+  if (progress) {
+    window.addEventListener("scroll", requestProgressUpdate, { passive: true });
+    window.addEventListener("resize", requestProgressUpdate, { passive: true });
+    updateProgress();
+  }
+}
+
 const initialRole = new URLSearchParams(window.location.search).get("role") || "it";
-applyRole(initialRole);
+applyRole(initialRole, { animate: false });
+initializeCinematics();

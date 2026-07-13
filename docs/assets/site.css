@@ -1467,6 +1467,7 @@ body.cinematics-ready [data-reveal].is-revealed {
   opacity: 1;
   transform: translateY(0);
   transition: opacity 520ms ease, transform 520ms ease;
+  transition-delay: var(--reveal-delay, 0ms);
 }
 
 body.cinematics-ready .hero-copy > *,
