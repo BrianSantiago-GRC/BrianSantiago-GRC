@@ -181,99 +181,121 @@ def run_audit(filepath, as_of=None):
     review_date = as_of or datetime.now()
 
     all_findings = []
-    all_findings.extend(check_orphan_accounts(usersvâÚ$z{-®éÜj×\ÈŽˆ‹›\ÝÜØØ[ˆŽˆŒŒ‹LËLN‹˜ÛÛ\X[Žˆ˜[ÙK™]WÝ\HŽˆ“Z^YŸKBˆÈšÜÝ˜[YHŽˆ”Ô•‹TÔS’ËLH‹›ÜÈŽˆ•X[HŒ‹Œ‹˜Üš]XØ[Ü]Ú\ÈŽˆšYÚÜ]Ú\ÈŽˆ›\ÝÜØØ[ˆŽˆŒŒ‹LËLN‹˜ÛÛ\X[ŽˆYK™]WÝ\HŽˆ“ÙÜÈŸKBˆÈšÜÝ˜[YHŽˆ‘•ËQQÑKLH‹›ÜÈŽˆ‘›ÜSÔÈË‹˜Üš]XØ[Ü]Ú\ÈŽˆšYÚÜ]Ú\ÈŽˆK›\ÝÜØØ[ˆŽˆŒŒ‹LËLMH‹˜ÛÛ\X[ŽˆYK™]WÝ\HŽˆ’[™œ˜\ÝXÝ\™HŸKBˆÈšÜÝ˜[YHŽˆ•ÔËS•T”ÑKLH‹›ÜÈŽˆ•Ú[™ÝÜÈLH‹˜Üš]XØ[Ü]Ú\ÈŽˆšYÚÜ]Ú\ÈŽˆ›\ÝÜØØ[ˆŽˆŒŒ‹LËLŒ‹˜ÛÛ\X[ŽˆYK™]WÝ\HŽˆ™THŸKBˆÈšÜÝ˜[YHŽˆ•ÔËSÑ‘’PÑKLLˆ‹›ÜÈŽˆ•Ú[™ÝÜÈLH‹˜Üš]XØ[Ü]Ú\ÈŽˆšYÚÜ]Ú\ÈŽˆK›\ÝÜØØ[ˆŽˆŒŒ‹LËLŒ‹˜ÛÛ\X[ŽˆYK™]WÝ\HŽˆ”Ý[™\™ŸKBˆCBƒBƒBˆÈKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKCBˆÈ]šY[˜ÙHÛÛXÝ[Ûˆ[˜Ý[ÛœÃBˆÈKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKCBƒB™YˆÛÛXÝØXØÙ\Ü×Ù]šY[˜ÙJ\Ù\œË\×ÛÙS›Û™JN‚ˆˆˆ[˜[^™H\Ù\ˆXØÙ\ÜÈ]H[™›YÈ\ÜÝY\ËˆˆˆƒBˆš[™[™ÜÈH×CBˆÝ]ÈHÃBˆÝ[Ý\Ù\œÈŽˆ[Š\Ù\œÊKBˆ›Y˜WÙ[˜X›YŽˆBˆœš]š[YÙYØXØÛÝ[ÈŽˆBˆ›Üœ[—ØXØÛÝ[ÈŽˆBˆœ™\ÝšXÝYÙ]WÝ\Ù\œÈŽˆBˆCBƒBˆÙ^HH\×ÛÙˆÜˆ]][YK››ÝÊ
-BƒBˆ›Üˆ\Ù\ˆ[ˆ\Ù\œÎƒBˆYˆ\Ù\–È›Y˜WÙ[˜X›Y—NƒBˆÝ]ÖÈ›Y˜WÙ[˜X›Y—H
-ÏHCBˆYˆ\Ù\–Èœš]š[YÙY—NƒBˆÝ]ÖÈœš]š[YÙYØXØÛÝ[È—H
-ÏHCBˆYˆ\Ù\–È™]WØXØÙ\ÜÈ—H[ˆ
-™TH‹”ÝY[™XÛÜ™È‹‘[ŠNƒBˆÝ]ÖÈœ™\ÝšXÝYÙ]WÝ\Ù\œÈ—H
-ÏHCBƒBˆÈÚXÚÈ›ÜˆÜœ[ˆXØÛÝ[È
-›ÈÙÚ[ˆ[ˆL
-È^\ÊCBˆYˆ\Ù\–È›\ÝÛÙÚ[ˆ—NƒBˆ\ÝÛÙÚ[ˆH]][YKœÝœ[YJ\Ù\–È›\ÝÛÙÚ[ˆ—K‰VKI[KIYŠCBˆ^\×Ú[˜XÝ]™HH
-Ù^HH\ÝÛÙÚ[ŠK™^\ÃBˆYˆ^\×Ú[˜XÝ]™HˆLƒBˆÝ]ÖÈ›Üœ[—ØXØÛÝ[È—H
-ÏHCBˆš[™[™ÜË˜\[™
-ÃBˆ\HŽˆ“Ô”S—ÐPÐÓÕS•‹BˆœÙ]™\š]HŽˆ’YÚ‹Bˆ\Ù\ˆŽˆ\Ù\–È\Ù\›˜[YH—KBˆ™]Z[Žˆˆ“›ÈÙÚ[ˆ›ÜˆÙ^\×Ú[˜XÝ]™_H^\Ëˆ\ÝÙÚ[ŽˆÝ\Ù\–ÉÛ\ÝÛÙÚ[‰×_Kˆ]HXØÙ\ÜÎˆÝ\Ù\–ÉÙ]WØXØÙ\ÜÉ×_H‹Bˆœ™XÛÛ[Y[™][ÛˆŽˆ‘\ØX›HXØÛÝ[[[YYX][H[™[™\ÝYØ]HÚ]ˆ‹BˆJCBƒBˆÈÚXÚÈ›Üˆš]š[YÙYXØÛÝ[ÈÚ]Ý]QCBˆYˆ\Ù\–Èœš]š[YÙY—H[™›Ý\Ù\–È›Y˜WÙ[˜X›Y—NƒBˆš[™[™ÜË˜\[™
-ÃBˆ\HŽˆ”’U—Ó“×ÓQH‹BˆœÙ]™\š]HŽˆÜš]XØ[‹Bˆ\Ù\ˆŽˆ\Ù\–È\Ù\›˜[YH—KBˆ™]Z[Žˆˆ”š]š[YÙYXØÛÝ[Ú]Ý]QKˆ›ÛNˆÝ\Ù\–ÉÜ›ÛI×_H‹Bˆœ™XÛÛ[Y[™][ÛˆŽˆ‘[˜X›HQH[[YYX][HÜˆÛÛ™\ÈX[˜YÙYY[]H‹BˆJCBƒBˆÈÚXÚÈ›Üˆ›Û‹\š]š[YÙY™\ÝšXÝY]HXØÙ\ÜÈÚ]Ý]QCBˆYˆ\Ù\–È™]WØXØÙ\ÜÈ—H[ˆ
-™TH‹”ÝY[™XÛÜ™ÈŠH[™›Ý\Ù\–È›Y˜WÙ[˜X›Y—NƒBˆš[™[™ÜË˜\[™
-ÃBˆ\HŽˆ”‘TÕ’PÕQÓ“×ÓQH‹BˆœÙ]™\š]HŽˆ’YÚ‹Bˆ\Ù\ˆŽˆ\Ù\–È\Ù\›˜[YH—KBˆ™]Z[ŽˆˆXØÙ\ÜÈÈÝ\Ù\–ÉÙ]WØXØÙ\ÜÉ×_HÚ]Ý]QH[˜X›Y‹Bˆœ™XÛÛ[Y[™][ÛˆŽˆ‘[˜X›HQH\ˆTPKÑ‘T”HXØÙ\ÜÈÛÛ›Û™\]Z\™[Y[È‹BˆJCBƒBˆÝ]ÖÈ›Y˜WÜ˜]H—HHˆžÜÝ]ÖÉÛY˜WÙ[˜X›Y	×HÈÝ]ÖÉÝÝ[Ý\Ù\œÉ×H
-ˆL‹ŒYŸIHƒBˆÝ]ÖÈœš]—Ü˜]H—HHˆžÜÝ]ÖÉÜš]š[YÙYØXØÛÝ[É×HÈÝ]ÖÉÝÝ[Ý\Ù\œÉ×H
-ˆL‹ŒYŸIHƒBƒBˆ™]\›ˆÝ]Ëš[™[™ÜÃBƒBƒB™YˆÛÛXÝÝ˜Z[š[™×Ù]šY[˜ÙJ˜Z[š[™×Ü™XÛÜ™ÊNƒBˆˆˆ[˜[^™H˜Z[š[™ÈÛÛ\][Ûˆ]KˆˆˆƒBˆÝ]ÈHÃBˆÝ[Ø\ÜÚYÛ™YŽˆ[Š˜Z[š[™×Ü™XÛÜ™ÊKBˆ˜ÛÛ\]YÛÛ—Ý[YHŽˆBˆ˜ÛÛ\]YÛ]HŽˆBˆ››ÝØÛÛ\]YŽˆBˆCBˆš[™[™ÜÈH×CBƒBˆ›Üˆ™XÛÜ™[ˆ˜Z[š[™×Ü™XÛÜ™ÎƒBˆYˆ™XÛÜ™ÈœÝ]\È—HOHÛÛ\]YŽƒBˆÝ]ÖÈ˜ÛÛ\]YÛÛ—Ý[YH—H
-ÏHCBˆ[Yˆ™XÛÜ™ÈœÝ]\È—HOH“Ý™\™YHŽƒBˆÝ]ÖÈ˜ÛÛ\]YÛ]H—H
-ÏHCBˆš[™[™ÜË˜\[™
-ÃBˆ\HŽˆ“UWÕRS’S‘È‹BˆœÙ]™\š]HŽˆ“YY][H‹Bˆ\Ù\ˆŽˆ™XÛÜ™È\Ù\›˜[YH—KBˆ™]Z[ŽˆˆÛÛ\]Y˜Z[š[™ÈÛˆÜ™XÛÜ™ÉØÛÛ\]Y	×_H
-YHÜ™XÛÜ™ÉÙYI×_JH‹Bˆœ™XÛÛ[Y[™][ÛˆŽˆ“[Ûš]Üˆ›Üˆ[Y[HÛÛ\][Ûˆ™^ÞXÛH‹BˆJCBˆ[ÙNƒBˆÝ]ÖÈ››ÝØÛÛ\]Y—H
-ÏHCBˆš[™[™ÜË˜\[™
-ÃBˆ\HŽˆ“RTÔÒS‘×ÕRS’S‘È‹BˆœÙ]™\š]HŽˆ’YÚ‹Bˆ\Ù\ˆŽˆ™XÛÜ™È\Ù\›˜[YH—KBˆ™]Z[Žˆˆ•˜Z[š[™È›ÝÛÛ\]YˆYH]NˆÜ™XÛÜ™ÉÙYI×_H‹Bˆœ™XÛÛ[Y[™][ÛˆŽˆ\ÜÚYÛˆ˜Z[š[™È[[YYX][H[™\ØØ[]HÈX[˜YÙ\ˆ‹BˆJCBƒBˆÛÛ\][ÛˆHÝ]ÖÈ˜ÛÛ\]YÛÛ—Ý[YH—H
-ÈÝ]ÖÈ˜ÛÛ\]YÛ]H—CBˆÝ]ÖÈ˜ÛÛ\][Û—Ü˜]H—HHˆžØÛÛ\][ÛˆÈÝ]ÖÉÝÝ[Ø\ÜÚYÛ™Y	×H
-ˆL‹ŒYŸIHƒBˆÝ]ÖÈ›Û—Ý[YWÜ˜]H—HHˆžÜÝ]ÖÉØÛÛ\]YÛÛ—Ý[YI×HÈÝ]ÖÉÝÝ[Ø\ÜÚYÛ™Y	×H
-ˆL‹ŒYŸIHƒBƒBˆ™]\›ˆÝ]Ëš[™[™ÜÃBƒBƒB™YˆÛÛXÝÜ]ÚÙ]šY[˜ÙJ]Ú\ÊNƒBˆˆˆ[˜[^™H]ÚÛÛ\X[˜ÙH]KˆˆˆƒBˆÝ]ÈHÃBˆÝ[ÜÞ\Ý[\ÈŽˆ[Š]Ú\ÊKBˆ˜ÛÛ\X[ŽˆBˆ››Û—ØÛÛ\X[ŽˆBˆÝ[ØÜš]XØ[ŽˆBˆÝ[ÚYÚŽˆBˆœ™\ÝšXÝYÜÞ\Ý[\×ØÛÛ\X[ŽˆBˆœ™\ÝšXÝYÜÞ\Ý[\×ÝÝ[ŽˆBˆCBˆš[™[™ÜÈH×CBƒBˆ›ÜˆÞ\Ý[H[ˆ]Ú\ÎƒBˆYˆÞ\Ý[VÈ˜ÛÛ\X[—NƒBˆÝ]ÖÈ˜ÛÛ\X[—H
-ÏHCBˆ[ÙNƒBˆÝ]ÖÈ››Û—ØÛÛ\X[—H
-ÏHCBˆÝ]ÖÈÝ[ØÜš]XØ[—H
-ÏHÞ\Ý[VÈ˜Üš]XØ[Ü]Ú\È—CBˆÝ]ÖÈÝ[ÚYÚ—H
-ÏHÞ\Ý[VÈšYÚÜ]Ú\È—CBƒBˆYˆÞ\Ý[VÈ™]WÝ\H—H[ˆ
-™TH‹”ÝY[™XÛÜ™ÈŠNƒBˆÝ]ÖÈœ™\ÝšXÝYÜÞ\Ý[\×ÝÝ[—H
-ÏHCBˆYˆÞ\Ý[VÈ˜ÛÛ\X[—NƒBˆÝ]ÖÈœ™\ÝšXÝYÜÞ\Ý[\×ØÛÛ\X[—H
-ÏHCBƒBˆYˆÞ\Ý[VÈ˜Üš]XØ[Ü]Ú\È—HˆƒBˆš[™[™ÜË˜\[™
-ÃBˆ\HŽˆÔ’UPÐSÔUÒÓRTÔÒS‘È‹BˆœÙ]™\š]HŽˆÜš]XØ[‹BˆœÞ\Ý[HŽˆÞ\Ý[VÈšÜÝ˜[YH—KBˆ™]Z[ŽˆˆžÜÞ\Ý[VÉØÜš]XØ[Ü]Ú\É×_HÜš]XØ[]Ú\ÈZ\ÜÚ[™Ëˆ]H\NˆÜÞ\Ý[VÉÙ]WÝ\I×_H‹Bˆœ™XÛÛ[Y[™][ÛˆŽˆ”]ÚÚ][ˆMY^HÓH
-ÌˆÝ\œÈYˆ[ˆÒTÐHÑUŠH‹BˆJCBƒBˆÝ]ÖÈ˜ÛÛ\X[˜ÙWÜ˜]H—HHˆžÜÝ]ÖÉØÛÛ\X[	×HÈÝ]ÖÉÝÝ[ÜÞ\Ý[\É×H
-ˆL‹ŒYŸIHƒBƒBˆ™]\›ˆÝ]Ëš[™[™ÜÃBƒBƒBˆÈKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKCBˆÈ™\ÜÙ[™\˜][ÛƒBˆÈKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKCBƒB™YˆÙ[™\˜]WÙ]šY[˜ÙWÜ™\Ü
-Ý]]Ù\S›Û™K\×ÛÙS›Û™JN‚ˆˆˆ‘Ù[™\˜]HH[]šY[˜ÙHÛÛXÝ[Ûˆ™\ÜˆˆˆƒBˆ[Y\Ý[\H]][YK››ÝÊ
-KœÝ™[YJ‰VKI[KIY	R‰SN‰TÈŠCBƒBˆ\Ù\œÈHÙ[™\˜]WÜØ[\WÝ\Ù\œÊ
-CBˆ˜Z[š[™ÈHÙ[™\˜]WÜØ[\WÝ˜Z[š[™Ê
-CBˆ]Ú\ÈHÙ[™\˜]WÜØ[\WÜ]Ú\Ê
-CBƒBˆ™]šY]×Ù]HH\×ÛÙˆÜˆSS×ÐT×ÓÑ—ÑUBˆXØÙ\Ü×ÜÝ]ËXØÙ\Ü×Ùš[™[™ÜÈHÛÛXÝØXØÙ\Ü×Ù]šY[˜ÙJ\Ù\œË™]šY]×Ù]JBˆ˜Z[š[™×ÜÝ]Ë˜Z[š[™×Ùš[™[™ÜÈHÛÛXÝÝ˜Z[š[™×Ù]šY[˜ÙJ˜Z[š[™ÊCBˆ]ÚÜÝ]Ë]ÚÙš[™[™ÜÈHÛÛXÝÜ]ÚÙ]šY[˜ÙJ]Ú\ÊCBƒBˆ[Ùš[™[™ÜÈHXØÙ\Ü×Ùš[™[™ÜÈ
-È˜Z[š[™×Ùš[™[™ÜÈ
-È]ÚÙš[™[™ÜÃBˆÜš]XØ[ØÛÝ[HÝ[JH›Üˆˆ[ˆ[Ùš[™[™ÜÈYˆ–ÈœÙ]™\š]H—HOHÜš]XØ[ŠCBˆYÚØÛÝ[HÝ[JH›Üˆˆ[ˆ[Ùš[™[™ÜÈYˆ–ÈœÙ]™\š]H—HOH’YÚŠCBˆYY][WØÛÝ[HÝ[JH›Üˆˆ[ˆ[Ùš[™[™ÜÈYˆ–ÈœÙ]™\š]H—HOH“YY][HŠCBƒBˆÈš[™\ÜBˆš[
-ˆ—žÉÏIÊŽHŠCBˆš[
-ˆˆÔÈU’QSÑHÓÓPÕSÓˆ‘TÔ•ŠCBˆš[
-ˆˆÙ[™\˜]YˆÝ[Y\Ý[\HŠBˆš[
-ˆˆ™]šY]È]NˆÜ™]šY]×Ù]KœÝ™[YJ	ÉVKI[KIY	Ê_HŠBˆš[
-ˆˆØÛÜNˆTPHÙXÝ\š]H[HÈTÓÈÌH]Y]™\\˜][ÛˆŠCBˆš[
-ˆžÉÏIÊŽHŠCBƒBˆš[
-ˆ—ˆVPÕUU‘HÕSSPT–HŠCBˆš[
-ˆˆÉËIÊÌHŠCBˆš[
-ˆˆÝ[š[™[™ÜÎˆÛ[Š[Ùš[™[™ÜÊ_HŠCBˆš[
-ˆˆÜš]XØ[ˆØÜš]XØ[ØÛÝ[HŠCBˆš[
-ˆˆYÚˆÚYÚØÛÝ[HŠCBˆš[
-ˆˆYY][NˆÛYY][WØÛÝ[HŠCBƒBˆš[
-ˆ—ˆPÐÑTÔÈÓÓ•“ÓU’QSÑHŠCBˆš[
-ˆˆÉËIÊÌHŠCBˆ›ÜˆÙ^K˜[[ˆXØÙ\Ü×ÜÝ]Ëš][\Ê
-NƒBˆš[
-ˆˆÚÙ^_NˆÝ˜[HŠCBƒBˆš[
-ˆ—ˆRS’S‘ÈÓÓTPSÑHU’QSÑHŠCBˆš[
-ˆˆÉËIÊÌHŠCBˆ›ÜˆÙ^K˜[[ˆ˜Z[š[™×ÜÝ]Ëš][\Ê
-NƒBˆš[
-ˆˆÚÙ^_NˆÝ˜[HŠCBƒBˆš[
-ˆ—ˆUÒÓÓTPSÑHU’QSÑHŠCBˆš[
-ˆˆÉËIÊÌHŠCBˆ›ÜˆÙ^K˜[[ˆ]ÚÜÝ]Ëš][\Ê
-NƒBˆš[
-ˆˆÚÙ^_NˆÝ˜[HŠCBƒBˆYˆ[Ùš[™[™ÜÎƒBˆš[
-ˆ—ˆ’S‘S‘ÔÈ‘TURT’S‘ÈPÕSÓˆŠCBˆš[
-ˆˆÉËIÊÌHŠCBˆ›ÜˆKˆ[ˆ[[Y\˜]JÛÜY
-[Ùš[™[™ÜËÙ^O[[X™HˆÈÜš]XØ[Žˆ’YÚŽˆK“YY][HŽˆŸK™Ù]
-ÈœÙ]™\š]H—KÊJKJNƒBˆ\Ù\—ÛÜ—ÜÞ\Ý[HH‹™Ù]
-\Ù\ˆ‹‹™Ù]
-œÞ\Ý[H‹“‹ÐHŠJCBˆš[
-ˆˆÚ_KˆÞÙ–ÉÜÙ]™\š]I×_WHÙ–ÉÝ\I×_HHÝ\Ù\—ÛÜ—ÜÞ\Ý[_HŠCBˆš[
-ˆˆÙ–ÉÙ]Z[	×_HŠCBˆš[
-ˆˆXÝ[ÛŽˆÙ–ÉÜ™XÛÛ[Y[™][Û‰×_HŠCBˆš[
+    all_findings.extend(check_orphan_accounts(users, review_date))
+    all_findings.extend(check_mfa_compliance(users))
+    all_findings.extend(check_privilege_ratio(users))
+    all_findings.extend(check_separation_of_duties(users))
+    all_findings.extend(check_service_accounts(users))
 
-CBƒBˆš[
-ˆžÉÏIÊŽHŠCBƒBˆÈÜš]HÔÕˆ^ÜÈYˆÝ]]\™XÝÜžHÜXÚYšYYBˆYˆÝ]]Ù\ŽƒBˆÜË›XZÙY\œÊÝ]]Ù\‹^\ÝÛÚÏUYJCBˆ]WÜÝˆH]][YK››ÝÊ
-KœÝ™[YJ‰VI[IYŠCBƒBˆÈ\Ù\ˆXØÙ\ÜÈ^ÜBˆXØÙ\Ü×Ü]HÜËœ]š›Ú[ŠÝ]]Ù\‹ˆ˜XØÙ\ÜË\™]šY]Ë^Ù]WÜÝŸK˜ÜÝˆŠCBˆÚ]Ü[ŠXØÙ\Ü×Ü]È‹™]Û[™OHˆ‹[˜ÛÙ[™ÏH]‹NŠH\ÈŽƒBˆÜš]\ˆHÜÝ‹‘XÝÜš]\Š‹šY[˜[Y\Ï]\Ù\œÖÌKšÙ^\Ê
-JCBˆÜš]\‹Üš]ZXY\Š
-CBˆÜš]\‹Üš]\›ÝÜÊ\Ù\œÊCBˆš[
-ˆ—ˆ^ÜYˆØXØÙ\Ü×Ü]HŠCBƒBˆÈ˜Z[š[™È^ÜBˆ˜Z[š[™×Ü]HÜËœ]š›Ú[ŠÝ]]Ù\‹ˆ˜Z[š[™ËXÛÛ\X[˜ÙK^Ù]WÜÝŸK˜ÜÝˆŠCBˆÚ]Ü[Š˜Z[š[™×Ü]È‹™]Û[™OHˆ‹[˜ÛÙ[™ÏH]‹NŠH\ÈŽƒBˆÜš]\ˆHÜÝ‹‘XÝÜš]\Š‹šY[˜[Y\Ï]˜Z[š[™ÖÌKšÙ^\Ê
-JCBˆÜš]\‹Üš]ZXY\Š
-CBˆÜš]\‹Üš]\›ÝÜÊ˜Z[š[™ÊCBˆš[
-ˆˆ^ÜYˆÝ˜Z[š[™×Ü]HŠCBƒBˆÈ]Ú^ÜBˆ]ÚÜ]HÜËœ]š›Ú[ŠÝ]]Ù\‹ˆœ]ÚXÛÛ\X[˜ÙK^Ù]WÜÝŸK˜ÜÝˆŠCBˆÚ]Ü[Š]ÚÜ]È‹™]Û[™OHˆ‹[˜ÛÙ[™ÏH]‹NŠH\ÈŽƒBˆÜš]\ˆHÜÝ‹‘XÝÜš]\Š‹šY[˜[Y\Ï\]Ú\ÖÌKšÙ^\Ê
-JCBˆÜš]\‹Üš]ZXY\Š
-CBˆÜš]\‹Üš]\›ÝÜÊ]Ú\ÊCBˆš[
-ˆˆ^ÜYˆÜ]ÚÜ]HŠCBƒBˆÈš[™[™ÜÈ^ÜBˆš[™[™Ü×Ü]HÜËœ]š›Ú[ŠÝ]]Ù\‹ˆ™š[™[™ÜË^Ù]WÜÝŸKšœÛÛˆŠCBˆÚ]Ü[Šš[™[™Ü×Ü]È‹[˜ÛÙ[™ÏH]‹NŠH\ÈŽƒBˆœÛÛ‹™[\
-ÃBˆœ™\ÜÙ]HŽˆ[Y\Ý[\BˆœÝ[[X\žHŽˆÃBˆÝ[Ùš[™[™ÜÈŽˆ[Š[Ùš[™[™ÜÊKBˆ˜Üš]XØ[ŽˆÜš]XØ[ØÛÝ[BˆšYÚŽˆYÚØÛÝ[Bˆ›YY][HŽˆYY][WØÛÝ[BˆKBˆ˜XØÙ\Ü×ÜÝ]ÈŽˆXØÙ\Ü×ÜÝ]ËBˆ˜Z[š[™×ÜÝ]ÈŽˆ˜Z[š[™×ÜÝ]ËBˆœ]ÚÜÝ]ÈŽˆ]ÚÜÝ]ËBˆ™š[™[™ÜÈŽˆ[Ùš[™[™ÜËBˆK‹[™[LŠCBˆš[
-ˆˆ^ÜYˆÙš[™[™Ü×Ü]HŠCBƒBƒB™YˆXZ[Š
-N‚ˆ\œÙ\ˆH\™Ü\œÙK\™Ý[Y[\œÙ\Š\ØÜš\[ÛH‘Ù[™\˜]HHÞ[]XÈ]Y]]šY[˜ÙHXÚØYÙKˆŠBˆ\œÙ\‹˜YØ\™Ý[Y[
-›Ý]]Ù\ˆ‹˜\™ÜÏHÈ‹[H“Ü[Û˜[Ý]]\™XÝÜžHŠBˆ\œÙ\‹˜YØ\™Ý[Y[
-‹KX\Ë[Ùˆ‹\ÝH˜\×ÛÙˆ‹Y˜][HŒŒ‹LLH‹[H”™]šY]È]H[ˆVVVKSSKQ›Ü›X]ŠBˆ\™ÜÈH\œÙ\‹œ\œÙWØ\™ÜÊ
-B‚ˆžN‚ˆ\×ÛÙˆH]][YKœÝœ[YJ\™ÜË˜\×ÛÙ‹‰VKI[KIYŠBˆ^Ù\˜[YQ\œ›ÜŽ‚ˆ\œÙ\‹™\œ›ÜŠ‹KX\Ë[Ùˆ]\Ý\ÙHVVVKSSKQŠB‚ˆÙ[™\˜]WÙ]šY[˜ÙWÜ™\Ü
-\™ÜË›Ý]]Ù\‹\×ÛÙX\×ÛÙŠBƒBƒBšYˆ×Û˜[YW×ÈOH—×ÛXZ[—×ÈŽƒBˆXZ[Š
-CB
+    severity_order = {"Critical": 0, "High": 1, "Medium": 2, "Low": 3}
+    all_findings.sort(key=lambda x: severity_order.get(x["severity"], 99))
+
+    # Stats
+    active_count = sum(1 for u in users if u.get("status", "").lower() == "active")
+    priv_count = sum(1 for u in users if u["privileged"] and u.get("status", "").lower() == "active")
+    mfa_count = sum(1 for u in users if u["mfa_enabled"] and u.get("status", "").lower() == "active")
+    restricted_count = sum(1 for u in users if u.get("data_access", "") in MFA_REQUIRED_DATA_TYPES and u.get("status", "").lower() == "active")
+
+    critical = sum(1 for f in all_findings if f["severity"] == "Critical")
+    high = sum(1 for f in all_findings if f["severity"] == "High")
+    medium = sum(1 for f in all_findings if f["severity"] == "Medium")
+
+    # Output
+    print(f"\n{'='*80}")
+    print(f"  ACCESS REVIEW AUDIT REPORT")
+    print(f"  Generated: {timestamp}")
+    print(f"  Review date: {review_date.strftime('%Y-%m-%d')}")
+    print(f"  Source: {filepath}")
+    print(f"  Framework: NIST SP 800-53 (AC-2) / HIPAA 164.308(a)(3-4)")
+    print(f"{'='*80}")
+
+    print(f"\n  ACCOUNT STATISTICS")
+    print(f"  {'-'*60}")
+    print(f"  Total accounts reviewed:    {len(users)}")
+    print(f"  Active accounts:            {active_count}")
+    priv_pct = priv_count / active_count * 100 if active_count else 0
+    mfa_pct = mfa_count / active_count * 100 if active_count else 0
+    print(f"  Privileged accounts:        {priv_count} ({priv_pct:.1f}% of active)")
+    print(f"  MFA enabled:                {mfa_count} ({mfa_pct:.1f}% of active)")
+    print(f"  Restricted data access:     {restricted_count}")
+
+    print(f"\n  AUDIT FINDINGS")
+    print(f"  {'-'*60}")
+    print(f"  Total findings:  {len(all_findings)}")
+    print(f"    Critical:  {critical}")
+    print(f"    High:      {high}")
+    print(f"    Medium:    {medium}")
+
+    if all_findings:
+        print(f"\n  DETAILED FINDINGS")
+        print(f"  {'-'*60}")
+        for i, f in enumerate(all_findings, 1):
+            print(f"  {i}. [{f['severity']}] {f['check']} - {f['username']}")
+            print(f"     {f['detail']}")
+            print(f"     Action: {f['action']}")
+            print()
+
+    # Pass/fail assessment
+    print(f"  AUDIT RESULT")
+    print(f"  {'-'*60}")
+    if critical > 0:
+        print(f"  Result: FAIL - {critical} critical finding(s) require immediate remediation")
+    elif high > 0:
+        print(f"  Result: CONDITIONAL PASS - {high} high finding(s) require remediation within 5 business days")
+    else:
+        print(f"  Result: PASS - No critical or high findings")
+
+    print(f"\n{'='*80}")
+
+    return all_findings
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Run access-review checks against a CSV export.")
+    parser.add_argument("filepath", nargs="?", help="CSV input; defaults to the synthetic sample")
+    parser.add_argument("--as-of", dest="as_of", help="Review date in YYYY-MM-DD format")
+    args = parser.parse_args()
+
+    if not args.filepath:
+        # Use built-in sample data for demonstration
+        sample_path = os.path.join(SCRIPT_DIR, "sample_users.csv")
+        if not os.path.exists(sample_path):
+            # Generate sample file
+            users = [
+                {"username": "jsmith", "display_name": "John Smith", "department": "Nursing", "role": "Clinical Staff", "mfa_enabled": "True", "last_login": "2026-03-19", "status": "Active", "privileged": "False", "data_access": "ePHI"},
+                {"username": "mjones", "display_name": "Mary Jones", "department": "Registrar", "role": "Records Clerk", "mfa_enabled": "True", "last_login": "2026-03-20", "status": "Active", "privileged": "False", "data_access": "Student Records"},
+                {"username": "admin.tbrown", "display_name": "Tom Brown (Admin)", "department": "IT", "role": "System Admin", "mfa_enabled": "True", "last_login": "2026-03-20", "status": "Active", "privileged": "True", "data_access": "Full"},
+                {"username": "kwilson", "display_name": "Karen Wilson", "department": "HR", "role": "HR Manager", "mfa_enabled": "True", "last_login": "2026-03-18", "status": "Active", "privileged": "False", "data_access": "HR Records"},
+                {"username": "rgarcia", "display_name": "Robert Garcia", "department": "IT", "role": "Help Desk", "mfa_enabled": "True", "last_login": "2026-03-20", "status": "Active", "privileged": "False", "data_access": "Standard"},
+                {"username": "ldavis", "display_name": "Lisa Davis", "department": "Teaching", "role": "Teacher", "mfa_enabled": "True", "last_login": "2026-03-17", "status": "Active", "privileged": "False", "data_access": "Student Records"},
+                {"username": "pmartin", "display_name": "Paul Martin", "department": "IT", "role": "Network Admin", "mfa_enabled": "True", "last_login": "2026-03-20", "status": "Active", "privileged": "True", "data_access": "Full"},
+                {"username": "jlee_old", "display_name": "James Lee", "department": "Teaching", "role": "Former Teacher", "mfa_enabled": "False", "last_login": "2025-11-30", "status": "Active", "privileged": "False", "data_access": "Student Records"},
+                {"username": "svc_backup", "display_name": "Backup Service", "department": "IT", "role": "Service Account", "mfa_enabled": "False", "last_login": "2026-03-20", "status": "Active", "privileged": "True", "data_access": "Full"},
+                {"username": "awhite", "display_name": "Amy White", "department": "Administration", "role": "Principal", "mfa_enabled": "True", "last_login": "2026-03-19", "status": "Active", "privileged": "False", "data_access": "Student Records"},
+            ]
+            with open(sample_path, "w", newline="", encoding="utf-8") as f:
+                writer = csv.DictWriter(f, fieldnames=users[0].keys())
+                writer.writeheader()
+                writer.writerows(users)
+            print(f"  Generated sample data: {sample_path}")
+
+        filepath = sample_path
+    else:
+        filepath = args.filepath
+
+    if not os.path.exists(filepath):
+        print(f"Error: File not found: {filepath}")
+        sys.exit(1)
+
+    try:
+        as_of = datetime.strptime(args.as_of, "%Y-%m-%d") if args.as_of else (
+            DEMO_AS_OF_DATE if not args.filepath else datetime.now()
+        )
+    except ValueError:
+        parser.error("--as-of must use YYYY-MM-DD")
+
+    run_audit(filepath, as_of=as_of)
+
+
+if __name__ == "__main__":
+    main()
