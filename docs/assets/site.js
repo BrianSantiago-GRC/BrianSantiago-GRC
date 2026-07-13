@@ -160,11 +160,33 @@ async function copyEmail() {
   const status = document.getElementById("copy-status");
   const email = "briand.santiago@gmail.com";
 
+  if (status) status.textContent = "Copying...";
+
   try {
     if (!navigator.clipboard?.writeText) throw new Error("Clipboard API unavailable");
-    await navigator.clipboard.writeText(email);
+    await Promise.race([
+      navigator.clipboard.writeText(email),
+      new Promise((_, reject) => {
+        window.setTimeout(() => reject(new Error("Clipboard request timed out")), 600);
+      }),
+    ]);
     if (status) status.textContent = "Email copied";
   } catch (error) {
+    const input = document.createElement("textarea");
+    input.value = email;
+    input.setAttribute("readonly", "");
+    input.style.position = "fixed";
+    input.style.opacity = "0";
+    document.body.append(input);
+    input.select();
+    const copied = document.execCommand("copy");
+    input.remove();
+
+    if (copied) {
+      if (status) status.textContent = "Email copied";
+      return;
+    }
+
     const selection = window.getSelection();
     const emailLink = document.querySelector(`a[href='mailto:${email}'] strong`);
     if (selection && emailLink) {
